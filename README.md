@@ -214,3 +214,76 @@ If you return to the **Select Run** screen by clicking **BACK**, the status of t
 
 This means the system has queued your files for processing.
 
+# 📘 Chapter 4: Modifying Configurations
+
+**Version:** 1.0  
+**Organization:** Bhabha Atomic Research Centre (BARC)
+
+This chapter describes how to view and edit the configurations associated with a selected run in the PipeCM application.
+
+---
+
+## 🧾 4.1 Accessing the Configuration Interface
+
+To modify the configurations:
+
+- Go to the **Select Run** screen.
+- Locate the desired run from the table.
+- In the top right corner of the table, click the **pencil icon (edit icon)**.
+
+📷 **Screenshot:** _Insert 16.PNG_
+
+> This action will navigate you to the **Configure** screen for the selected run.
+
+---
+
+## 🧾 4.2 Overview of Editable Configurations
+
+The **Configure** screen allows modification of parameters related to the run's data processing.
+
+📷 **Screenshot:** _Insert 14.PNG_
+
+### Key Editable Sections:
+
+- **Thresholds:**
+  - `WedThreshold`
+  - `Sleeve Threshold`
+  - `Flange Threshold`
+  - `Marker Threshold`
+  - `Valve Threshold`
+  - `Feature Peak Distance`
+  - `Contour Threshold`
+  - `Overlap Cnfl`
+  - `Max Db Peaks`
+  - `Gauss Sensitivity`
+
+- **Tool Config:**
+  - `Word Size`
+  - `Packet Size`
+  - `NoOfChannels`
+
+- **SensorCountMap:**
+  - `HALL`
+
+- **Faulty Channels:**
+  - `HALL`
+  - `EDDY`
+
+- **Odometer Diameter:**
+  - `Odometer[0]`, `Odometer[1]`, `Odometer[2]`
+
+---
+
+## 🧾 4.3 Classifying Total Channels (NoOfChannels)
+
+In the **Tool Config** section:
+
+- Locate the field labeled `NoOfChannels`.
+
+📷 **Screenshot:** _Insert 14.PNG and 15.PNG_
+
+- Input the total number of channels in this field.  
+  Example: For 128 channels, enter:
+
+
+
