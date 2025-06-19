@@ -19,9 +19,7 @@ To access the features of PipeCM, you must first create a user account.
 ### ➤ Step-by-Step Registration Process:
 
 📷 **Screenshot:**  
-![Registration Screen - PipeCM] ![1 1](https://github.com/user-attachments/assets/79d80e60-640f-4359-b563-8bedd61cab27)
-
-
+![1 1](https://github.com/user-attachments/assets/97d0ea1a-f61c-4107-85f2-925660d1dd04)
 1. **Username**: Enter a unique username (e.g., `roshansahu`).
 2. **Email**: Provide a valid email address for notifications and recovery.
 3. **Password Requirements**:
@@ -42,7 +40,8 @@ To access the features of PipeCM, you must first create a user account.
 After registering, return to the login screen to access the application.
 
 📷 **Screenshot:**  
-![Login Screen - PipeCM](./images/login.png)
+![1 1](https://github.com/user-attachments/assets/c3ea2c2e-9f54-4139-b871-1c09fa3b4035)
+
 
 ### ➤ Login Steps:
 
@@ -56,9 +55,6 @@ If your credentials are valid, you will be redirected to the home/dashboard scre
 
 ## 💡 Additional Options
 
-📷 **Screenshot:**  
-![Register/Login Prompt - PipeCM](./images/register_login_options.png)
-
 - **Already Registered? Login Now!** – Click this if you already have an account.  
 - **New Here? Register Now!** – New users should click here to open the registration form.  
 - **Forgot Username or Password?** – Click the respective links to recover your credentials.
@@ -68,7 +64,8 @@ If your credentials are valid, you will be redirected to the home/dashboard scre
 ## 🧭 1.3 Post-Login Dashboard
 
 📷 **Screenshot:**  
-![Main Dashboard - PipeCM](./images/dashboard.png)
+![1 1](https://github.com/user-attachments/assets/b2025e81-8136-4a9a-b2a0-9b6ae40d948a)
+
 
 After successful login, users land on the main dashboard containing the following modules:
 
