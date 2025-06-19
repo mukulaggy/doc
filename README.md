@@ -1,4 +1,4 @@
-![1 1](https://github.com/user-attachments/assets/d53877de-49b0-4279-9e0b-64cc8c7831f0)# 📘 PipeCM – User Manual  
+# 📘 PipeCM – User Manual  
 **Version:** 1.0  
 **Organization:** Bhabha Atomic Research Centre (BARC)  
 
