@@ -40,7 +40,8 @@ To access the features of PipeCM, you must first create a user account.
 After registering, return to the login screen to access the application.
 
 📷 **Screenshot:**  
-![1 1](https://github.com/user-attachments/assets/c3ea2c2e-9f54-4139-b871-1c09fa3b4035)
+![2](https://github.com/user-attachments/assets/716bb085-c46c-42da-b52c-38a477f21859)
+
 
 
 ### ➤ Login Steps:
