@@ -1,4 +1,4 @@
-# 📘 PipeCM – User Manual  
+![1 1](https://github.com/user-attachments/assets/d53877de-49b0-4279-9e0b-64cc8c7831f0)# 📘 PipeCM – User Manual  
 **Version:** 1.0  
 **Organization:** Bhabha Atomic Research Centre (BARC)  
 
@@ -19,7 +19,8 @@ To access the features of PipeCM, you must first create a user account.
 ### ➤ Step-by-Step Registration Process:
 
 📷 **Screenshot:**  
-![Registration Screen - PipeCM](./images/register.png)
+![Registration Screen - PipeCM] ![1 1](https://github.com/user-attachments/assets/79d80e60-640f-4359-b563-8bedd61cab27)
+
 
 1. **Username**: Enter a unique username (e.g., `roshansahu`).
 2. **Email**: Provide a valid email address for notifications and recovery.
