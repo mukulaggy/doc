@@ -241,7 +241,9 @@ To modify the configurations:
 
 The **Configure** screen allows modification of parameters related to the run's data processing.
 
-📷 **Screenshot:** _Insert 14.PNG_
+📷 **Screenshot:**
+![14](https://github.com/user-attachments/assets/5264e5f9-0e00-4f2c-b539-82364eb7df7d)
+
 
 ### Key Editable Sections:
 
