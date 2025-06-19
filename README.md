@@ -279,11 +279,48 @@ The **Configure** screen allows modification of parameters related to the run's 
 In the **Tool Config** section:
 
 - Locate the field labeled `NoOfChannels`.
+![15](https://github.com/user-attachments/assets/8e49e647-4c0d-4afd-850a-288284e8bdfa)
 
-📷 **Screenshot:** _Insert 14.PNG and 15.PNG_
+
 
 - Input the total number of channels in this field.  
   Example: For 128 channels, enter:
+
+
+
+---
+
+## 🧾 4.4 Determining and Specifying Faulty Channels
+
+In the **Faulty Channels** section:
+- If there are no faulty sensors, leave the fields for `HALL` and `EDDY` empty.
+
+- To specify faulty channels, use:
+  - **Comma-separated values** for individual channels
+  - **Hyphenated ranges** for sequences
+  - Or a **combination of both**
+
+### ✅ Examples:
+
+- Faulty individual channels:
+
+
+> This tells the system to ignore channels 1 through 24 and 34 through 45 during processing.
+
+---
+
+## 🧾 4.5 Saving Configuration Changes
+
+Once all changes are made:
+
+- Click the **SAVE** button at the bottom right of the screen to apply the changes.
+
+- If you want to revert to the original/default configuration, click the **SET DEFAULT** button.
+
+---
+
+✅ **Note:** Saving incorrect configuration settings can impact the data analysis. Always double-check values and faulty channel entries before confirming changes.
+
 
 
 
