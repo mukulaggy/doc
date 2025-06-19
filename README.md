@@ -64,7 +64,9 @@ If your credentials are valid, you will be redirected to the home/dashboard scre
 ## 🧭 1.3 Post-Login Dashboard
 
 📷 **Screenshot:**  
-![1 1](https://github.com/user-attachments/assets/b2025e81-8136-4a9a-b2a0-9b6ae40d948a)
+![3](https://github.com/user-attachments/assets/dbb8012a-2409-4d91-942f-9929a0aee055)
+
+
 
 
 After successful login, users land on the main dashboard containing the following modules:
