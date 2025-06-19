@@ -101,6 +101,7 @@ The first step is to choose the appropriate inspection tool for the pipeline run
 
 **Steps:**
 - From the **Select Tool** screen, choose a tool by clicking the radio button in the **Select** column.
+- **Before Selecting Tool Click on Plus Button in Bottom Right to Add A Run**
 - **Tool details include:**
   - **Tool Type:** e.g., `MFL_OCTA_GEN1`
   - **Tool Size:** e.g., `12 inch`
