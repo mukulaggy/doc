@@ -80,3 +80,116 @@ After successful login, users land on the main dashboard containing the followin
 Each section contains a **"Start App"** button to launch its respective module.
 
 ---
+
+# 📘 Chapter 2: Creating a Run
+
+**Version:** 1.0  
+**Organization:** Bhabha Atomic Research Centre (BARC)
+
+This chapter walks you through the complete process of creating a new pipeline run in PipeCM — including tool selection, run details, file uploads, and confirmation.
+
+---
+
+## 🧾 2.1 Select Tool
+
+The first step is to choose the appropriate inspection tool for the pipeline run.
+
+📷 **Screenshot:** _Insert Select Tool Screenshot_
+
+**Steps:**
+- From the **Select Tool** screen, choose a tool by clicking the radio button in the **Select** column.
+- **Tool details include:**
+  - **Tool Type:** e.g., `MFL_OCTA_GEN1`
+  - **Tool Size:** e.g., `12 inch`
+- Click **NEXT** to proceed.
+
+---
+
+## 🧾 2.2 Create a Run
+
+Enter run-specific metadata such as source, destination, and date.
+
+📷 **Screenshot:** _Insert Add Run Screenshot_
+
+**Fill the following fields:**
+- **Run Source:** e.g., `location1`
+- **Run Destination:** e.g., `location2`
+- **Run Date:** e.g., `19/06/2025`
+
+Click **ADD** to create the run entry.
+
+---
+
+## 🧾 2.3 Uploading Binary Files
+
+After the run is created, upload sensor data files.
+
+### 📍 2.3.1 Browse and Select Files
+
+- Click **BROWSE FILES**
+- Select files from your system (e.g., `TMP0001_AK.bin`, `TMP0002_AK.bin`)
+
+📷 **Screenshot:** _Insert File Browse Screenshot_
+
+### 📍 2.3.2 Upload the Files
+
+- Selected files will show with progress bars.
+- Click **UPLOAD** to start the transfer.
+
+📷 **Screenshot:** _Insert Upload Progress Screenshot_
+
+### 📍 2.3.3 Save and Confirm
+
+Once upload completes:
+
+- Click **SAVE**
+- A confirmation popup appears:
+
+> _“Do you want to proceed with processing?”_  
+> _“If confirmed, you cannot upload files anymore to this Run…”_
+
+📷 **Screenshot:** _Insert Confirmation Popup Screenshot_
+
+- Click **YES, I'M SURE** only when ready to finalize.
+
+⚠️ **Note:** After confirmation, no more files can be added to this run.
+
+---
+
+## 🧾 2.4 Run Status & Processing
+
+After saving, you’re redirected to the **Select Run** screen.
+
+📷 **Screenshot:** _Insert Select Run Screenshot_
+
+**Check the Status column:**
+- Initially: `FILES_TO_BE_UPLOADED`
+- After confirmation: `TO_BE_PROCESSED`
+
+Click **NEXT** to continue.
+
+---
+
+## 🧾 2.5 Review Uploaded Files
+
+On the **Select File** screen, you can view the uploaded `.bin` files.
+
+📷 **Screenshot:** _Insert Select File Screenshot_
+
+Each file displays:
+- **File Name**
+- **Sequence Number**
+- **Status:** `TO_BE_PROCESSED`
+
+---
+
+## 🧾 2.6 Status Change on Navigation
+
+If you return to the **Select Run** screen by clicking **BACK**, the status of the run changes:
+
+- `FILES_TO_BE_UPLOADED` → `TO_BE_PROCESSED`
+
+📷 **Screenshot:** _Insert Status Update Screenshot_
+
+This means the system has queued your files for processing.
+
