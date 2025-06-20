@@ -222,32 +222,46 @@ This section will cover the steps for initiating and reviewing auto-analysis of 
 ---
 
 ---
-
 ## 🧾 2.2 Select Run and Manage Runs
 
+### 2.2.1 Select Existing Run
 
+To manage or analyze an existing run, follow these steps:
+
+- Navigate to the **Select Run** screen.
+- Click **NEXT** on the **Select Tool** screen to proceed.
+- From the list of existing runs, choose your desired run by clicking on the row.
+- After selecting a run, you have two options:
+  - Click the **Settings icon** (top right) to edit configuration settings.
+  - Click **NEXT** again to proceed directly to **Auto Analysis** (if configurations are already set).
+
+**Screenshot:** *(Insert screenshot showing run selection list)*
+
+---
 
 ### 2.2.2 Edit Configurations
 
 To modify the configurations associated with a selected run:
 
-- Go to the **Select Run** screen.
-- Locate the desired run from the table.
-- In the top right corner of the table, click the **pencil icon (edit icon)**.
+- From the **Select Run** screen, after choosing the run,
+- Click the **settings icon (edit icon)** in the top right corner of the run table.
 
 **Screenshot:** *(Insert 16.PNG here)*
 
-This action will navigate you to the **Configure** screen for the selected run, where you can modify parameters related to the run's data processing.
+This will take you to the **Configure** screen, where parameters related to the run's data processing can be modified.
 
-[Link to Chapter 3: Modifying Configurations](https://www.google.com/search?q=%23chapter-4-modifying-configurations)
+[Link to Chapter 3: Modifying Configurations](#-chapter-3-modifying-configurations)
 
 ---
 
 ### 2.2.3 Auto Analysis
 
-This section will cover the steps for initiating and reviewing auto-analysis of the run data.
+Once the run is selected and optionally configured, you can proceed with automatic analysis of the uploaded data.
 
-[Link to Chapter 4: Auto Analysis](https://www.google.com/search?q=%23chapter-4-auto-analysis)
+- From the **Select Run** screen, after selecting a run, click **NEXT** to begin analysis.
+- Review the file and analysis summary on the next screen.
+
+[Link to Chapter 4: Auto Analysis](#-chapter-4-auto-analysis)
 
 
 # 📘 Chapter 3: Modifying Configurations
