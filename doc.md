@@ -382,5 +382,80 @@ Once all changes are made:
 ✅ **Note:** Saving incorrect configuration settings can impact the data analysis. Always double-check values and faulty channel entries before confirming changes.
 
 
+# 📘 Chapter 4: Auto Analysis
+
+**Version:** 1.0  
+**Organization:** Bhabha Atomic Research Centre (BARC)  
+
+This chapter explains how to perform Auto Analysis in PipeCM after a run has been created and files have been uploaded. The Auto Analysis process consists of three major stages: Feature Extraction, Distance Calculation, and Metalloss Analysis.
+
+---
+
+## 🧪 4.1 Overview
+
+Auto Analysis transforms raw pipeline sensor data into meaningful insights by applying sequential data processing and signal interpretation techniques. The screen displays real-time progress of each stage and provides run metadata for reference.
+
+---
+
+## 🔁 4.2 Auto Analysis Stages
+
+### ✅ 4.2.1 Feature Extraction
+
+- This is the **first step** in the analysis pipeline.
+- It extracts characteristics from raw sensor data such as signal spikes, amplitude, waveform shapes, etc.
+- The purpose is to convert raw binary input into interpretable signal features.
+- Once complete, this section displays a **green checkmark** and status as **COMPLETED**.
+
+---
+
+### 📏 4.2.2 Distance Calculation
+
+- Uses **odometer data** to assign physical distance values to extracted features.
+- Calculates position in meters to map anomalies along the pipeline.
+- This step must be started manually by clicking the **START** button.
+- Progress is shown as a percentage (e.g., `0%`, `50%`, `100%`).
+
+---
+
+### ⚙️ 4.2.3 Metalloss Analysis
+
+- Final step in the auto analysis process.
+- Analyzes extracted features and calculated distances to detect **metal loss**, such as corrosion or thinning.
+- Identifies potential defects and their severity using embedded algorithms.
+- This also requires a manual **START**.
+- Runs only after **Feature Extraction** and **Distance Calculation** are complete.
+
+---
+
+## 📊 4.3 Auto Analysis Dashboard
+
+**Screenshot:**  
+![Auto Analysis Progress](./f7d2730c-839e-4455-9544-f409e8492126.PNG)
+
+The dashboard includes:
+
+- A **circular progress indicator** displaying overall analysis status (e.g., `33%`)
+- Real-time stage indicators for each process step
+- A **Run Details panel** listing key run metadata:
+
+| Property         | Value         |
+|------------------|---------------|
+| Run Source       | location1     |
+| Run Destination  | location2     |
+| Run Date         | 19/6/2025     |
+| Tool Size        | 12            |
+| Tool Type        | MFL_OCTA_GEN1 |
+
+---
+
+## 📌 4.4 After Auto Analysis
+
+Once all stages are complete:
+
+- Results can be viewed through the reporting modules.
+- Further actions such as classification, visualization, or defect review may follow (covered in later chapters).
+
+
+
 
 
