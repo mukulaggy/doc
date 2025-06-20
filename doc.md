@@ -95,7 +95,8 @@ This chapter walks you through the complete process of creating a new pipeline r
 
 The first step is to choose the appropriate inspection tool for the pipeline run.
 
-**Screenshot:** *(Insert relevant screenshot)*
+**Screenshot:**
+![4](https://github.com/user-attachments/assets/9cf1496f-40d7-42da-91c9-8b5970f44356)
 
 **Steps:**
 
@@ -110,7 +111,8 @@ The first step is to choose the appropriate inspection tool for the pipeline run
 
 Enter run-specific metadata such as source, destination, and date.
 
-**Screenshot:** *(Insert relevant screenshot)*
+**Screenshot:**
+![5](https://github.com/user-attachments/assets/92c60686-0dd2-49c1-a728-37ba472e5abb)
 
 **Fill the following fields:**
 
@@ -129,14 +131,17 @@ After the run is created, upload sensor data files.
 - Click **BROWSE FILES**
 - Select files from your system (e.g., `TMP0001_AK.bin`, `TMP0002_AK.bin`)
 
-**Screenshot:** *(Insert relevant screenshot)*
+**Screenshot:**
+![6](https://github.com/user-attachments/assets/cbc9b4d2-0f5f-44fa-b14e-c04422eb7c2d)
+![8](https://github.com/user-attachments/assets/d1d2e933-a088-4721-a57d-a59770885910)
 
 #### 2.1.3.2 Upload the Files
 
 - Selected files will show with progress bars.
 - Click **UPLOAD** to start the transfer.
 
-**Screenshot:** *(Insert relevant screenshot)*
+**Screenshot:** 
+![9](https://github.com/user-attachments/assets/1a741dd3-a22a-4306-b3a6-e942f9a78ca9)
 
 #### 2.1.3.3 Save and Confirm
 
@@ -148,7 +153,8 @@ Once upload completes:
 > *“Do you want to proceed with processing?”*  
 > *“If confirmed, you cannot upload files anymore to this Run…”*
 
-**Screenshot:** *(Insert relevant screenshot)*
+**Screenshot:** 
+![10](https://github.com/user-attachments/assets/0ffd966f-5440-47c4-953c-9347be1ab38a)
 
 - Click **YES, I'M SURE** only when ready to finalize.
 
