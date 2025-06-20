@@ -293,9 +293,8 @@ To modify the configurations:
 2. Locate the desired run from the table.
 3. In the top right corner of the table, click the **pencil icon (edit icon)**.
 
-📷 **Screenshot:**
-![11](https://github.com/user-attachments/assets/34b317e9-3665-4e2a-9721-bec8bc4a3924)
-
+📷 **Screenshot:**  
+![Edit Icon](https://github.com/user-attachments/assets/34b317e9-3665-4e2a-9721-bec8bc4a3924)
 
 > This action will navigate you to the **Configure** screen for the selected run.
 
@@ -305,9 +304,8 @@ To modify the configurations:
 
 The **Configure** screen allows modification of parameters related to the run's data processing.
 
-📷 **Screenshot:**
-![14](https://github.com/user-attachments/assets/5264e5f9-0e00-4f2c-b539-82364eb7df7d)
-
+📷 **Screenshot:**  
+![Configure Screen](https://github.com/user-attachments/assets/5264e5f9-0e00-4f2c-b539-82364eb7df7d)
 
 ### Key Editable Sections:
 
@@ -345,28 +343,32 @@ The **Configure** screen allows modification of parameters related to the run's 
 In the **Tool Config** section:
 
 1. Locate the field labeled `NoOfChannels`.
-![15](https://github.com/user-attachments/assets/8e49e647-4c0d-4afd-850a-288284e8bdfa)
 
-
+📷 **Screenshot:**  
+![NoOfChannels Example](https://github.com/user-attachments/assets/8e49e647-4c0d-4afd-850a-288284e8bdfa)
 
 2. Input the total number of channels in this field.  
-   
+   Example: For 128 channels, enter `128`.
+
 ---
 
 ## 🧾 3.4 Determining and Specifying Faulty Channels
 
 In the **Faulty Channels** section:
+
 1. If there are no faulty sensors, leave the fields for `HALL` and `EDDY` empty.
 
 2. To specify faulty channels, use:
-  - **Comma-separated values** for individual channels
-  - **Hyphenated ranges** for sequences
-  - Or a **combination of both**
+   - **Comma-separated values** for individual channels
+   - **Hyphenated ranges** for sequences
+   - Or a **combination of both**
+
+📷 **Example Configuration Screenshot:**  
+![Faulty Channels Example](attachment)
 
 ### ✅ Examples:
 
-- Faulty individual channels:
-
+- `1-24,34-45`: Indicates channels 1 to 24 and 34 to 45 are faulty.
 
 > This tells the system to use nearby healthy channels during processing.
 
@@ -377,10 +379,9 @@ In the **Faulty Channels** section:
 Once all changes are made:
 
 1. Click the **SAVE** button at the bottom right of the screen to apply the changes.
+2. To revert to system defaults, click the **SET DEFAULT** button.
 
-2. If you want to revert to the original/default configuration, click the **SET DEFAULT** button.
-
----
+✅ **Note:** Incorrect configuration values can affect data analysis. Always double-check your entries before saving.
 
 
 
