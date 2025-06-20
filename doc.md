@@ -112,9 +112,10 @@ The first step is to choose the appropriate inspection tool for the pipeline run
 Enter run-specific metadata such as source, destination, and date.
 
 **Screenshot:**
+
 ![5](https://github.com/user-attachments/assets/92c60686-0dd2-49c1-a728-37ba472e5abb)
 
-**Fill the following fields:**
+**For Example: Fill the following fields-**
 
 - **Run Source:** e.g., `location1`
 - **Run Destination:** e.g., `location2`
@@ -169,8 +170,8 @@ After saving, you’re redirected to the **Select Run** screen.
 
 
 **Check the Status column:**
-- Initially: `FILES_TO_BE_UPLOADED`
-- After confirmation: `TO_BE_PROCESSED`
+- Initially: `FILES_TO_BE_UPLOADED`,`INTERMIDIATE_TO_BE_PROCESSED`
+- Afterwards: `TO_BE_PROCESSED`
 
 Click **NEXT** to continue.
 
@@ -195,7 +196,7 @@ Each file displays:
 
 If you return to the **Select Run** screen by clicking **BACK**, the status of the run changes:
 
-- `FILES_TO_BE_UPLOADED` → `TO_BE_PROCESSED`
+- `FILES_TO_BE_UPLOADED`/`INTERMIDIATE_TO_BE_PROCESSED` → `TO_BE_PROCESSED`
 
 📷 **Screenshot:**
 ![13](https://github.com/user-attachments/assets/db4efece-89f6-4bf0-a072-e835a9e9f0be)
@@ -210,7 +211,6 @@ To modify the configurations associated with a selected run:
 - Locate the desired run from the table.
 - In the top right corner of the table, click the **pencil icon (edit icon)**.
 
-**Screenshot:** *(Insert 16.PNG here)*
 
 This action will navigate you to the **Configure** screen for the selected run, where you can modify parameters related to the run's data processing.
 
@@ -241,7 +241,9 @@ To manage or analyze an existing run, follow these steps:
   - Click the **Settings icon** (top right) to edit configuration settings.
   - Click **NEXT** again to proceed directly to **Auto Analysis** (if configurations are already set).
 
-**Screenshot:** *(Insert screenshot showing run selection list)*
+**Screenshot:** 
+![7](https://github.com/user-attachments/assets/de49338d-2201-43ef-bafb-89affb60f060)
+
 
 ---
 
@@ -251,8 +253,6 @@ To modify the configurations associated with a selected run:
 
 - From the **Select Run** screen, after choosing the run,
 - Click the **settings icon (edit icon)** in the top right corner of the run table.
-
-**Screenshot:** *(Insert 16.PNG here)*
 
 This will take you to the **Configure** screen, where parameters related to the run's data processing can be modified.
 
@@ -287,7 +287,9 @@ To modify the configurations:
 - Locate the desired run from the table.
 - In the top right corner of the table, click the **pencil icon (edit icon)**.
 
-📷 **Screenshot:** _Insert 16.PNG_
+📷 **Screenshot:**
+![11](https://github.com/user-attachments/assets/34b317e9-3665-4e2a-9721-bec8bc4a3924)
+
 
 > This action will navigate you to the **Configure** screen for the selected run.
 
@@ -363,7 +365,7 @@ In the **Faulty Channels** section:
 - Faulty individual channels:
 
 
-> This tells the system to ignore channels 1 through 24 and 34 through 45 during processing.
+> This tells the system to use nearby healthy channels during processing.
 
 ---
 
