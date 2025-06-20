@@ -185,7 +185,7 @@ Each file displays:
 
 ---
 
-## 🧾 2.6 Status Change on Navigation
+## 🧾 2.1.6 Status Change on Navigation
 
 If you return to the **Select Run** screen by clicking **BACK**, the status of the run changes:
 
@@ -197,38 +197,35 @@ If you return to the **Select Run** screen by clicking **BACK**, the status of t
 
 This means the system has queued your files for processing.
 
+## 2.1.7 Edit Configurations
+
+To modify the configurations associated with a selected run:
+
+- Go to the **Select Run** screen.
+- Locate the desired run from the table.
+- In the top right corner of the table, click the **pencil icon (edit icon)**.
+
+**Screenshot:** *(Insert 16.PNG here)*
+
+This action will navigate you to the **Configure** screen for the selected run, where you can modify parameters related to the run's data processing.
+
+[Link to Chapter 3: Modifying Configurations]
+
+### 2.1.8 Auto Analysis
+
+This section will cover the steps for initiating and reviewing auto-analysis of the run data.
+
+[Link to Chapter 4: Auto Analysis](https://www.google.com/search?q=%23chapter-4-auto-analysis)
+
+---
+
 ---
 
 ## 🧾 2.2 Select Run and Manage Runs
 
-### 2.2.1 Run Status & Processing
 
-After saving, you’re redirected to the **Select Run** screen.
 
-**Screenshot:** *(Insert relevant screenshot)*
-
-**Check the Status column:**
-
-- Initially: `FILES_TO_BE_UPLOADED`
-- After confirmation: `TO_BE_PROCESSED`
-
-Click **NEXT** to continue.
-
-### 2.2.2 Review Uploaded Files
-
-On the **Select File** screen, you can view the uploaded `.bin` files.
-
-**Screenshot:** *(Insert relevant screenshot)*
-
-Each file displays:
-
-- **File Name**
-- **Sequence Number**
-- **Status:** `TO_BE_PROCESSED`
-
----
-
-### 2.2.3 Edit Configurations
+### 2.2.2 Edit Configurations
 
 To modify the configurations associated with a selected run:
 
@@ -244,9 +241,122 @@ This action will navigate you to the **Configure** screen for the selected run, 
 
 ---
 
-### 2.2.4 Auto Analysis
+### 2.2.3 Auto Analysis
 
 This section will cover the steps for initiating and reviewing auto-analysis of the run data.
 
 [Link to Chapter 4: Auto Analysis](https://www.google.com/search?q=%23chapter-4-auto-analysis)
+
+
+# 📘 Chapter 3: Modifying Configurations
+
+**Version:** 1.0  
+**Organization:** Bhabha Atomic Research Centre (BARC)
+
+This chapter describes how to view and edit the configurations associated with a selected run in the PipeCM application.
+
+---
+
+## 🧾 3.1 Accessing the Configuration Interface
+
+To modify the configurations:
+
+- Go to the **Select Run** screen.
+- Locate the desired run from the table.
+- In the top right corner of the table, click the **pencil icon (edit icon)**.
+
+📷 **Screenshot:** _Insert 16.PNG_
+
+> This action will navigate you to the **Configure** screen for the selected run.
+
+---
+
+## 🧾 3.2 Overview of Editable Configurations
+
+The **Configure** screen allows modification of parameters related to the run's data processing.
+
+📷 **Screenshot:**
+![14](https://github.com/user-attachments/assets/5264e5f9-0e00-4f2c-b539-82364eb7df7d)
+
+
+### Key Editable Sections:
+
+- **Thresholds:**
+  - `WedThreshold`
+  - `Sleeve Threshold`
+  - `Flange Threshold`
+  - `Marker Threshold`
+  - `Valve Threshold`
+  - `Feature Peak Distance`
+  - `Contour Threshold`
+  - `Overlap Cnfl`
+  - `Max Db Peaks`
+  - `Gauss Sensitivity`
+
+- **Tool Config:**
+  - `Word Size`
+  - `Packet Size`
+  - `NoOfChannels`
+
+- **SensorCountMap:**
+  - `HALL`
+
+- **Faulty Channels:**
+  - `HALL`
+  - `EDDY`
+
+- **Odometer Diameter:**
+  - `Odometer[0]`, `Odometer[1]`, `Odometer[2]`
+
+---
+
+## 🧾 3.3 Classifying Total Channels (NoOfChannels)
+
+In the **Tool Config** section:
+
+- Locate the field labeled `NoOfChannels`.
+![15](https://github.com/user-attachments/assets/8e49e647-4c0d-4afd-850a-288284e8bdfa)
+
+
+
+- Input the total number of channels in this field.  
+  Example: For 128 channels, enter:
+
+
+
+---
+
+## 🧾 3.4 Determining and Specifying Faulty Channels
+
+In the **Faulty Channels** section:
+- If there are no faulty sensors, leave the fields for `HALL` and `EDDY` empty.
+
+- To specify faulty channels, use:
+  - **Comma-separated values** for individual channels
+  - **Hyphenated ranges** for sequences
+  - Or a **combination of both**
+
+### ✅ Examples:
+
+- Faulty individual channels:
+
+
+> This tells the system to ignore channels 1 through 24 and 34 through 45 during processing.
+
+---
+
+## 🧾 3.5 Saving Configuration Changes
+
+Once all changes are made:
+
+- Click the **SAVE** button at the bottom right of the screen to apply the changes.
+
+- If you want to revert to the original/default configuration, click the **SET DEFAULT** button.
+
+---
+
+✅ **Note:** Saving incorrect configuration settings can impact the data analysis. Always double-check values and faulty channel entries before confirming changes.
+
+
+
 
