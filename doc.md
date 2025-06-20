@@ -90,19 +90,19 @@ This chapter walks you through the complete process of creating a new pipeline r
 
 ### 🧾 2.1.1 Select Tool
 
-The first step is to choose the appropriate inspection tool for the pipeline run.
+The first step is to choose the appropriate inspection tool for the pipeline run,**click on Start App**
 
 **Screenshot:**
 ![4](https://github.com/user-attachments/assets/9cf1496f-40d7-42da-91c9-8b5970f44356)
 
 **Steps:**
 
-- From the **Select Tool** screen, choose a tool by clicking the radio button in the **Select** column.
-- **Before Selecting Tool Click on Plus Button in Bottom Right to Add A Run**
+1. From the **Select Tool** screen, choose a tool by clicking the radio button in the **Select** column.
+2.**Before selecting tool click on plus button in bottom right to add a run**
 - **Tool details include:**
   - **Tool Type:** e.g., `MFL_OCTA_GEN1`
   - **Tool Size:** e.g., `12 inch`
-- Click **NEXT** to proceed.
+3.Click **NEXT** to proceed.
 
 ### 🧾 2.1.2 Create Run Details
 
@@ -114,11 +114,11 @@ Enter run-specific metadata such as source, destination, and date.
 
 **For Example: Fill the following fields-**
 
-- **Run Source:** e.g., `location1`
-- **Run Destination:** e.g., `location2`
-- **Run Date:** e.g., `19/06/2025`
+1. **Run Source:** e.g., `location1`
+2. **Run Destination:** e.g., `location2`
+3. **Run Date:** e.g., `19/06/2025`
 
-Click **ADD** to create the run entry.
+4. Click **ADD** to create the run entry.
 
 ### 🧾 2.1.3 Uploading Binary Files
 
@@ -126,35 +126,41 @@ After the run is created, upload sensor data files.
 
 #### 2.1.3.1 Browse and Select Files
 
-- Click **BROWSE FILES**
-- Select files from your system (e.g., `TMP0001_AK.bin`, `TMP0002_AK.bin`)
+1. Click **BROWSE FILES**
+2. Select files from your system (e.g., `TMP0001_AK.bin`, `TMP0002_AK.bin`)
 
 **Screenshot:**
-![6](https://github.com/user-attachments/assets/cbc9b4d2-0f5f-44fa-b14e-c04422eb7c2d)
+![11](https://github.com/user-attachments/assets/19dc3bcb-9696-4d55-a5dd-642a17ec29d2)
 ![8](https://github.com/user-attachments/assets/d1d2e933-a088-4721-a57d-a59770885910)
+![Screenshot (81)](https://github.com/user-attachments/assets/0a67e097-2ee5-411a-8f28-31885ade7be0)
+
 
 #### 2.1.3.2 Upload the Files
 
-- Selected files will show with progress bars.
-- Click **UPLOAD** to start the transfer.
+1. Selected files will show with progress bars.
+2. Click **UPLOAD** to start the transfer.
 
 **Screenshot:** 
 ![9](https://github.com/user-attachments/assets/1a741dd3-a22a-4306-b3a6-e942f9a78ca9)
+![Screenshot (82)](https://github.com/user-attachments/assets/1d7b4a38-f49a-4756-91b2-27b00427535f)
+
 
 #### 2.1.3.3 Save and Confirm
 
 Once upload completes:
 
-- Click **SAVE**
-- A confirmation popup appears:
+1. Click **SAVE**
+2. A confirmation popup appears:
 
 > *“Do you want to proceed with processing?”*  
 > *“If confirmed, you cannot upload files anymore to this Run…”*
 
 **Screenshot:** 
 ![10](https://github.com/user-attachments/assets/0ffd966f-5440-47c4-953c-9347be1ab38a)
+![Screenshot (83)](https://github.com/user-attachments/assets/312189d9-8cfe-4d0b-8d0e-3f2a18564a88)
 
-- Click **YES, I'M SURE** only when ready to finalize.
+
+3.Click **YES, I'M SURE** only when ready to finalize.
 
 ⚠️ **Note:** After confirmation, no more files can be added to this run.
 
@@ -167,10 +173,10 @@ After saving, you’re redirected to the **Select Run** screen.
 
 
 **Check the Status column:**
-- Initially: `FILES_TO_BE_UPLOADED`,`INTERMIDIATE_TO_BE_PROCESSED`
+- Initially: `FILES_TO_BE_UPLOADED`,`INTERMIDIATE_TO_BE_GENERATED`
 - Afterwards: `TO_BE_PROCESSED`
 
-Click **NEXT** to continue.
+1.Click **NEXT** to continue.
 
 ---
 
@@ -193,7 +199,7 @@ Each file displays:
 
 If you return to the **Select Run** screen by clicking **BACK**, the status of the run changes:
 
-- `FILES_TO_BE_UPLOADED`/`INTERMIDIATE_TO_BE_PROCESSED` → `TO_BE_PROCESSED`
+- `FILES_TO_BE_UPLOADED`/`INTERMIDIATE_TO_BE_GENERATED` → `TO_BE_PROCESSED`
 
 📷 **Screenshot:**
 ![13](https://github.com/user-attachments/assets/db4efece-89f6-4bf0-a072-e835a9e9f0be)
@@ -204,9 +210,9 @@ This means the system has queued your files for processing.
 
 To modify the configurations associated with a selected run:
 
-- Go to the **Select Run** screen.
-- Locate the desired run from the table.
-- In the top right corner of the table, click the **pencil icon (edit icon)**.
+1. Go to the **Select Run** screen.
+2. Locate the desired run from the table.
+3. In the top right corner of the table, click the **setting icon (edit icon)**.
 
 
 This action will navigate you to the **Configure** screen for the selected run, where you can modify parameters related to the run's data processing.
@@ -231,10 +237,10 @@ This section will cover the steps for initiating and reviewing auto-analysis of 
 
 To manage or analyze an existing run, follow these steps:
 
-- Navigate to the **Select Run** screen.
-- Click **NEXT** on the **Select Tool** screen to proceed.
-- From the list of existing runs, choose your desired run by clicking on the row.
-- After selecting a run, you have two options:
+1. Navigate to the **Select Run** screen.
+2. Click **NEXT** on the **Select Tool** screen to proceed.
+3. From the list of existing runs, choose your desired run by clicking on the row.
+4. After selecting a run, you have two options:
   - Click the **Settings icon** (top right) to edit configuration settings.
   - Click **NEXT** again to proceed directly to **Auto Analysis** (if configurations are already set).
 
@@ -248,8 +254,8 @@ To manage or analyze an existing run, follow these steps:
 
 To modify the configurations associated with a selected run:
 
-- From the **Select Run** screen, after choosing the run,
-- Click the **settings icon (edit icon)** in the top right corner of the run table.
+1. From the **Select Run** screen, after choosing the run,
+2. Click the **settings icon (edit icon)** in the top right corner of the run table.
 
 This will take you to the **Configure** screen, where parameters related to the run's data processing can be modified.
 
@@ -261,8 +267,8 @@ This will take you to the **Configure** screen, where parameters related to the 
 
 Once the run is selected and optionally configured, you can proceed with automatic analysis of the uploaded data.
 
-- From the **Select Run** screen, after selecting a run, click **NEXT** to begin analysis.
-- Review the file and analysis summary on the next screen.
+1. From the **Select Run** screen, after selecting a run, click **NEXT** to begin analysis.
+2. Review the file and analysis summary on the next screen.
 
 [Link to Chapter 4: Auto Analysis](#-chapter-4-auto-analysis)
 
@@ -277,9 +283,9 @@ This chapter describes how to view and edit the configurations associated with a
 
 To modify the configurations:
 
-- Go to the **Select Run** screen.
-- Locate the desired run from the table.
-- In the top right corner of the table, click the **pencil icon (edit icon)**.
+1. Go to the **Select Run** screen.
+2. Locate the desired run from the table.
+3. In the top right corner of the table, click the **pencil icon (edit icon)**.
 
 📷 **Screenshot:**
 ![11](https://github.com/user-attachments/assets/34b317e9-3665-4e2a-9721-bec8bc4a3924)
@@ -332,12 +338,12 @@ The **Configure** screen allows modification of parameters related to the run's 
 
 In the **Tool Config** section:
 
-- Locate the field labeled `NoOfChannels`.
+1. Locate the field labeled `NoOfChannels`.
 ![15](https://github.com/user-attachments/assets/8e49e647-4c0d-4afd-850a-288284e8bdfa)
 
 
 
-- Input the total number of channels in this field.  
+2. Input the total number of channels in this field.  
   Example: For 128 channels, enter:
 
 
@@ -347,9 +353,9 @@ In the **Tool Config** section:
 ## 🧾 3.4 Determining and Specifying Faulty Channels
 
 In the **Faulty Channels** section:
-- If there are no faulty sensors, leave the fields for `HALL` and `EDDY` empty.
+1. If there are no faulty sensors, leave the fields for `HALL` and `EDDY` empty.
 
-- To specify faulty channels, use:
+2. To specify faulty channels, use:
   - **Comma-separated values** for individual channels
   - **Hyphenated ranges** for sequences
   - Or a **combination of both**
@@ -367,9 +373,9 @@ In the **Faulty Channels** section:
 
 Once all changes are made:
 
-- Click the **SAVE** button at the bottom right of the screen to apply the changes.
+1. Click the **SAVE** button at the bottom right of the screen to apply the changes.
 
-- If you want to revert to the original/default configuration, click the **SET DEFAULT** button.
+2. If you want to revert to the original/default configuration, click the **SET DEFAULT** button.
 
 ---
 
@@ -396,6 +402,8 @@ Auto Analysis transforms raw pipeline sensor data into meaningful insights by ap
 - It extracts characteristics from raw sensor data such as signal spikes, amplitude, waveform shapes, etc.
 - The purpose is to convert raw binary input into interpretable signal features.
 - Once complete, this section displays a **green checkmark** and status as **COMPLETED**.
+ ![17](https://github.com/user-attachments/assets/05ba0df0-03b4-4959-bced-1063493eeecd)
+
 
 ---
 
@@ -405,6 +413,8 @@ Auto Analysis transforms raw pipeline sensor data into meaningful insights by ap
 - Calculates position in meters to map anomalies along the pipeline.
 - This step must be started manually by clicking the **START** button.
 - Progress is shown as a percentage (e.g., `0%`, `50%`, `100%`).
+ ![Screenshot (78)](https://github.com/user-attachments/assets/0df105ba-ec4b-4b9c-805a-ca3fd5279812)
+
 
 ---
 
@@ -415,15 +425,12 @@ Auto Analysis transforms raw pipeline sensor data into meaningful insights by ap
 - Identifies potential defects and their severity using embedded algorithms.
 - This also requires a manual **START**.
 - Runs only after **Feature Extraction** and **Distance Calculation** are complete.
+  ![Screenshot (80)](https://github.com/user-attachments/assets/bbabf363-4b15-4cd1-9bbc-e611354e5265)
+
 
 ---
 
 ## 📊 4.3 Auto Analysis Dashboard
-
-**Screenshot:**  
-![17](https://github.com/user-attachments/assets/d7575932-f031-49fd-ba2b-fb21a6ab06fc)
-
-
 The dashboard includes:
 
 - A **circular progress indicator** displaying overall analysis status (e.g., `33%`)
