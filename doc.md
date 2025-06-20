@@ -154,7 +154,7 @@ Once upload completes:
 
 ⚠️ **Note:** After confirmation, no more files can be added to this run.
 
-## 🧾 2.1.4 Run Status & Processing
+### 🧾 2.1.4 Run Status & Processing
 
 After saving, you’re redirected to the **Select Run** screen.
 
@@ -170,7 +170,7 @@ Click **NEXT** to continue.
 
 ---
 
-## 🧾 2.1.5 Review Uploaded Files
+### 🧾 2.1.5 Review Uploaded Files
 
 On the **Select File** screen, you can view the uploaded `.bin` files.
 
@@ -185,7 +185,7 @@ Each file displays:
 
 ---
 
-## 🧾 2.1.6 Status Change on Navigation
+### 🧾 2.1.6 Status Change on Navigation
 
 If you return to the **Select Run** screen by clicking **BACK**, the status of the run changes:
 
@@ -196,8 +196,7 @@ If you return to the **Select Run** screen by clicking **BACK**, the status of t
 
 
 This means the system has queued your files for processing.
-
-## 2.1.7 Edit Configurations
+### 🧾 2.1.7 Edit Configurations
 
 To modify the configurations associated with a selected run:
 
@@ -209,13 +208,16 @@ To modify the configurations associated with a selected run:
 
 This action will navigate you to the **Configure** screen for the selected run, where you can modify parameters related to the run's data processing.
 
-[Link to Chapter 3: Modifying Configurations]
+[Link to Chapter 3: Modifying Configurations](#-chapter-3-modifying-configurations)
 
-### 2.1.8 Auto Analysis
+---
+
+## 🧾 2.1.8 Auto Analysis
 
 This section will cover the steps for initiating and reviewing auto-analysis of the run data.
 
-[Link to Chapter 4: Auto Analysis](https://www.google.com/search?q=%23chapter-4-auto-analysis)
+[Link to Chapter 4: Auto Analysis](#-chapter-4-auto-analysis)
+
 
 ---
 
