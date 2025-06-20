@@ -91,7 +91,7 @@ This chapter walks you through the complete process of creating a new pipeline r
 
 ## 🧾 2.1 Create a Run
 
-### 2.1.1 Select Tool
+### 🧾 2.1.1 Select Tool
 
 The first step is to choose the appropriate inspection tool for the pipeline run.
 
@@ -106,7 +106,7 @@ The first step is to choose the appropriate inspection tool for the pipeline run
   - **Tool Size:** e.g., `12 inch`
 - Click **NEXT** to proceed.
 
-### 2.1.2 Create Run Details
+### 🧾 2.1.2 Create Run Details
 
 Enter run-specific metadata such as source, destination, and date.
 
@@ -120,7 +120,7 @@ Enter run-specific metadata such as source, destination, and date.
 
 Click **ADD** to create the run entry.
 
-### 2.1.3 Uploading Binary Files
+### 🧾 2.1.3 Uploading Binary Files
 
 After the run is created, upload sensor data files.
 
@@ -153,6 +153,49 @@ Once upload completes:
 - Click **YES, I'M SURE** only when ready to finalize.
 
 ⚠️ **Note:** After confirmation, no more files can be added to this run.
+
+## 🧾 2.1.4 Run Status & Processing
+
+After saving, you’re redirected to the **Select Run** screen.
+
+📷 **Screenshot:**
+![11](https://github.com/user-attachments/assets/02675c3f-efaf-458e-9041-bc2b399e3b57)
+
+
+**Check the Status column:**
+- Initially: `FILES_TO_BE_UPLOADED`
+- After confirmation: `TO_BE_PROCESSED`
+
+Click **NEXT** to continue.
+
+---
+
+## 🧾 2.1.5 Review Uploaded Files
+
+On the **Select File** screen, you can view the uploaded `.bin` files.
+
+📷 **Screenshot:**
+![12](https://github.com/user-attachments/assets/caa0c021-6cf5-4d70-b3e3-a9cc871efb50)
+
+
+Each file displays:
+- **File Name**
+- **Sequence Number**
+- **Status:** `TO_BE_PROCESSED`
+
+---
+
+## 🧾 2.6 Status Change on Navigation
+
+If you return to the **Select Run** screen by clicking **BACK**, the status of the run changes:
+
+- `FILES_TO_BE_UPLOADED` → `TO_BE_PROCESSED`
+
+📷 **Screenshot:**
+![13](https://github.com/user-attachments/assets/db4efece-89f6-4bf0-a072-e835a9e9f0be)
+
+
+This means the system has queued your files for processing.
 
 ---
 
