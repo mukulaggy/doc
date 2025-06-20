@@ -80,10 +80,7 @@ Each section contains a **"Start App"** button to launch its respective module.
 
 ---
 
-# 📘 Chapter 2: Creating and Managing Runs
-
-**Version:** 1.0  
-**Organization:** Bhabha Atomic Research Centre (BARC)  
+# 📘 Chapter 2: Creating and Managing Runs 
 
 This chapter walks you through the complete process of creating a new pipeline run in PipeCM — including tool selection, run details, file uploads, and confirmation, and then managing existing runs.
 
@@ -272,9 +269,6 @@ Once the run is selected and optionally configured, you can proceed with automat
 
 # 📘 Chapter 3: Modifying Configurations
 
-**Version:** 1.0  
-**Organization:** Bhabha Atomic Research Centre (BARC)
-
 This chapter describes how to view and edit the configurations associated with a selected run in the PipeCM application.
 
 ---
@@ -384,9 +378,6 @@ Once all changes are made:
 
 # 📘 Chapter 4: Auto Analysis
 
-**Version:** 1.0  
-**Organization:** Bhabha Atomic Research Centre (BARC)  
-
 This chapter explains how to perform Auto Analysis in PipeCM after a run has been created and files have been uploaded. The Auto Analysis process consists of three major stages: Feature Extraction, Distance Calculation, and Metalloss Analysis.
 
 ---
@@ -430,7 +421,8 @@ Auto Analysis transforms raw pipeline sensor data into meaningful insights by ap
 ## 📊 4.3 Auto Analysis Dashboard
 
 **Screenshot:**  
-![Auto Analysis Progress](./f7d2730c-839e-4455-9544-f409e8492126.PNG)
+![17](https://github.com/user-attachments/assets/d7575932-f031-49fd-ba2b-fb21a6ab06fc)
+
 
 The dashboard includes:
 
