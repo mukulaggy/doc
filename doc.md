@@ -93,6 +93,8 @@ This chapter walks you through the complete process of creating a new pipeline r
 The first step is to choose the appropriate inspection tool for the pipeline run,**click on Start App**
 
 **Screenshot:**
+![Uploading 3.PNG…]()
+
 ![4](https://github.com/user-attachments/assets/9cf1496f-40d7-42da-91c9-8b5970f44356)
 
 **Steps:**
