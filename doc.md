@@ -350,10 +350,7 @@ In the **Tool Config** section:
 
 
 2. Input the total number of channels in this field.  
-  Example: For 128 channels, enter:
-
-
-
+   
 ---
 
 ## 🧾 3.4 Determining and Specifying Faulty Channels
@@ -385,7 +382,6 @@ Once all changes are made:
 
 ---
 
-✅ **Note:** Saving incorrect configuration settings can impact the data analysis. Always double-check values and faulty channel entries before confirming changes.
 
 
 # 📘 Chapter 4: Auto Analysis
