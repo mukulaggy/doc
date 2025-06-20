@@ -143,7 +143,9 @@ After the run is created, upload sensor data files.
 2. Click **UPLOAD** to start the transfer.
 
 **Screenshot:** 
+
 ![9](https://github.com/user-attachments/assets/1a741dd3-a22a-4306-b3a6-e942f9a78ca9)
+
 ![Screenshot (82)](https://github.com/user-attachments/assets/1d7b4a38-f49a-4756-91b2-27b00427535f)
 
 
