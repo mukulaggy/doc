@@ -471,6 +471,8 @@ The Manual Analysis screen is split into two main sections:
 - **Right Pane:** Visualization of pipeline scan with defect markers
 
 📷 **Screenshot:**  
+![Screenshot (84)](https://github.com/user-attachments/assets/098258cc-6c75-4e85-94bf-6c2920f01a1a)
+
 
 
 ---
@@ -535,7 +537,9 @@ You can **filter by Feature Type** using the dropdown above the table.
 - *...etc.*
 
 📷 **Extended Feature List Screenshot:**  
-images/extended-feature-list.png)
+![Screenshot (89)](https://github.com/user-attachments/assets/1bbbba9b-03f7-4e27-86a5-1b1958b7c8e6)
+![Screenshot (90)](https://github.com/user-attachments/assets/5d5d7c23-3d03-44aa-9db1-fbf53bc1efd7)
+
 
 ### 🔘 Filter by Feature Type
 
