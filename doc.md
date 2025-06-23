@@ -483,7 +483,7 @@ The Manual Analysis screen is split into two main sections:
 
 ---
 
-## 🧾 5.2 Pipeline Table (Left Pane)
+## 🧾 5.2 Pipetally Table (Left Pane)
 
 The table on the left is auto-populated from PipeCM’s database and shows features detected in the pipeline.
 
@@ -492,7 +492,8 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 - Displays **n** entries by default  
 - Organized by **Page Number** (ascending) also we can control them 
 - Supports **filtering** and **sorting** on all columns  
-- Data is refreshed by clicking the **Reload** button (🔄)
+- Select the feature and click the **Reload** button (🔄)
+- Any new feature added will be also get reflected
 
 
 📷 **Screenshot:**
@@ -511,17 +512,17 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 | **Page No**       | Page number in the pipeline scan        |
 | **Sample No**     | Sample number of feature                |
 | **Feature Type**  | Feature classification (e.g., METALLOSS, WELD, VALVE) |
-| **Log Distance**  | Distance on pipeline log (in mm)        |
-| **Absolute Sample** | Raw sample position                   |
+| **Log Distance**  | Distance on pipeline log (in m)        |
+| **Absolute Sample** | Absolute Sample                       |
 | **Wall Loss**     | % wall thickness loss                   |
 | **Length**        | Length of defect                        |
-| **Max Width**     | Maximum width across feature            |
+| **Max Width**     | Maximum width            |
 | **Width / Depth** | Actual size of defect                   |
 | **Gauss Peak**    | Magnetic peak value                     |
 | **Span**          | Width spread                            |
 | **Max Depth**     | Critical depth data                     |
 | **MAOP**          | Max allowable operating pressure impact |
-| **No. of Sensors**| Sensors that detected the feature       |
+| **No. of Sensors**| Number of sensors that picked metal loss       |
 
 
 📷 **Screenshot (Table in Action):**  
@@ -639,7 +640,6 @@ You can **double-click** any row in the feature table to automatically navigate 
 
 #### 📌 Functionality:
 
-- Automatically scrolls and zooms the right pane (scan view) to the selected feature’s position.
 - Helps quickly correlate feature data with its visual representation in the scan.
 
 📷 *Screenshot – Double Click to Navigate*
