@@ -135,8 +135,7 @@ After the run is created, upload sensor data files.
 
 **Screenshot:**
 ![image](https://github.com/user-attachments/assets/b200fe67-155e-4887-b6ec-ef3d1ae393c6)
-
-![8](https://github.com/user-attachments/assets/d1d2e933-a088-4721-a57d-a59770885910)
+![image](https://github.com/user-attachments/assets/31f8e5f3-f696-4157-bda1-aa3498ed0813)
 ![Screenshot (81)](https://github.com/user-attachments/assets/0a67e097-2ee5-411a-8f28-31885ade7be0)
 
 
