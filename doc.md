@@ -467,7 +467,7 @@ This chapter explains the process of conducting **Manual Feature Analysis** usin
 
 The Manual Analysis screen is split into two main sections:
 
-- **Left Pane:** Feature table (fetched from database)  
+- **Left Pane:** Pipetally table (fetched from database)  
 - **Right Pane:** Visualization of pipeline scan with defect markers
 
 📷 **Screenshot:**  
@@ -481,8 +481,8 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 
 ### 🔹 Key Features of the Table:
 
-- Displays **2,106** entries by default  
-- Organized by **Page Number** (ascending)  
+- Displays **n** entries by default  
+- Organized by **Page Number** (ascending) also we can control them 
 - Supports **filtering** and **sorting** on all columns  
 - Data is refreshed by clicking the **Reload** button (🔄)
 
@@ -536,6 +536,125 @@ You can **filter by Feature Type** using the dropdown above the table.
 
 📷 **Extended Feature List Screenshot:**  
 images/extended-feature-list.png)
+
+
+Here is the complete Markdown (`.md`) content for sections **5.3** and **5.4**, including **filtering**, **pagination**, **feature navigation**, and **detailed view**:
+
+---
+
+```markdown
+## 🧾 5.3 Filter Features
+
+The Manual Analysis interface offers powerful filtering tools to help users narrow down large datasets effectively.
+
+---
+
+### 🔘 Filter by Feature Type
+
+You can filter the data table to display only selected types of pipeline features.
+
+#### 📝 Steps to Filter by Feature Type:
+
+1. Click the **Select a feature** dropdown.
+2. Choose one or more feature types (e.g., **WELD**, **METALLOSS**, **VALVE**, etc.).
+3. Click the **Reload** button (🔄) to update the table with filtered results.
+
+📷 *Screenshot – Feature Selection Dropdown*
+
+📷 *Screenshot – Extended Feature List*
+
+---
+
+### 🔘 Filter by Individual Columns
+
+Each column allows advanced filtering to refine the displayed data:
+
+| Filter Type              | Description                              |
+|--------------------------|------------------------------------------|
+| Equals / Not Equals      | Match specific values                    |
+| Contains / Starts With   | Match string patterns                    |
+| Greater / Less Than      | Compare numerical values                 |
+| Between / Inclusive      | Filter within a range                    |
+| Empty / Not Empty        | Check for missing or present values     |
+
+#### 📝 Steps to Use Column Filters:
+
+1. Click the **filter icon** (🔽) next to the column header.
+2. Select the desired condition from the dropdown.
+3. Enter filter values.
+4. The table updates automatically with matching rows.
+
+📷 *Screenshot – Column Filter Options*
+
+📷 *Screenshot – Wall Loss Filtering Example*
+
+---
+
+### 🔘 Pagination and Row Control
+
+The table supports pagination, making it easier to navigate through thousands of rows.
+
+#### 📌 Key Features:
+
+- Navigate using:
+  - First (⏮)
+  - Previous (⏪)
+  - Next (⏩)
+  - Last (⏭) buttons
+- **Rows per page** selector at the bottom lets you choose how many entries to show:
+  - Options typically include: **10**, **30**, **50**, **100**
+
+📷 *Screenshot – Rows Per Page and Pagination Controls*
+
+✅ **Pro Tip**: Combine feature type filtering, column filtering, and pagination to efficiently locate and analyze pipeline defects.
+
+---
+
+## 🧾 5.4 Feature Selection & Navigation
+
+The Manual Analysis module allows users to interact with the pipeline feature table for deeper inspection and analysis.
+
+---
+
+### 🖱️ Double Click Navigation
+
+You can **double-click** any row in the feature table to automatically navigate to the corresponding location in the pipeline scan.
+
+#### 📌 Functionality:
+
+- Automatically scrolls and zooms the right pane (scan view) to the selected feature’s position.
+- Helps quickly correlate feature data with its visual representation in the scan.
+
+📷 *Screenshot – Double Click to Navigate*
+
+---
+
+### 🎯 Feature Highlight and Detailed View
+
+When a row is **selected** (via single click or radio button), the corresponding feature is:
+
+- ✅ **Highlighted** on the pipeline scan (right pane) with a colored marker.
+- 📄 **Detailed information** is displayed below the table or scan area (depending on layout).
+
+#### 📋 Details Typically Include:
+
+| Field               | Description                            |
+|---------------------|----------------------------------------|
+| Page Number         | Page in scan                           |
+| Feature Type        | Classification (e.g., METALLOSS)       |
+| Log Distance        | Distance in mm                         |
+| Depth / Width       | Size and critical dimensions           |
+| Wall Loss           | % thickness lost                       |
+| MAOP Impact         | Effect on pressure safety              |
+| No. of Sensors Hit  | Sensor hits confirming feature         |
+
+📷 *Screenshot – Feature Highlight & Details*
+
+---
+```
+
+Let me know if you'd like me to embed the screenshots or export this as a `.docx` or `.pdf`.
+
 
 
 
