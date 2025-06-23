@@ -679,13 +679,13 @@ The right-hand pane provides a powerful visual interface for examining pipeline 
 
 | Ref | Feature                 | Description                                                                 |
 |-----|-------------------------|-----------------------------------------------------------------------------|
-| 🔵 1 | Scan Name              | Displays the name of the scan section (e.g., Pipeline-Scan1, Pipeline-Scan2). Useful for identifying which log section is being analyzed. |
-| 🔵 2 | Feature Type Selector  | Dropdown menu to switch between detected features such as WELD, METALLOSS, etc. This updates the view to show the selected feature in the scan. |
-| 🔵 3 | Page Navigation Dropdown | Selects a specific page from the pipeline scan to jump to it instantly.   |
-| 🔵 4 | Goto Page Input        | Directly type in a page number and press enter to navigate to that exact page. |
-| 🔵 5 | Next Page Button (⏩)   | Advances to the next page in the scan for quicker browsing.                |
-| 🔵 6 | Previous Page Button (⏪) | Returns to the previous scan page.                                         |
-| 🔵 7 | View Mode Selector     | Allows switching between visualization modes:<br>✔️ PIPELINE-SCAN<br>✔️ LINE PLOT<br>✔️ DENOISED PIPELINE-SCAN<br>✔️ DENOISED LINE PLOT |
+|  1 | Scan Name              | Displays the name of the scan section (e.g., Pipeline-Scan1, Pipeline-Scan2). Useful for identifying which log section is being analyzed. |
+|  2 | Feature Type Selector  | Dropdown menu to switch between detected features such as WELD, METALLOSS, etc. This updates the view to show the selected feature in the scan. |
+|  3 | Page Navigation Dropdown | Selects a specific page from the pipeline scan to jump to it instantly.   |
+|  4 | Goto Page Input        | Directly type in a page number and press enter to navigate to that exact page. |
+|  5 | Next Page Button    | Advances to the next page in the scan for quicker browsing.                |
+|  6 | Previous Page Button  | Returns to the previous scan page.                                         |
+|  7 | View Mode Selector     | Allows switching between visualization modes:<br>✔️ PIPELINE-SCAN<br>✔️ LINE PLOT<br>✔️ DENOISED PIPELINE-SCAN<br>✔️ DENOISED LINE PLOT |
 
 📷 *Screenshot – Visualization Mode Selector*
 
