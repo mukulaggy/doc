@@ -723,7 +723,35 @@ The PipeCM Manual Analysis module supports four visualization types, each suited
 
 ---
 
-## 🧾 5.6 Lineplot Visualization (Circumferential Profile)
+## 🧾 5.6  Scan Interaction Tools
+
+The top-right corner of the Pipeline Scan Viewer provides essential tools to help users explore and analyze scan images interactively.
+
+📷 *Screenshot – Scan Toolbar Buttons*
+![a3](https://github.com/user-attachments/assets/f2d23016-148b-49f1-98a7-bda10d62f684)
+
+
+### 🧰 Toolbar Functionality Breakdown
+
+| Ref | Tool        | Description                                                         |
+|-----|-------------|---------------------------------------------------------------------|
+| 🔍 1 | Zoom Tool   | Activates zoom mode — click and drag to zoom into a specific section. |
+| ➕ 2 | Zoom In     | Click to incrementally zoom in for more detail.                    |
+| ➖ 3 | Zoom Out    | Click to zoom out to see a wider area of the scan.                 |
+| 🔄 4 | Reset View  | Returns the scan to its original zoom and position.               |
+| 🔲 5 | Box Select  | Lets users draw a rectangle around a region — can be used with Zoom. |
+
+### 📝 Zoom into a Specific Area:
+
+1. Click the **Box Select** tool  
+2. Drag to define a rectangular area  
+3. Click the **Zoom** icon  
+
+
+
+---
+
+## 🧾 5.7 Lineplot Visualization (Circumferential Profile)
 
 The circumferential profile provides a bar chart view of the magnetic response captured by the sensors around the pipe. It helps analysts understand how defects spread around the pipe's circumference.
 
@@ -757,40 +785,6 @@ The circumferential profile provides a bar chart view of the magnetic response c
 📷 *Screenshot – X, Y, Z value meaning (Sample no, Sensor no, Gauss value)*
 
 ![a12](https://github.com/user-attachments/assets/f28c14a9-4a1c-4e11-bca3-8f96048a6670)
-
-
----
-
-## 🧾 5.7 Scan Interaction Tools
-
-The top-right corner of the Pipeline Scan Viewer provides essential tools to help users explore and analyze scan images interactively.
-
-📷 *Screenshot – Scan Toolbar Buttons*
-![a3](https://github.com/user-attachments/assets/f2d23016-148b-49f1-98a7-bda10d62f684)
-
-
-### 🧰 Toolbar Functionality Breakdown
-
-| Ref | Tool        | Description                                                         |
-|-----|-------------|---------------------------------------------------------------------|
-| 🔍 1 | Zoom Tool   | Activates zoom mode — click and drag to zoom into a specific section. |
-| ➕ 2 | Zoom In     | Click to incrementally zoom in for more detail.                    |
-| ➖ 3 | Zoom Out    | Click to zoom out to see a wider area of the scan.                 |
-| 🔄 4 | Reset View  | Returns the scan to its original zoom and position.               |
-| 🔲 5 | Box Select  | Lets users draw a rectangle around a region — can be used with Zoom. |
-
-### 📝 Zoom into a Specific Area:
-
-1. Click the **Box Select** tool  
-📷 *Screenshot – Step 1: Activating Box Select*
-
-2. Drag to define a rectangular area  
-📷 *Screenshot – Step 2: Selecting Area*
-
-3. Click the **Zoom** icon  
-📷 *Screenshot – Step 3: Zoomed Area*
-
-💡 *Pro Tip:* Repeat to deeply inspect nested sections.
 
 ---
 
