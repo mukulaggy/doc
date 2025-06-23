@@ -776,11 +776,10 @@ The circumferential profile provides a bar chart view of the magnetic response c
 
 | Axis / Value   | Represents                                                   |
 |----------------|--------------------------------------------------------------|
-| **X-Axis**     | Sensor Number – Each sensor around the pipe (starts at 0).   |
-| **Y-Axis**     | Gauss Level (Magnetic Response) – Peak signal at that sensor.|
-| **Tooltip - X**| Sample Number – Longitudinal pipe position (e.g., 3039).     |
-| **Tooltip - Y**| Sensor Number (e.g., 59).                                     |
-| **Tooltip - Z**| Gauss Value – Magnetic intensity (e.g., -0.7931519).         |
+| **X-Axis**     | Sample Number    |
+| **Y-Axis**     | Sensor Number - Each sensor around the pipe (starts at 0).|
+| **Z-Axis**     | Gauss Level     |
+
 
 📷 *Screenshot – X, Y, Z value meaning (Sample no, Sensor no, Gauss value)*
 
