@@ -559,7 +559,7 @@ You can **filter by Feature Type** using the dropdown above the table.
 
 
 📷 **Extended Feature List Screenshot:**  
-![5](https://github.com/user-attachments/assets/74d75a2f-78d5-4fc0-ac1a-191216680e79)
+![image](https://github.com/user-attachments/assets/e0656463-3a6d-415e-aeac-a1e075b19db9)
 ![Screenshot (19)](https://github.com/user-attachments/assets/7cecb17c-6c17-4a47-8e1a-6f2eb8d457c1)
 ![Screenshot (20)](https://github.com/user-attachments/assets/e18966f2-928f-4130-be2b-d7d22086e6b9)
 ![6](https://github.com/user-attachments/assets/e136ea2b-c768-40d7-a9e2-1e308bba570c)
