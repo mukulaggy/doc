@@ -589,7 +589,7 @@ Each column allows advanced filtering to refine the displayed data:
 | Contains / Starts With   | Match string patterns                    |
 | Greater / Less Than      | Compare numerical values                 |
 | Between / Inclusive      | Filter within a range                    |
-| Empty / Not Empty        | Check for missing or present values     |
+| Empty / Not Empty        | Check for missing or present values      |
 
 #### 📝 Steps to Use Column Filters:
 
@@ -669,6 +669,135 @@ When a row is **selected** (via single click or radio button), the corresponding
 
 
 ---
+## 🧾 5.5 Visual Feature Navigation & Tools
+
+The right-hand pane provides a powerful visual interface for examining pipeline scans. Each feature selected from the left pane is shown here with high-resolution scan overlays.
+
+📷 *Screenshot – Feature View Panel*
+
+### ➤ Key Components:
+
+| Ref | Feature                 | Description                                                                 |
+|-----|-------------------------|-----------------------------------------------------------------------------|
+| 🔵 1 | Scan Name              | Displays the name of the scan section (e.g., Pipeline-Scan1, Pipeline-Scan2). Useful for identifying which log section is being analyzed. |
+| 🔵 2 | Feature Type Selector  | Dropdown menu to switch between detected features such as WELD, METALLOSS, etc. This updates the view to show the selected feature in the scan. |
+| 🔵 3 | Page Navigation Dropdown | Selects a specific page from the pipeline scan to jump to it instantly.   |
+| 🔵 4 | Goto Page Input        | Directly type in a page number and press enter to navigate to that exact page. |
+| 🔵 5 | Next Page Button (⏩)   | Advances to the next page in the scan for quicker browsing.                |
+| 🔵 6 | Previous Page Button (⏪) | Returns to the previous scan page.                                         |
+| 🔵 7 | View Mode Selector     | Allows switching between visualization modes:<br>✔️ PIPELINE-SCAN<br>✔️ LINE PLOT<br>✔️ DENOISED PIPELINE-SCAN<br>✔️ DENOISED LINE PLOT |
+
+📷 *Screenshot – Visualization Mode Selector*
+
+---
+
+## 🧾 5.6 Visualization Modes
+
+The PipeCM Manual Analysis module supports four visualization types, each suited for different inspection needs.
+
+### 🎯 Available Modes:
+
+| Mode Name               | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| PIPELINE-SCAN          | Displays raw scan image of the pipeline along its length. Good for identifying physical patterns and defects visually. |
+| LINE PLOT              | Plots signal data from sensors as line graphs. Useful for analyzing signal intensity, patterns, and detecting inconsistencies. |
+| DENOISED PIPELINE-SCAN | A filtered version of the pipeline scan that removes background noise and helps focus on actual defects. |
+| DENOISED LINE PLOT     | Cleaned signal graph with noise reduction for better clarity during signal analysis. |
+
+📷 *Screenshot – PIPELINE-SCAN*  
+📷 *Screenshot – LINE PLOT*  
+📷 *Screenshot – DENOISED PIPELINE-SCAN*  
+📷 *Screenshot – DENOISED LINE PLOT*
+
+---
+
+## 🧾 5.6 Lineplot Visualization (Circumferential Profile)
+
+The circumferential profile provides a bar chart view of the magnetic response captured by the sensors around the pipe. It helps analysts understand how defects spread around the pipe's circumference.
+
+### 📝 Steps to View the Lineplot:
+
+1. Right-click on a selected defect or area in the pipeline scan.
+2. Select **"Show Circumferential Profile"** from the context menu.  
+📷 *Screenshot – Step 1: Right-click → Show Circumferential Profile*
+
+3. A bar chart appears below the pipeline scan view.  
+📷 *Screenshot – Step 2: Displayed Lineplot*
+
+4. To hide it again, right-click and select **"Hide Circumferential Profile."**  
+📷 *Screenshot – Step 3: Hide Option*
+
+### 📊 Understanding the Axes and Values
+
+| Axis / Value   | Represents                                                   |
+|----------------|--------------------------------------------------------------|
+| **X-Axis**     | Sensor Number – Each sensor around the pipe (starts at 0).   |
+| **Y-Axis**     | Gauss Level (Magnetic Response) – Peak signal at that sensor.|
+| **Tooltip - X**| Sample Number – Longitudinal pipe position (e.g., 3039).     |
+| **Tooltip - Y**| Sensor Number (e.g., 59).                                     |
+| **Tooltip - Z**| Gauss Value – Magnetic intensity (e.g., -0.7931519).         |
+
+📷 *Screenshot – X, Y, Z value meaning (Sample no, Sensor no, Gauss value)*
+
+---
+
+## 🧾 5.7 Scan Interaction Tools
+
+The top-right corner of the Pipeline Scan Viewer provides essential tools to help users explore and analyze scan images interactively.
+
+📷 *Screenshot – Scan Toolbar Buttons*
+
+### 🧰 Toolbar Functionality Breakdown
+
+| Ref | Tool        | Description                                                         |
+|-----|-------------|---------------------------------------------------------------------|
+| 🔍 1 | Zoom Tool   | Activates zoom mode — click and drag to zoom into a specific section. |
+| ➕ 2 | Zoom In     | Click to incrementally zoom in for more detail.                    |
+| ➖ 3 | Zoom Out    | Click to zoom out to see a wider area of the scan.                 |
+| 🔄 4 | Reset View  | Returns the scan to its original zoom and position.               |
+| 🔲 5 | Box Select  | Lets users draw a rectangle around a region — can be used with Zoom. |
+
+### 📝 Zoom into a Specific Area:
+
+1. Click the **Box Select** tool  
+📷 *Screenshot – Step 1: Activating Box Select*
+
+2. Drag to define a rectangular area  
+📷 *Screenshot – Step 2: Selecting Area*
+
+3. Click the **Zoom** icon  
+📷 *Screenshot – Step 3: Zoomed Area*
+
+💡 *Pro Tip:* Repeat to deeply inspect nested sections.
+
+---
+
+## 🎨 5.8 Changing the Color Scale
+
+To enhance contrast or tailor the view to your analysis preferences, you can change the **color scale** of the pipeline scan view.
+
+### 🪄 Steps to Change the Color Scheme:
+
+1. Right-click on the scan area.
+2. Hover over **Color Scales** in the context menu.
+3. Select from the following color palettes:
+   - Blues  
+   - Greens  
+   - Reds  
+   - Greys  
+   - Viridis  
+   - Oranges  
+   - Jet  
+   - Hot  
+   - Cool  
+   - Spring
+
+📷 *Screenshot – Choosing Color Scale*
+
+Different palettes help improve visual detection based on lighting and contrast needs.
+
+---
+
 
 
 
