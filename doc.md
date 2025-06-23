@@ -1,4 +1,4 @@
-# 📘 PipeCM – User Manual  
+![Screenshot (20)](https://github.com/user-attachments/assets/758e2f50-ff61-4302-9519-db8a2b9e2017)# 📘 PipeCM – User Manual  
 **Version:** 1.0  
 **Organization:** Bhabha Atomic Research Centre (BARC)  
 
@@ -465,6 +465,11 @@ This chapter explains the process of conducting **Manual Feature Analysis** usin
 
 ## 🧾 5.1 Interface Overview
 
+![Screenshot (22)](https://github.com/user-attachments/assets/7b0b572f-a457-44d4-91d4-ce610538ccf4)
+
+![2](https://github.com/user-attachments/assets/de5efc69-7b4b-4958-8ad7-53ce046f9b82)
+
+
 The Manual Analysis screen is split into two main sections:
 
 - **Left Pane:** Pipetally table (fetched from database)  
@@ -509,7 +514,8 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 | **No. of Sensors**| Sensors that detected the feature       |
 
 📷 **Screenshot (Table in Action):**  
-![Screenshot (86)](https://github.com/user-attachments/assets/a9cada2f-62f2-4f67-9a14-dc4acc4f32a2)
+![3](https://github.com/user-attachments/assets/40528029-6483-4413-8da0-f3d7723a7fce)
+
 
 
 ---
@@ -541,8 +547,14 @@ You can **filter by Feature Type** using the dropdown above the table.
 
 
 📷 **Extended Feature List Screenshot:**  
-![Screenshot (89)](https://github.com/user-attachments/assets/1bbbba9b-03f7-4e27-86a5-1b1958b7c8e6)
-![Screenshot (90)](https://github.com/user-attachments/assets/5d5d7c23-3d03-44aa-9db1-fbf53bc1efd7)
+![5](https://github.com/user-attachments/assets/74d75a2f-78d5-4fc0-ac1a-191216680e79)
+![Screenshot (19)](https://github.com/user-attachments/assets/7cecb17c-6c17-4a47-8e1a-6f2eb8d457c1)
+![Screenshot (20)](https://github.com/user-attachments/assets/e18966f2-928f-4130-be2b-d7d22086e6b9)
+![6](https://github.com/user-attachments/assets/e136ea2b-c768-40d7-a9e2-1e308bba570c)
+![7](https://github.com/user-attachments/assets/a1bca99a-8ce0-4de3-8343-a9f480853433)
+
+
+
 
 
 ### 🔘 Filter by Feature Type
@@ -581,8 +593,10 @@ Each column allows advanced filtering to refine the displayed data:
 4. The table updates automatically with matching rows.
 
 📷 *Screenshot – Column Filter Options*
+![Screenshot (22)](https://github.com/user-attachments/assets/a3cdcac0-d4be-49de-9d5e-ee205622c284)
 
-📷 *Screenshot – Wall Loss Filtering Example*
+
+
 
 ---
 
@@ -601,8 +615,12 @@ The table supports pagination, making it easier to navigate through thousands of
   - Options typically include: **10**, **30**, **50**, **100**
 
 📷 *Screenshot – Rows Per Page and Pagination Controls*
+![7](https://github.com/user-attachments/assets/103e1ea0-da01-4c37-ad2a-f01c6b5a838c)
+![9](https://github.com/user-attachments/assets/e880edc6-91e7-450f-ab6d-7b389b45fa1c)
+![10](https://github.com/user-attachments/assets/b5b63b6d-63d2-4b93-9792-86a3f05edbbb)
 
-✅ **Pro Tip**: Combine feature type filtering, column filtering, and pagination to efficiently locate and analyze pipeline defects.
+
+
 
 ---
 
@@ -622,6 +640,8 @@ You can **double-click** any row in the feature table to automatically navigate 
 - Helps quickly correlate feature data with its visual representation in the scan.
 
 📷 *Screenshot – Double Click to Navigate*
+![Screenshot (21)](https://github.com/user-attachments/assets/ba81fc4c-9019-45ce-9f6d-523502f83810)
+
 
 ---
 
