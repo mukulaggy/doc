@@ -619,8 +619,8 @@ The table supports pagination, making it easier to navigate through thousands of
   - Options typically include: **10**, **30**, **50**, **100**
 
 📷 *Screenshot – Rows Per Page and Pagination Controls*
-![7](https://github.com/user-attachments/assets/103e1ea0-da01-4c37-ad2a-f01c6b5a838c)
-![9](https://github.com/user-attachments/assets/e880edc6-91e7-450f-ab6d-7b389b45fa1c)
+![image](https://github.com/user-attachments/assets/13257f0d-1cfb-4e33-b5d0-59dcfd8ad556)
+
 ![10](https://github.com/user-attachments/assets/b5b63b6d-63d2-4b93-9792-86a3f05edbbb)
 
 
