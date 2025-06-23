@@ -467,9 +467,10 @@ This chapter explains the process of conducting **Manual Feature Analysis** usin
 
 ![1](https://github.com/user-attachments/assets/2df50d69-992f-4c51-a794-021ca9dbec85)
 
+### ➤Steps:
 
-![2](https://github.com/user-attachments/assets/de5efc69-7b4b-4958-8ad7-53ce046f9b82)
-
+1. **Select** the desired file.  
+2. **Click on submit**.  
 
 The Manual Analysis screen is split into two main sections:
 
@@ -479,6 +480,10 @@ The Manual Analysis screen is split into two main sections:
 📷 **Screenshot:**  
 ![Screenshot (84)](https://github.com/user-attachments/assets/098258cc-6c75-4e85-94bf-6c2920f01a1a)
 
+The Manual Analysis screen is split into two main sections:
+
+- **Left Pane:** Pipetally table (fetched from database)  
+- **Right Pane:** Visualization of pipeline scan with defect markers
 
 
 ---
