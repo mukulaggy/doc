@@ -465,7 +465,8 @@ This chapter explains the process of conducting **Manual Feature Analysis** usin
 
 ## 🧾 5.1 Interface Overview
 
-![Screenshot (22)](https://github.com/user-attachments/assets/7b0b572f-a457-44d4-91d4-ce610538ccf4)
+![1](https://github.com/user-attachments/assets/2df50d69-992f-4c51-a794-021ca9dbec85)
+
 
 ![2](https://github.com/user-attachments/assets/de5efc69-7b4b-4958-8ad7-53ce046f9b82)
 
