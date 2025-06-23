@@ -537,18 +537,6 @@ You can **filter by Feature Type** using the dropdown above the table.
 📷 **Extended Feature List Screenshot:**  
 images/extended-feature-list.png)
 
-
-Here is the complete Markdown (`.md`) content for sections **5.3** and **5.4**, including **filtering**, **pagination**, **feature navigation**, and **detailed view**:
-
----
-
-```markdown
-## 🧾 5.3 Filter Features
-
-The Manual Analysis interface offers powerful filtering tools to help users narrow down large datasets effectively.
-
----
-
 ### 🔘 Filter by Feature Type
 
 You can filter the data table to display only selected types of pipeline features.
@@ -651,9 +639,7 @@ When a row is **selected** (via single click or radio button), the corresponding
 📷 *Screenshot – Feature Highlight & Details*
 
 ---
-```
 
-Let me know if you'd like me to embed the screenshots or export this as a `.docx` or `.pdf`.
 
 
 
