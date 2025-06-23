@@ -806,7 +806,10 @@ To enhance contrast or tailor the view to your analysis preferences, you can cha
    - Hot  
    - Cool  
    - Spring
+  
+
 Different palettes help improve visual detection based on lighting and contrast needs.
+
 📷 *Screenshot – Choosing Color Scale*
 ![a13](https://github.com/user-attachments/assets/0875879f-d78a-45fb-a6a8-7b0446a0e075)
 
