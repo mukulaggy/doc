@@ -509,7 +509,8 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 | **No. of Sensors**| Sensors that detected the feature       |
 
 📷 **Screenshot (Table in Action):**  
-w.png)
+![Screenshot (86)](https://github.com/user-attachments/assets/a9cada2f-62f2-4f67-9a14-dc4acc4f32a2)
+
 
 ---
 
