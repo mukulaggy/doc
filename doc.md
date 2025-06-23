@@ -498,7 +498,8 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 
 
 📷 **Screenshot:**
-![2](https://github.com/user-attachments/assets/2bce2c71-ae7b-4a3f-840b-17328c630efa)
+![image](https://github.com/user-attachments/assets/abc6e666-ac84-43d0-bc07-baa539fb78d5)
+
 
 ### ➤Guide:
 
