@@ -502,7 +502,7 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 
 1. **Click** for fullscreen.  
 2. **Click** for reload table.
-3. 
+
 ### 📚 Column Breakdown:
 
 | Column Name       | Description                             |
@@ -575,11 +575,7 @@ You can filter the data table to display only selected types of pipeline feature
 1. Click the **Select a feature** dropdown.
 2. Choose one or more feature types (e.g., **WELD**, **METALLOSS**, **VALVE**, etc.).
 3. Click the **Reload** button (🔄) to update the table with filtered results.
-
-📷 *Screenshot – Feature Selection Dropdown*
-
-📷 *Screenshot – Extended Feature List*
-
+4. 
 ---
 
 ### 🔘 Filter by Individual Columns
