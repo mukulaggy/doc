@@ -459,10 +459,6 @@ Once all stages are complete:
 
 # 📘 Chapter 5: Manual Analysis
 
-**Version:** 1.0  
-**Organization:** Bhabha Atomic Research Centre (BARC)  
-**Module:** PipeCM – Manual Analysis Interface
-
 This chapter explains the process of conducting **Manual Feature Analysis** using the PipeCM application. It includes how to interpret the left-hand pipeline data table, filter features, view scan images, and analyze defects.
 
 ---
@@ -475,7 +471,7 @@ The Manual Analysis screen is split into two main sections:
 - **Right Pane:** Visualization of pipeline scan with defect markers
 
 📷 **Screenshot:**  
-![Interface Overview](./images/interface-overview.png)
+
 
 ---
 
@@ -511,7 +507,7 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 | **No. of Sensors**| Sensors that detected the feature       |
 
 📷 **Screenshot (Table in Action):**  
-![Manual Table View](./images/table-view.png)
+w.png)
 
 ---
 
@@ -520,7 +516,6 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 You can **filter by Feature Type** using the dropdown above the table.
 
 📷 **Screenshot (Feature Selection Dropdown):**  
-![Filter Dropdown](./images/feature-dropdown.png)
 
 ### ✅ Available Feature Types:
 
@@ -540,7 +535,7 @@ You can **filter by Feature Type** using the dropdown above the table.
 - *...etc.*
 
 📷 **Extended Feature List Screenshot:**  
-![Extended Feature List](./images/extended-feature-list.png)
+images/extended-feature-list.png)
 
 
 
