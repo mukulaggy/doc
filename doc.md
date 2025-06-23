@@ -735,20 +735,14 @@ The circumferential profile provides a bar chart view of the magnetic response c
 ![a10](https://github.com/user-attachments/assets/64e2fe2c-e7f4-486c-9740-dad9d6658eb6)
 ![a11](https://github.com/user-attachments/assets/629846da-5aa9-4abb-bd59-c5c9d03eaa6d)
 
+### 📝 Steps:
 
+1. Click on box select.
+2. Select a region by holding left click of mouse
+3. Right click and click on  **"Show Circumferential Profile"** from the context menu.  
+4. A bar chart appears below the pipeline scan view.  
+5. To hide it again, right-click and select **"Hide Circumferential Profile."**  
 
-
-
-
-1. Right-click on a selected defect or area in the pipeline scan.
-2. Select **"Show Circumferential Profile"** from the context menu.  
-📷 *Screenshot – Step 1: Right-click → Show Circumferential Profile*
-
-3. A bar chart appears below the pipeline scan view.  
-📷 *Screenshot – Step 2: Displayed Lineplot*
-
-4. To hide it again, right-click and select **"Hide Circumferential Profile."**  
-📷 *Screenshot – Step 3: Hide Option*
 
 ### 📊 Understanding the Axes and Values
 
