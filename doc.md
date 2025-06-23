@@ -296,7 +296,7 @@ To modify the configurations:
 3. In the top right corner of the table, click the **pencil icon (edit icon)**.
 
 📷 **Screenshot:**  
-![Edit Icon](https://github.com/user-attachments/assets/34b317e9-3665-4e2a-9721-bec8bc4a3924)
+![image](https://github.com/user-attachments/assets/2fd33b04-db7c-4b98-9109-a96ed16169b4)
 
 > This action will navigate you to the **Configure** screen for the selected run.
 
