@@ -534,8 +534,11 @@ You can **filter by Feature Type** using the dropdown above the table.
 - **CLAMP**  
 - **SUPPORT_START / END**  
 - **REDUCER_START / END**  
-- **LIMIT_VALVE**  
-- *...etc.*
+- **UNKNOWN**
+- **KICKER_LINE_CENTRE**
+- **LIMIT_VALVE**
+- **BARREL_ISOLATION_VALVE**  
+
 
 📷 **Extended Feature List Screenshot:**  
 ![Screenshot (89)](https://github.com/user-attachments/assets/1bbbba9b-03f7-4e27-86a5-1b1958b7c8e6)
