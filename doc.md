@@ -729,6 +729,17 @@ The circumferential profile provides a bar chart view of the magnetic response c
 
 ### 📝 Steps to View the Lineplot:
 
+![a7](https://github.com/user-attachments/assets/d9da373b-98e9-4cb1-a9e9-21938d8cc8fb)
+![a8](https://github.com/user-attachments/assets/d60242f0-98da-48f2-a3cd-2e0888cd392b)
+![a9](https://github.com/user-attachments/assets/aaa82c81-ca20-4cff-89e2-9ca03eb01d44)
+![a10](https://github.com/user-attachments/assets/64e2fe2c-e7f4-486c-9740-dad9d6658eb6)
+![a11](https://github.com/user-attachments/assets/629846da-5aa9-4abb-bd59-c5c9d03eaa6d)
+
+
+
+
+
+
 1. Right-click on a selected defect or area in the pipeline scan.
 2. Select **"Show Circumferential Profile"** from the context menu.  
 📷 *Screenshot – Step 1: Right-click → Show Circumferential Profile*
@@ -751,6 +762,9 @@ The circumferential profile provides a bar chart view of the magnetic response c
 
 📷 *Screenshot – X, Y, Z value meaning (Sample no, Sensor no, Gauss value)*
 
+![a12](https://github.com/user-attachments/assets/f28c14a9-4a1c-4e11-bca3-8f96048a6670)
+
+
 ---
 
 ## 🧾 5.7 Scan Interaction Tools
@@ -758,6 +772,8 @@ The circumferential profile provides a bar chart view of the magnetic response c
 The top-right corner of the Pipeline Scan Viewer provides essential tools to help users explore and analyze scan images interactively.
 
 📷 *Screenshot – Scan Toolbar Buttons*
+![a3](https://github.com/user-attachments/assets/f2d23016-148b-49f1-98a7-bda10d62f684)
+
 
 ### 🧰 Toolbar Functionality Breakdown
 
@@ -805,6 +821,9 @@ To enhance contrast or tailor the view to your analysis preferences, you can cha
    - Spring
 
 📷 *Screenshot – Choosing Color Scale*
+
+![Uploading a13.PNG…]()
+
 
 Different palettes help improve visual detection based on lighting and contrast needs.
 
