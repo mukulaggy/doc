@@ -128,11 +128,14 @@ After the run is created, upload sensor data files.
 
 #### 2.1.3.1 Browse and Select Files
 
-1. Click **BROWSE FILES**
-2. Select files from your system (e.g., `TMP0001_AK.bin`, `TMP0002_AK.bin`)
+1. Click on desired run
+2. Click on Upload datafiles
+3. Click **BROWSE FILES**
+4. Select files from your system (e.g., `TMP0001_AK.bin`, `TMP0002_AK.bin`)
 
 **Screenshot:**
-![11](https://github.com/user-attachments/assets/19dc3bcb-9696-4d55-a5dd-642a17ec29d2)
+![image](https://github.com/user-attachments/assets/b200fe67-155e-4887-b6ec-ef3d1ae393c6)
+
 ![8](https://github.com/user-attachments/assets/d1d2e933-a088-4721-a57d-a59770885910)
 ![Screenshot (81)](https://github.com/user-attachments/assets/0a67e097-2ee5-411a-8f28-31885ade7be0)
 
