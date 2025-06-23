@@ -575,7 +575,7 @@ You can filter the data table to display only selected types of pipeline feature
 1. Click the **Select a feature** dropdown.
 2. Choose one or more feature types (e.g., **WELD**, **METALLOSS**, **VALVE**, etc.).
 3. Click the **Reload** button (🔄) to update the table with filtered results.
-4. 
+ 
 ---
 
 ### 🔘 Filter by Individual Columns
@@ -599,8 +599,6 @@ Each column allows advanced filtering to refine the displayed data:
 
 📷 *Screenshot – Column Filter Options*
 ![Screenshot (22)](https://github.com/user-attachments/assets/a3cdcac0-d4be-49de-9d5e-ee205622c284)
-
-
 
 
 ---
