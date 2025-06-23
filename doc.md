@@ -674,6 +674,8 @@ When a row is **selected** (via single click or radio button), the corresponding
 The right-hand pane provides a powerful visual interface for examining pipeline scans. Each feature selected from the left pane is shown here with high-resolution scan overlays.
 
 📷 *Screenshot – Feature View Panel*
+![a1](https://github.com/user-attachments/assets/1b5e4fd7-b13e-4dbb-90ff-5ae2f99b38c0)
+
 
 ### ➤ Key Components:
 
@@ -687,7 +689,6 @@ The right-hand pane provides a powerful visual interface for examining pipeline 
 |  6 | Previous Page Button  | Returns to the previous scan page.                                         |
 |  7 | View Mode Selector     | Allows switching between visualization modes:<br>✔️ PIPELINE-SCAN<br>✔️ LINE PLOT<br>✔️ DENOISED PIPELINE-SCAN<br>✔️ DENOISED LINE PLOT |
 
-📷 *Screenshot – Visualization Mode Selector*
 
 ---
 
@@ -704,10 +705,21 @@ The PipeCM Manual Analysis module supports four visualization types, each suited
 | DENOISED PIPELINE-SCAN | A filtered version of the pipeline scan that removes background noise and helps focus on actual defects. |
 | DENOISED LINE PLOT     | Cleaned signal graph with noise reduction for better clarity during signal analysis. |
 
+![a2](https://github.com/user-attachments/assets/9e382722-5404-4d0c-830a-c37d7fe07a7f)
+
+### 📝 Steps:
+
+1. Right-click on 3 dots.
+2. Select the desired modes.  
+
 📷 *Screenshot – PIPELINE-SCAN*  
+
 📷 *Screenshot – LINE PLOT*  
-📷 *Screenshot – DENOISED PIPELINE-SCAN*  
+
+📷 *Screenshot – DENOISED PIPELINE-SCAN* 
+
 📷 *Screenshot – DENOISED LINE PLOT*
+
 
 ---
 
