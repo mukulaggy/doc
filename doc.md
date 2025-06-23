@@ -370,7 +370,7 @@ In the **Faulty Channels** section:
 
 ### ✅ Examples:
 
-- `1-24,34-45`: Indicates channels 1 to 24 and 34 to 45 are faulty.
+- 1-24,34-45: Indicates channels 1 to 24 and 34 to 45 are faulty.
 
 > This tells the system to use nearby healthy channels during processing.
 
