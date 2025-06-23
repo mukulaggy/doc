@@ -457,6 +457,92 @@ Once all stages are complete:
 - Results can be viewed through the reporting modules.
 - Further actions such as classification, visualization, or defect review may follow (covered in later chapters).
 
+# 📘 Chapter 5: Manual Analysis
+
+**Version:** 1.0  
+**Organization:** Bhabha Atomic Research Centre (BARC)  
+**Module:** PipeCM – Manual Analysis Interface
+
+This chapter explains the process of conducting **Manual Feature Analysis** using the PipeCM application. It includes how to interpret the left-hand pipeline data table, filter features, view scan images, and analyze defects.
+
+---
+
+## 🧾 5.1 Interface Overview
+
+The Manual Analysis screen is split into two main sections:
+
+- **Left Pane:** Feature table (fetched from database)  
+- **Right Pane:** Visualization of pipeline scan with defect markers
+
+📷 **Screenshot:**  
+![Interface Overview](./images/interface-overview.png)
+
+---
+
+## 🧾 5.2 Pipeline Table (Left Pane)
+
+The table on the left is auto-populated from PipeCM’s database and shows features detected in the pipeline.
+
+### 🔹 Key Features of the Table:
+
+- Displays **2,106** entries by default  
+- Organized by **Page Number** (ascending)  
+- Supports **filtering** and **sorting** on all columns  
+- Data is refreshed by clicking the **Reload** button (🔄)
+
+### 📚 Column Breakdown:
+
+| Column Name       | Description                             |
+|------------------|-----------------------------------------|
+| **Select**        | Choose a row for detailed inspection    |
+| **Page No**       | Page number in the pipeline scan        |
+| **Sample No**     | Sample number of feature                |
+| **Feature Type**  | Feature classification (e.g., METALLOSS, WELD, VALVE) |
+| **Log Distance**  | Distance on pipeline log (in mm)        |
+| **Absolute Sample** | Raw sample position                   |
+| **Wall Loss**     | % wall thickness loss                   |
+| **Length**        | Length of defect                        |
+| **Max Width**     | Maximum width across feature            |
+| **Width / Depth** | Actual size of defect                   |
+| **Gauss Peak**    | Magnetic peak value                     |
+| **Span**          | Width spread                            |
+| **Max Depth**     | Critical depth data                     |
+| **MAOP**          | Max allowable operating pressure impact |
+| **No. of Sensors**| Sensors that detected the feature       |
+
+📷 **Screenshot (Table in Action):**  
+![Manual Table View](./images/table-view.png)
+
+---
+
+## 🧾 5.3 Filter Features
+
+You can **filter by Feature Type** using the dropdown above the table.
+
+📷 **Screenshot (Feature Selection Dropdown):**  
+![Filter Dropdown](./images/feature-dropdown.png)
+
+### ✅ Available Feature Types:
+
+- **WELD**  
+- **METALLOSS**  
+- **FLANGE**  
+- **VALVE**  
+- **MARKER**  
+- **SLEEVE_START / END**  
+- **AREA_START / END**  
+- **ATTACHMENT**  
+- **TAP**  
+- **CLAMP**  
+- **SUPPORT_START / END**  
+- **REDUCER_START / END**  
+- **LIMIT_VALVE**  
+- *...etc.*
+
+📷 **Extended Feature List Screenshot:**  
+![Extended Feature List](./images/extended-feature-list.png)
+
+
 
 
 
