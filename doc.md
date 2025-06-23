@@ -494,6 +494,15 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 - Supports **filtering** and **sorting** on all columns  
 - Data is refreshed by clicking the **Reload** button (🔄)
 
+
+📷 **Screenshot:**
+![2](https://github.com/user-attachments/assets/2bce2c71-ae7b-4a3f-840b-17328c630efa)
+
+### ➤Guide:
+
+1. **Click** for fullscreen.  
+2. **Click** for reload table.
+3. 
 ### 📚 Column Breakdown:
 
 | Column Name       | Description                             |
@@ -514,10 +523,9 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 | **MAOP**          | Max allowable operating pressure impact |
 | **No. of Sensors**| Sensors that detected the feature       |
 
+
 📷 **Screenshot (Table in Action):**  
 ![3](https://github.com/user-attachments/assets/40528029-6483-4413-8da0-f3d7723a7fce)
-
-
 
 ---
 
