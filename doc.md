@@ -656,18 +656,17 @@ When a row is **selected** (via single click or radio button), the corresponding
 - 📄 **Detailed information** is displayed below the table or scan area (depending on layout).
 
 #### 📋 Details Typically Include:
+| Field            | Description                                           |
+|------------------|-------------------------------------------------------|
+| Feature Type     | Classification of the feature (e.g., WELD, METALLOSS) |
+| Sample Number    | Sample index where the feature was detected           |
+| Date             | Date of feature detection or data recording           |
+| Status           | Current status of the feature (e.g., Confirmed, Flagged) |
+| Remark           | User notes or system-generated remarks                |
+| Log Distance     | Distance along the pipeline in millimeters            |
+| Absolute Sample  | Raw sample number from the sensor dataset             |
+| Page Number      | Corresponding page in the scan data                   |
 
-| Field               | Description                            |
-|---------------------|----------------------------------------|
-| Page Number         | Page in scan                           |
-| Feature Type        | Classification (e.g., METALLOSS)       |
-| Log Distance        | Distance in mm                         |
-| Depth / Width       | Size and critical dimensions           |
-| Wall Loss           | % thickness lost                       |
-| MAOP Impact         | Effect on pressure safety              |
-| No. of Sensors Hit  | Sensor hits confirming feature         |
-
-📷 *Screenshot – Feature Highlight & Details*
 
 ---
 
