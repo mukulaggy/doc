@@ -774,6 +774,8 @@ Shows how defects spread around the pipe’s circumference using bar charts.
 ![a7](https://github.com/user-attachments/assets/d9da373b-98e9-4cb1-a9e9-21938d8cc8fb)  
 ![a8](https://github.com/user-attachments/assets/d60242f0-98da-48f2-a3cd-2e0888cd392b)  
 ![a9](https://github.com/user-attachments/assets/aaa82c81-ca20-4cff-89e2-9ca03eb01d44)
+![a10](https://github.com/user-attachments/assets/64e2fe2c-e7f4-486c-9740-dad9d6658eb6)
+![a11](https://github.com/user-attachments/assets/629846da-5aa9-4abb-bd59-c5c9d03eaa6d)
 
 ---
 
