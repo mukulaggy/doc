@@ -334,7 +334,7 @@ This redirects to the **Configure** screen.
 
 Once a run is selected and configured:
 
-1. Click **NEXT** on the **Select Run** screen.
+1. Click on Auto Analysis Button on bottom right.
 2. Review file and analysis summaries.
 
 🔗 [Link to Chapter 4: Auto Analysis](#-chapter-4-auto-analysis)
