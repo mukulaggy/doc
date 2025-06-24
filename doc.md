@@ -1042,17 +1042,23 @@ Before generating a report, ensure you have completed all necessary manual analy
 
 ### 📝 Steps to Generate a Report:
 
-1. While on the **Manual Analysis** screen, go to the **top-right corner**.
-2. Click on the **“Export”** or **“Generate Report”** button.
-3. Choose your **report format**:
-   - PDF
-   - Excel (XLSX)
-   - CSV
-4. Choose the **scope** of the report:
-   - Entire pipeline
-   - Current page only
-   - Selected features only
-5. Click **Download** to export your report.
+![image](https://github.com/user-attachments/assets/5af52374-ebd9-4901-9b99-88cc9800b5fd)
+![image](https://github.com/user-attachments/assets/b77ec6d7-a6b4-4e4b-9e08-fd811af53dd7)
+![image](https://github.com/user-attachments/assets/fa5caf95-6af4-436c-9c6e-fc2a63b9746e)
+![image](https://github.com/user-attachments/assets/4db7096d-0e47-45dd-a65e-b284252ca61b)
+![Screenshot (162)](https://github.com/user-attachments/assets/cb0251bf-511f-4847-884f-795d1059109e)
+![Screenshot (162)](https://github.com/user-attachments/assets/cde26749-884b-42e1-8db9-9dc7a6a76ec0)
+
+![Screenshot (166)](https://github.com/user-attachments/assets/37f5af68-9437-4dbc-984f-8018932a9977)
+![Screenshot (167)](https://github.com/user-attachments/assets/e1b35657-7830-42b3-9d45-0f1ab8eab13d)
+
+
+1.Click on home
+2.Click on start app
+3.select the desired tool and click on next
+4.select the desired run and click on downlaod report for csv file
+5.otherwise click on download pdf report for pdf file
+
 
 📸 _Screenshot Placeholder – Report Button Location_  
 ![Screenshot – Report Export Button](./path-to-screenshot.png)
