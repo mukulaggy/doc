@@ -368,9 +368,6 @@ In the **Faulty Channels** section:
    - **Hyphenated ranges** for sequences
    - Or a **combination of both**
 
-📷 **Example Configuration Screenshot:**  
-![Faulty Channels Example](attachment)
-
 ### ✅ Examples:
 
 - 1-24,34-45: Indicates channels 1 to 24 and 34 to 45 are faulty.
@@ -387,7 +384,6 @@ Once all changes are made:
 2. To revert to system defaults, click the **SET DEFAULT** button.
 
 ✅ **Note:** Incorrect configuration values can affect data analysis. Always double-check your entries before saving.
-
 
 
 # 📘 Chapter 4: Auto Analysis
