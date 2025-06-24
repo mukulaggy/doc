@@ -576,7 +576,7 @@ You can **filter by Feature Type** using the dropdown above the table.
 ![image](https://github.com/user-attachments/assets/e0656463-3a6d-415e-aeac-a1e075b19db9)  
 ![Screenshot (19)](https://github.com/user-attachments/assets/7cecb17c-6c17-4a47-8e1a-6f2eb8d457c1)  
 ![Screenshot (20)](https://github.com/user-attachments/assets/e18966f2-928f-4130-be2b-d7d22086e6b9)  
-![6](https://github.com/user-attachments/assets/e136ea2b-c768-40d7-a9e2-1e308bba570c)  
+![image](https://github.com/user-attachments/assets/4f583222-f2a8-4913-a36c-3f6e1383a0a1)
 ![7](https://github.com/user-attachments/assets/a1bca99a-8ce0-4de3-8343-a9f480853433)
 
 #### 📝 Steps:
