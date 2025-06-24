@@ -664,8 +664,6 @@ The table supports pagination, making it easier to navigate through thousands of
 
 The Manual Analysis module allows users to interact with the pipeline feature table for deeper inspection and analysis.
 
----
-
 ### 🖱️ 5.4.1 Double Click Navigation
 
 You can **double-click** any row in the feature table to automatically navigate to the corresponding location in the pipeline scan.
@@ -675,7 +673,7 @@ You can **double-click** any row in the feature table to automatically navigate 
 
 ---
 
-### 🎯 Feature Highlight and Detailed View
+#### 🎯 Feature Highlight and Detailed View
 
 1. When we double click on any page its navgation is shown on right side.
 2. When a row is **selected** (via single click or radio button), the corresponding feature is:
@@ -739,21 +737,27 @@ The PipeCM Manual Analysis module supports four visualization types, each suited
 1. Right-click on 3 dots.
 2. Select the desired modes.  
 
-📷 *Screenshot – PIPELINE-SCAN*  
+📷 **Screenshot – PIPELINE-SCAN**  
+> Displays the raw pipeline scan image with visible signal traces and feature positions.  
 ![b](https://github.com/user-attachments/assets/d3642591-01f9-41c1-809f-8a00fa689c53)
 
+---
 
-📷 *Screenshot – LINE PLOT*  
+📷 **Screenshot – LINE PLOT**  
+> Shows the raw amplitude waveform across the pipeline length, highlighting signal anomalies.  
 ![c](https://github.com/user-attachments/assets/d88995ea-ce80-437d-a045-5fe04e86ac31)
 
+---
 
-📷 *Screenshot – DENOISED PIPELINE-SCAN*
+📷 **Screenshot – DENOISED PIPELINE-SCAN**  
+> Provides a cleaner version of the pipeline scan with noise reduction for better visual analysis.  
 ![a](https://github.com/user-attachments/assets/5361f10d-2f4e-41d5-bb80-1c7bd23098c3)
 
+---
 
-📷 *Screenshot – DENOISED LINE PLOT*
+📷 **Screenshot – DENOISED LINE PLOT**  
+> Presents the filtered line plot with minimized signal noise, helping isolate critical features.  
 ![d](https://github.com/user-attachments/assets/d6466620-2857-4b7b-be56-4899c6e35f1c)
-
 
 
 ---
