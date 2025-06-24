@@ -859,9 +859,7 @@ Different palettes help improve visual detection based on lighting and contrast 
 ---
 ## 📝 5.11 PipeCM Manual Editing Feature 
 
----
-
-## 🔍 5.11.1 Selecting a Region
+## 🔍 Selecting a Region
 
 To select a region on the pipeline scan:
 
@@ -874,7 +872,7 @@ To select a region on the pipeline scan:
 
 ---
 
-## ✏️ Editing a Feature
+## ✏️  5.11.1 Editing a Feature
 
 You can edit a feature using **two methods**:
 
