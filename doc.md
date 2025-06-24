@@ -244,6 +244,7 @@ To manage or analyze an existing run:
 
 📷 **Screenshots:**  
 ![Run Select 1](https://github.com/user-attachments/assets/330343d7-bbd7-4760-a174-41f7f7158830)  
+![image](https://github.com/user-attachments/assets/cf351362-0510-4701-a7a6-578e8c343912)
 ![Run Select 2](https://github.com/user-attachments/assets/de49338d-2201-43ef-bafb-89affb60f060)
 
 ---
