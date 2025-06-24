@@ -473,290 +473,575 @@ After all stages are completed:
 
 # 📘 Chapter 5: Manual Analysis
 
-This chapter explains how to conduct **Manual Feature Analysis** using the PipeCM application. It covers interpretation of the pipeline data table, feature filtering, scan image viewing, and defect inspection.
+This chapter explains the process of conducting **Manual Feature Analysis** using the PipeCM application. It includes how to interpret the left-hand pipeline data table, filter features, view scan images, and analyze defects.
 
 ---
 
 ## 🧾 5.1 Interface Overview
+![image](https://github.com/user-attachments/assets/330343d7-bbd7-4760-a174-41f7f7158830)
+![image](https://github.com/user-attachments/assets/ec314af3-2cf8-49c5-8df9-aa82658095e9)
+![image](https://github.com/user-attachments/assets/d3e46462-8a1e-4e45-b5e4-43624f64f562)
+![image](https://github.com/user-attachments/assets/924ad21c-3e97-4c66-be88-ad03e5e25c11)
 
-The Manual Analysis screen includes:
 
-- **Left Pane:** Pipetally Table (features from database)
-- **Right Pane:** Pipeline scan visualization with defect markers
+### ➤Steps:
 
-📷 Screenshots:  
-![image1](https://github.com/user-attachments/assets/330343d7-bbd7-4760-a174-41f7f7158830) 
-![image2](https://github.com/user-attachments/assets/ec314af3-2cf8-49c5-8df9-aa82658095e9)  
-![image3](https://github.com/user-attachments/assets/d3e46462-8a1e-4e45-b5e4-43624f64f562)  
-![image4](https://github.com/user-attachments/assets/924ad21c-3e97-4c66-be88-ad03e5e25c11)
+1. Click on start App
+2. select tool
+3. Click on next
+4. Select the desired run
+5. click on next 
+6. **Select** the desired file.  
+7. **Click on submit**.  
 
-### ➤ Steps to Launch:
+📷 **Screenshot:**  
+![Capture](https://github.com/user-attachments/assets/154f04a2-883b-4cff-ab4f-84c6142754c4)
 
-1. Start App → Select Tool → Click Next  
-2. Select Run → Click Next  
-3. Choose File → Click Submit  
 
-📷 Screenshot:  
-![start](https://github.com/user-attachments/assets/154f04a2-883b-4cff-ab4f-84c6142754c4)
+The Manual Analysis screen is split into two main sections:
+
+- **Left Pane:** Pipetally table (fetched from database)  
+- **Right Pane:** Visualization of pipeline scan with defect markers
+
 
 ---
 
 ## 🧾 5.2 Pipetally Table (Left Pane)
 
-The table shows auto-fetched features per page and supports full filtering and selection.
+The table on the left is auto-populated from PipeCM’s database and shows features detected in the pipeline.
 
-### 📚 Column Breakdown
+### 🔹 Key Features of the Table:
 
-| Column Name       | Description                           |
-|-------------------|---------------------------------------|
-| Select            | Row selector for detailed view        |
-| Page No           | Page index of scan                    |
-| Sample No         | Feature's sample ID                   |
-| Feature Type      | e.g., METALLOSS, VALVE, etc.          |
-| Log Distance      | Distance on pipeline log (m)          |
-| Absolute Sample   | Raw data sample position              |
-| Wall Loss         | % thickness loss                      |
-| Length            | Defect length                         |
-| Max Width         | Maximum width                         |
-| Width / Depth     | Feature size ratio                    |
-| Gauss Peak        | Peak magnetic value                   |
-| Span              | Spread of defect                      |
-| Max Depth         | Deepest point                         |
-| MAOP              | Max Operating Pressure impact         |
-| No. of Sensors    | No. of detecting sensors              |
+- Organized by **Page Number** (ascending) also we can control them 
+- Supports **filtering** and **sorting** on all columns  
+- Apply the filter and click the **Reload** button (🔄)
+- New filter applied  will be also get reflected
 
-📷 Screenshot:  
-![table](https://github.com/user-attachments/assets/40528029-6483-4413-8da0-f3d7723a7fce)
+
+📷 **Screenshot:**
+![image](https://github.com/user-attachments/assets/abc6e666-ac84-43d0-bc07-baa539fb78d5)
+
+
+### ➤Guide:
+
+1. **Click** for fullscreen.  
+2. **Click** for reload table.
+
+### 📚 Column Breakdown:
+
+| Column Name       | Description                             |
+|------------------|-----------------------------------------|
+| **Select**        | Choose a row for detailed inspection    |
+| **Page No**       | Page number in the pipeline scan        |
+| **Sample No**     | Sample number of feature                |
+| **Feature Type**  | Feature classification (e.g., METALLOSS, WELD, VALVE) |
+| **Log Distance**  | Distance on pipeline log (in m)        |
+| **Absolute Sample** | Absolute Sample                       |
+| **Wall Loss**     | % wall thickness loss                   |
+| **Length**        | Length of defect                        |
+| **Max Width**     | Maximum width            |
+| **Width / Depth** | Actual size of defect                   |
+| **Gauss Peak**    | Magnetic peak value                     |
+| **Span**          | Width spread                            |
+| **Max Depth**     | Critical depth data                     |
+| **MAOP**          | Max allowable operating pressure impact |
+| **No. of Sensors**| Number of sensors that picked metal loss       |
+
+
+📷 **Screenshot (Table in Action):**  
+![3](https://github.com/user-attachments/assets/40528029-6483-4413-8da0-f3d7723a7fce)
 
 ---
 
-## 🧾 5.3 Feature Filtering
+## 🧾 5.3 Filter Features
+
+You can **filter by Feature Type** using the dropdown above the table.
 
 ### 🔘 5.3.1 Filter by Feature Type
 
-- Use the dropdown above the table  
-- Select one or more types (e.g., WELD, METALLOSS)  
-- Click **Reload** to update
+You can filter the data table to display only selected types of pipeline features.
 
-📷 Screenshots:  
-![filter1](https://github.com/user-attachments/assets/e0656463-3a6d-415e-aeac-a1e075b19db9)  
-![filter2](https://github.com/user-attachments/assets/7cecb17c-6c17-4a47-8e1a-6f2eb8d457c1)
 
----
+### ✅ Available Feature Types:
 
-### 🔘 5.3.2 Filter by Columns
+- **WELD**  
+- **METALLOSS**  
+- **FLANGE**  
+- **VALVE**  
+- **MARKER**  
+- **SLEEVE_START / END**  
+- **AREA_START / END**  
+- **ATTACHMENT**  
+- **TAP**  
+- **CLAMP**  
+- **SUPPORT_START / END**  
+- **REDUCER_START / END**  
+- **UNKNOWN**
+- **KICKER_LINE_CENTRE**
+- **LIMIT_VALVE**
+- **BARREL_ISOLATION_VALVE**  
 
-Supports: `Equals`, `Between`, `>=`, `<=`
 
-📷 Screenshots:  
-![equals](https://github.com/user-attachments/assets/446dd465-cb55-4813-bc29-9a1c13020a49)  
-![between](https://github.com/user-attachments/assets/8b575d02-043e-467c-a7bf-6d5141b96543)  
-![gte](https://github.com/user-attachments/assets/19026f4b-bc41-446a-ad19-877733665b1e)  
-![lte](https://github.com/user-attachments/assets/28e2d867-d943-4407-98ee-5a04ef3b912a)
+📷 **Extended Feature List Screenshot:**  
+![image](https://github.com/user-attachments/assets/e0656463-3a6d-415e-aeac-a1e075b19db9)
+![Screenshot (19)](https://github.com/user-attachments/assets/7cecb17c-6c17-4a47-8e1a-6f2eb8d457c1)
+![Screenshot (20)](https://github.com/user-attachments/assets/e18966f2-928f-4130-be2b-d7d22086e6b9)
+![6](https://github.com/user-attachments/assets/e136ea2b-c768-40d7-a9e2-1e308bba570c)
+![7](https://github.com/user-attachments/assets/a1bca99a-8ce0-4de3-8343-a9f480853433)
 
----
 
-### 🔘 5.3.3 Pagination & Row Control
+#### 📝 Steps to Filter by Feature Type:
 
-- Use ⏮ ⏪ ⏩ ⏭ buttons  
-- Choose rows per page: 10 / 30 / 50 / 100  
-
-📷 Screenshots:  
-![pagination](https://github.com/user-attachments/assets/4d8be492-bd10-4449-a41b-53c62c59c4b3)
-
----
-
-## 🧾 5.4 Feature Navigation
-
-### 🖱️ 5.4.1 Double-Click Navigation
-
-- Double-click a row → auto-navigates to that page  
-- Right pane highlights selected feature (yellow box)
-
-📷 Screenshot:  
-![navigate](https://github.com/user-attachments/assets/ba81fc4c-9019-45ce-9f6d-523502f83810)
+1. Click the **Select a feature** dropdown.
+2. Choose one or more feature types (e.g., **WELD**, **METALLOSS**, **VALVE**, etc.).
+3. Click the **Reload** button (🔄) to update the table with filtered results.
 
 ---
 
-### 📝 Detail Panel Info
+### 🔘 5.3.2 Filter by Individual Columns
 
-| Field            | Description                            |
-|------------------|----------------------------------------|
-| Feature Type     | METALLOSS, WELD, etc.                  |
-| Sample Number    | Index of detection                     |
-| Date             | Timestamp                              |
-| Status           | Flagged/Confirmed                      |
-| Remark           | User/system note                       |
-| Log Distance     | Distance in mm                         |
-| Page Number      | Page ID                                |
+Each column allows advanced filtering to refine the displayed data:
+
+| Filter Type              | Description                              |
+|--------------------------|------------------------------------------|
+| Equals                   | Match specific values                    |
+| Between                  | Filter within a range                    |
+| Greater Than or Equal to | Filter within a range of >=              |
+| Less Than or Equal to    | Filter within a range of <=              |
+
+
+#### 📝 Steps to Use Column Filters:
+
+1. Click the **filter icon** (🔽) next to the column header.
+2. Select the desired condition from the dropdown.
+3. Enter filter values.
+4. click on refresh butoon
+5. The table updates automatically with matching rows.
+
+📷 **Screenshot – Column Filter Options**
+
+![Screenshot (22)](https://github.com/user-attachments/assets/a3cdcac0-d4be-49de-9d5e-ee205622c284)
+
+
+📷 **Screenshot – Equals**
+
+![image](https://github.com/user-attachments/assets/446dd465-cb55-4813-bc29-9a1c13020a49)
+![image](https://github.com/user-attachments/assets/33e90ae9-3e52-4d66-8923-0ea99475f7bb)
+
+
+
+📷 **Screenshot – Between**
+
+![Screenshot (157)](https://github.com/user-attachments/assets/8b575d02-043e-467c-a7bf-6d5141b96543)
+![Screenshot (158)](https://github.com/user-attachments/assets/f8fdaef7-d3d7-41c7-b9b1-c16a293eeed0)
+
+
+📷 **Screenshot – Greater than or equal to**
+
+![image](https://github.com/user-attachments/assets/19026f4b-bc41-446a-ad19-877733665b1e)
+![image](https://github.com/user-attachments/assets/1c4e09f5-69ba-4816-befa-d527fcd6de48)
+
+
+
+
+📷 **Screenshot – Less than or equal to**
+![image](https://github.com/user-attachments/assets/28e2d867-d943-4407-98ee-5a04ef3b912a)
+![image](https://github.com/user-attachments/assets/87c27f38-c91c-47f9-a1ff-bec7f878cf60)
+
+
 
 ---
 
-## 🧾 5.5 Visual Feature Panel (Right Pane)
+### 🔘 5.3.3 Pagination and Row Control
 
-### ➤ Key Tools
+The table supports pagination, making it easier to navigate through thousands of rows.
 
-| Tool Ref | Feature              | Description                                     |
-|----------|----------------------|-------------------------------------------------|
-| 1        | Scan Name            | Name of scan                                    |
-| 2        | Feature Selector     | Filter by feature (WELD, METALLOSS, etc.)       |
-| 3        | Page Dropdown        | Jump to specific scan page                      |
-| 4        | Go To Page           | Enter page manually                             |
-| 5/6      | Next/Prev Buttons    | Page navigation                                 |
-| 7        | View Mode Selector   | PIPELINE-SCAN, LINE PLOT, etc.                  |
+#### 📌 Key Features:
+
+- Navigate using:
+  - First (⏮)
+  - Previous (⏪)
+  - Next (⏩)
+  - Last (⏭) buttons
+- **Rows per page** selector at the bottom lets you choose how many entries to show:
+  - Options typically include: **10**, **30**, **50**, **100**
+
+📷 *Screenshot – Rows Per Page and Pagination Controls*
+![image](https://github.com/user-attachments/assets/4d8be492-bd10-4449-a41b-53c62c59c4b3)
+![image](https://github.com/user-attachments/assets/75974860-0f19-46e4-a7ac-bd5335db72d9)
+
+
+---
+
+## 🧾 5.4 Feature Selection & Navigation
+
+The Manual Analysis module allows users to interact with the pipeline feature table for deeper inspection and analysis.
+
+### 🖱️ 5.4.1 Double Click Navigation
+
+You can **double-click** any row in the feature table to automatically navigate to the corresponding location in the pipeline scan.
+
+📷 *Screenshot – Double Click to Navigate*
+![Screenshot (21)](https://github.com/user-attachments/assets/ba81fc4c-9019-45ce-9f6d-523502f83810)
+
+---
+
+#### 🎯 Feature Highlight and Detailed View
+
+1. When we double click on any page its navgation is shown on right side.
+2. When a row is **selected** (via single click or radio button), the corresponding feature is:
+- ✅ **Highlighted** on the pipeline scan (right pane) with a colored Yellow marker.
+- 📄 **Detailed information** is displayed below the table or scan area (depending on layout).
+
+#### 📋 Details Typically Include:
+| Field            | Description                                           |
+|------------------|-------------------------------------------------------|
+| Feature Type     | Classification of the feature (e.g., WELD, METALLOSS) |
+| Sample Number    | Sample index where the feature was detected           |
+| Date             | Date of feature detection or data recording           |
+| Status           | Current status of the feature (e.g., Confirmed, Flagged) |
+| Remark           | User notes or system-generated remarks                |
+| Log Distance     | Distance along the pipeline in millimeters            |
+| Absolute Sample  | Raw sample number from the sensor dataset             |
+| Page Number      | Corresponding page in the scan data                   |
+
+
+---
+## 🧾 5.5 Visual Feature Navigation & Tools
+
+The right-hand pane provides a powerful visual interface for examining pipeline scans. Each feature selected from the left pane is shown here with high-resolution scan overlays.
+
+📷 *Screenshot – Feature View Panel*
+![a1](https://github.com/user-attachments/assets/1b5e4fd7-b13e-4dbb-90ff-5ae2f99b38c0)
+
+
+### ➤ Key Components:
+
+| Ref | Feature                 | Description                                                                 |
+|-----|-------------------------|-----------------------------------------------------------------------------|
+|  1 | Scan Name              | Displays the name of the scan section (e.g., Pipeline-Scan1, Pipeline-Scan2). Useful for identifying which log section is being analyzed. |
+|  2 | Feature Type Selector  | Dropdown menu to switch between detected features such as WELD, METALLOSS, etc. This updates the view to show the selected feature in the scan. |
+|  3 | Page Navigation Dropdown | Selects a specific page from the pipeline scan to jump to it instantly.   |
+|  4 | Goto Page Input        | Directly type in a page number and press enter to navigate to that exact page. |
+|  5 | Next Page Button    | Advances to the next page in the scan for quicker browsing.                |
+|  6 | Previous Page Button  | Returns to the previous scan page.                                         |
+|  7 | View Mode Selector     | Allows switching between visualization modes:<br>✔️ PIPELINE-SCAN<br>✔️ LINE PLOT<br>✔️ DENOISED PIPELINE-SCAN<br>✔️ DENOISED LINE PLOT |
+
 
 ---
 
 ## 🧾 5.6 Visualization Modes
 
-| Mode                   | Description                                               |
-|------------------------|-----------------------------------------------------------|
-| PIPELINE-SCAN          | Raw image of full scan                                    |
-| LINE PLOT              | Sensor signal line chart                                  |
-| DENOISED PIPELINE-SCAN | Clean scan for better visibility                          |
-| DENOISED LINE PLOT     | Filtered signals for clearer inspection                   |
+The PipeCM Manual Analysis module supports four visualization types, each suited for different inspection needs.
 
-📷 Screenshots:  
-![pipe-scan](https://github.com/user-attachments/assets/d3642591-01f9-41c1-809f-8a00fa689c53)  
-![lineplot](https://github.com/user-attachments/assets/d88995ea-ce80-437d-a045-5fe04e86ac31)
+### 🎯 Available Modes:
 
----
+| Mode Name               | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| PIPELINE-SCAN          | Displays raw scan image of the pipeline along its length. Good for identifying physical patterns and defects visually. |
+| LINE PLOT              | Plots signal data from sensors as line graphs. Useful for analyzing signal intensity, patterns, and detecting inconsistencies. |
+| DENOISED PIPELINE-SCAN | A filtered version of the pipeline scan that removes background noise and helps focus on actual defects. |
+| DENOISED LINE PLOT     | Cleaned signal graph with noise reduction for better clarity during signal analysis. |
 
-## 🧾 5.7 Scan Toolbar Tools
-
-| Tool     | Function                    |
-|----------|-----------------------------|
-| 🔍 Zoom  | Click & drag to zoom         |
-| ➕/➖     | Zoom in/out                   |
-| 🔄 Reset | Reset zoom/view              |
-| 🔲 Box   | Define area to inspect       |
-
-📷 Screenshot:  
-![toolbar](https://github.com/user-attachments/assets/f2d23016-148b-49f1-98a7-bda10d62f684)
-
----
-
-## 🧾 5.8 Circumferential Profile
-
-Visual bar chart around pipe’s circumference for selected feature.
+![a2](https://github.com/user-attachments/assets/9e382722-5404-4d0c-830a-c37d7fe07a7f)
 
 ### 📝 Steps:
 
-1. Box select region  
-2. Right-click → **Show Circumferential Profile**  
-3. Right-click again → **Hide** if needed
+1. Right-click on 3 dots.
+2. Select the desired modes.  
 
-📷 Screenshots:  
-![circ-1](https://github.com/user-attachments/assets/64e2fe2c-e7f4-486c-9740-dad9d6658eb6)
-
----
-
-## 🧾 5.9 Axes Explanation
-
-| Axis | Meaning                              |
-|------|--------------------------------------|
-| X    | Sample Number                        |
-| Y    | Sensor Number (positioned around pipe) |
-| Z    | Gauss reading (intensity)            |
-
-📷 Screenshot:  
-![xyz](https://github.com/user-attachments/assets/f28c14a9-4a1c-4e11-bca3-8f96048a6670)
+📷 **Screenshot – PIPELINE-SCAN**  
+> Displays the raw pipeline scan image with visible signal traces and feature positions.  
+![b](https://github.com/user-attachments/assets/d3642591-01f9-41c1-809f-8a00fa689c53)
 
 ---
 
-## 🧾 5.10 Changing Color Scale
-
-### Steps:
-
-1. Right-click on scan area  
-2. Hover on **Color Scales**  
-3. Choose palette (e.g., Viridis, Reds, Jet, Hot)
-
-📷 Screenshot:  
-![color-scale](https://github.com/user-attachments/assets/0875879f-d78a-45fb-a6a8-7b0446a0e075)
+📷 **Screenshot – LINE PLOT**  
+> Shows the raw amplitude waveform across the pipeline length, highlighting signal anomalies.  
+![c](https://github.com/user-attachments/assets/d88995ea-ce80-437d-a045-5fe04e86ac31)
 
 ---
 
-## ✏️ 5.11 Editing Features
-
-### 🧭 Select Region
-
-Click on scan image → yellow marker appears.
-
-📷 Screenshot:  
-![select](https://github.com/user-attachments/assets/7336aa69-a7d7-4296-80d7-edc76e8ff17e)
+📷 **Screenshot – DENOISED PIPELINE-SCAN**  
+> Provides a cleaner version of the pipeline scan with noise reduction for better visual analysis.  
+![a](https://github.com/user-attachments/assets/5361f10d-2f4e-41d5-bb80-1c7bd23098c3)
 
 ---
 
-### ✏️ 5.11.1 Edit Feature
+📷 **Screenshot – DENOISED LINE PLOT**  
+> Presents the filtered line plot with minimized signal noise, helping isolate critical features.  
+![d](https://github.com/user-attachments/assets/d6466620-2857-4b7b-be56-4899c6e35f1c)
 
-**Method 1:** Right-click → `Edit Feature`  
-**Method 2:** Click ✎ in detail panel
-
-📷 Screenshots:  
-![edit1](https://github.com/user-attachments/assets/0474d241-9ac0-46b3-a6a4-fbe2d0b2f20d)  
-![edit2](https://github.com/user-attachments/assets/fcb87674-84b7-4965-ace8-49b792c85582)
 
 ---
 
-### ➕ 5.11.2 Add Feature
+## 🧾 5.7  Scan Interaction Tools
 
-Right-click → `Add Feature`  
-Input type and parameters.
-
-📷 Screenshot:  
-![add](https://github.com/user-attachments/assets/7c7db278-feb7-4017-b416-b1e4af38bfc8)
+The top-right corner of the Pipeline Scan Viewer provides essential tools to help users explore and analyze scan images interactively.
 
 ---
 
-### ❌ 5.11.3 Delete Feature
-
-Right-click → `Delete Feature`  
-Status updates to `MANUALLY_DELETED`.
-
-📷 Screenshot:  
-![delete](https://github.com/user-attachments/assets/d78a28a4-3336-406b-b5e2-19288ea71f99)
+📷 *Screenshot – Scan Toolbar Buttons*
+![a3](https://github.com/user-attachments/assets/f2d23016-148b-49f1-98a7-bda10d62f684)
 
 ---
 
-### 🗂️ 5.11.4 Version Control
 
-Feature history tracked as: `v1`, `v2`, …, `Current`
+### 🧰 Toolbar Functionality Breakdown
 
-📷 Screenshot:  
-![versions](https://github.com/user-attachments/assets/6b801db9-ed2f-41c1-a764-08e448c4dcd3)
+| Ref | Tool        | Description                                                         |
+|-----|-------------|---------------------------------------------------------------------|
+| 🔍 1 | Zoom Tool   | Activates zoom mode — click and drag to zoom into a specific section. |
+| ➕ 2 | Zoom In     | Click to incrementally zoom in for more detail.                    |
+| ➖ 3 | Zoom Out    | Click to zoom out to see a wider area of the scan.                 |
+| 🔄 4 | Reset View  | Returns the scan to its original zoom and position.               |
+| 🔲 5 | Box Select  | Lets users draw a rectangle around a region — can be used with Zoom. |
 
----
+### 📝 Zoom into a Specific Area:
 
-## 📝 5.12 Editing METALLOSS Region
+1. Click the **Box Select** tool  
+2. Drag to define a rectangular area  
+3. Click the **Zoom** icon  
 
-### 🔸 Select Region
 
-Click a METALLOSS section → yellow highlight appears.
-
-📷 Screenshot:  
-![selectmetal](https://github.com/user-attachments/assets/9b47d1a0-af0e-4104-a55f-afaf2ce09772)
-
----
-
-### ✏️ Edit
-
-- Right-click → Edit Feature  
-- OR click ✎ in bottom dialog  
-
-📷 Screenshot:  
-![metallossform](https://github.com/user-attachments/assets/aaf6a5a1-2b07-43ed-9aa0-8551da4fbe98)
 
 ---
 
-### ➕ Add / ❌ Delete METALLOSS
+## 🧾 5.8 Lineplot Visualization (Circumferential Profile)
 
-- **Add:** Right-click → Add METALLOSS → Fill parameters  
-- **Delete:** Right-click → Delete
+The circumferential profile provides a bar chart view of the magnetic response captured by the sensors around the pipe. It helps analysts understand how defects spread around the pipe's circumference.
 
-📷 Screenshot:  
-![addmetal](https://github.com/user-attachments/assets/b0851a5c-f013-4040-b88f-d00a171fc8ef)
+### 📝 Steps to View the Lineplot:
 
+![a7](https://github.com/user-attachments/assets/d9da373b-98e9-4cb1-a9e9-21938d8cc8fb)
+![a8](https://github.com/user-attachments/assets/d60242f0-98da-48f2-a3cd-2e0888cd392b)
+![a9](https://github.com/user-attachments/assets/aaa82c81-ca20-4cff-89e2-9ca03eb01d44)
+![a10](https://github.com/user-attachments/assets/64e2fe2c-e7f4-486c-9740-dad9d6658eb6)
+![a11](https://github.com/user-attachments/assets/629846da-5aa9-4abb-bd59-c5c9d03eaa6d)
+
+### 📝 Steps:
+
+1. Click on box select.
+2. Select a region by holding left click of mouse
+3. Right click and click on  **"Show Circumferential Profile"** from the context menu.  
+4. A bar chart appears below the pipeline scan view.  
+5. To hide it again, right-click and select **"Hide Circumferential Profile."**  
+
+
+## 🧾 5.9 Understanding the Axes and Values
+
+| Axis / Value   | Represents                                                   |
+|----------------|--------------------------------------------------------------|
+| **X-Axis**     | Sample Number    |
+| **Y-Axis**     | Sensor Number - Each sensor around the pipe (starts at 0).|
+| **Z-Axis**     | Gauss Level     |
+
+
+📷 *Screenshot – X, Y, Z value meaning (Sample no, Sensor no, Gauss value)*
+
+![a12](https://github.com/user-attachments/assets/f28c14a9-4a1c-4e11-bca3-8f96048a6670)
+
+---
+
+## 🧾 5.10 Changing the Color Scale
+
+To enhance contrast or tailor the view to your analysis preferences, you can change the **color scale** of the pipeline scan view.
+
+### 🪄 Steps to Change the Color Scheme:
+
+1. Right-click on the scan area.
+2. Hover over **Color Scales** in the context menu.
+3. Select from the following color palettes:
+   - Blues  
+   - Greens  
+   - Reds  
+   - Greys  
+   - Viridis  
+   - Oranges  
+   - Jet  
+   - Hot  
+   - Cool  
+   - Spring
+
+
+Different palettes help improve visual detection based on lighting and contrast needs.
+
+📷 *Screenshot – Choosing Color Scale*
+![a13](https://github.com/user-attachments/assets/0875879f-d78a-45fb-a6a8-7b0446a0e075)
+
+---
+## 📝 5.11 PipeCM Manual Editing Feature 
+
+## 🔍 Selecting a Region
+
+To select a region on the pipeline scan:
+
+- Click anywhere inside the scan image (gray area with vertical patterns).
+- A **yellow marker (bounding box)** will appear, highlighting the selected feature (e.g., **WELD**, **METALLOSS**).
+
+📸 Screenshot Placeholder: Selecting a Region_
+![Screenshot (132)](https://github.com/user-attachments/assets/7336aa69-a7d7-4296-80d7-edc76e8ff17e)
+
+
+---
+
+## ✏️  5.11.1 Editing a Feature
+
+You can edit a feature using **two methods**:
+
+### 1️⃣ Method 1: Right-Click Editing
+
+- **Right-click** on the yellow-highlighted region in the scan view.
+- A **context menu** appears with the following options:
+  - **Edit Feature**: Opens the feature’s editable form.
+  - **Delete Feature**
+  - **Add Feature**
+  - **Navigation options** (Previous Page, Next Page)
+  - **View tools** (Hide Shape, Show Circumferential Profile, Color Scales)
+
+📸 Screenshot Placeholder: Right-Click Menu_
+![Screenshot (133)](https://github.com/user-attachments/assets/0474d241-9ac0-46b3-a6a4-fbe2d0b2f20d)
+
+
+---
+
+### 2️⃣ Method 2: Dialog Box Edit Button
+
+- Click the pencil icon ✎ in the **feature detail panel** at the bottom right corner of the screen.
+- This opens an **editing dialog**, where you can:
+  - Modify fields like `Sample`, `Log Distance`, `Feature Type`, etc.
+  - Add or update a **Remark**.
+  - Set the **Status** (e.g., `test1`).
+  - A **new version** of the feature is created and stored in the version history.
+
+📸 Screenshot Placeholder: Feature Edit Dialog_
+![Screenshot (135)](https://github.com/user-attachments/assets/7c089bd3-a642-4c77-a962-8dac76db9c66)
+![Screenshot (134)](https://github.com/user-attachments/assets/fcb87674-84b7-4965-ace8-49b792c85582)
+
+
+---
+
+## ➕ 5.11.2 Adding a Feature
+
+From the **right-click menu** → `Add Feature`, you can insert:
+
+- `WELD`, `METALLOSS`, `FLANGE`, `VALVE`, `MARKER`, etc.
+
+Configure its parameters and **save**.
+
+📸 Screenshot Placeholder: Add Feature Menu_
+![Screenshot (156)](https://github.com/user-attachments/assets/7c7db278-feb7-4017-b416-b1e4af38bfc8)
+
+
+---
+
+## ❌  5.11.3 Deleting a Feature
+
+From the **right-click menu** → `Delete Feature`.
+
+- It will be marked as **deleted**.
+- The feature status is set to: `MANUALLY_DELETED`.
+
+📸 Screenshot Placeholder: Delete Feature Confirmation_
+![Screenshot (142)](https://github.com/user-attachments/assets/2bb12dbc-47d1-4c98-9711-90cb6fba2a0b)
+![Screenshot (143)](https://github.com/user-attachments/assets/d78a28a4-3336-406b-b5e2-19288ea71f99)
+
+
+---
+
+## 🗂️  5.11.4 Version Control
+
+Feature edits are tracked with **versions**, e.g.:
+
+- `WELD | Current`
+- `WELD | v1`, `WELD | v2`, etc.
+
+You can view previous versions from the **dropdown** list in the feature detail panel.
+
+📸 Screenshot Placeholder: Version History Dropdown_
+![Screenshot (145)](https://github.com/user-attachments/assets/6b801db9-ed2f-41c1-a764-08e448c4dcd3)
+
+
+---
+
+## 🗃️ Data Fields Available
+
+Each feature may include the following fields:
+
+- **Feature Type** (e.g., WELD, METALLOSS)
+- **Sample Number**
+- **Log Distance**
+- **Absolute Sample**
+- **Date**
+- **Status**
+- **Remarks**
+- **Page No.**
+
+---
+
+## 📝 5.12 Manual Editing for METALLOSS Region – PipeCM Guide
+
+## 🔸 Selecting a METALLOSS Region
+
+- Click on the pipeline scan to select a **METALLOSS** region.
+- The selected region is highlighted in **yellow**, indicating it's active for editing.
+
+📸 Screenshot Placeholder: Selected METALLOSS Region_
+![Screenshot (136)](https://github.com/user-attachments/assets/9b47d1a0-af0e-4104-a55f-afaf2ce09772)
+
+
+---
+
+## ✏️ 5.12.1 Editing METALLOSS Region
+
+You can edit a METALLOSS region using two methods:
+
+### 🔹 Right-Click Method
+
+- Right-click on the **yellow-highlighted METALLOSS** region.
+- Select **“Edit Feature”** from the context menu.
+
+![Screenshot (137)](https://github.com/user-attachments/assets/621e1228-a628-4a9b-bb71-d6c093c2c887)
+
+
+### 🔹 Bottom Dialog Method
+
+- Select the METALLOSS region (yellow box).
+- In the **bottom dialog**, click the **“Edit”** button.
+- A form opens with **all parameters pre-calculated and prefilled**, including:
+  - Log Distance
+  - Depth
+  - Length
+  - Width
+  - Orientation
+  - Clock Position
+  - … and more
+
+📸 Screenshot Placeholder: METALLOSS Edit Form_
+![Screenshot (137)](https://github.com/user-attachments/assets/aaf6a5a1-2b07-43ed-9aa0-8551da4fbe98)
+![Screenshot (139)](https://github.com/user-attachments/assets/f8b90bc5-2c6c-4241-8fc3-8cd0cb20d6ce)
+![Screenshot (140)](https://github.com/user-attachments/assets/f59875ca-7f71-4f44-97af-b02831d52b2a)
+
+
+
+---
+
+## ➕  5.12.2 Add/Delete METALLOSS Region
+
+### ✅ Add:
+
+- Right-click on any region → Select **Add METALLOSS**.
+- Enter required parameters and **Save**.
+
+📸 Screenshot:
+![Screenshot (141)](https://github.com/user-attachments/assets/b0851a5c-f013-4040-b88f-d00a171fc8ef)
+
+
+
+### 🗑️  5.12.3 Delete:
+
+- Right-click on selected METALLOSS → Select **Delete**.
+- The feature is removed and the **status changes to** `MANUALLY_DELETED`.
 ---
 
 
