@@ -721,16 +721,20 @@ The right-hand pane offers a visual interface to examine pipeline scans.
 
 📷 **Screenshots**:
 
-- **PIPELINE-SCAN**  
+- **PIPELINE-SCAN**
+> Displays the raw pipeline scan image with visible signal traces and feature positions.
 ![b](https://github.com/user-attachments/assets/d3642591-01f9-41c1-809f-8a00fa689c53)
 
-- **LINE PLOT**  
+- **LINE PLOT**
+> Shows the raw amplitude waveform across the pipeline length, highlighting signal anomalies.
 ![c](https://github.com/user-attachments/assets/d88995ea-ce80-437d-a045-5fe04e86ac31)
 
-- **DENOISED PIPELINE-SCAN**  
+- **DENOISED PIPELINE-SCAN**
+> Provides a cleaner version of the pipeline scan with noise reduction for better visual analysis.
 ![a](https://github.com/user-attachments/assets/5361f10d-2f4e-41d5-bb80-1c7bd23098c3)
 
-- **DENOISED LINE PLOT**  
+- **DENOISED LINE PLOT**
+> Presents the filtered line plot with minimized signal noise, helping isolate critical features.
 ![d](https://github.com/user-attachments/assets/d6466620-2857-4b7b-be56-4899c6e35f1c)
 
 ---
