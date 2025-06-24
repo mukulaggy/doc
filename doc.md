@@ -673,7 +673,7 @@ You can **double-click** any row in the feature table to automatically navigate 
 ---
 
 ### 🎯 Feature Highlight and Detailed View
-1.when we double click on any page
+1.when we double click on any page its navgation is shown on right side 
 2.When a row is **selected** (via single click or radio button), the corresponding feature is:
 - ✅ **Highlighted** on the pipeline scan (right pane) with a colored Yellow marker.
 - 📄 **Detailed information** is displayed below the table or scan area (depending on layout).
