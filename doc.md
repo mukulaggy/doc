@@ -1022,12 +1022,40 @@ You can edit a METALLOSS region using two methods:
 - The feature is removed and the **status changes to** `MANUALLY_DELETED`.
 ---
 
+# 📘 Chapter 6: Generating Reports
 
+This chapter explains how to generate and export inspection reports using the PipeCM application after completing manual feature analysis.
 
+---
 
+## 🧾 6.1 Starting the Report Generation Process
 
+Before generating a report, ensure you have completed all necessary manual analysis and saved any changes.
 
+### 📝 Steps to Start the App:
 
+1. Open the **PipeCM application**.
+2. Navigate to the **Manual Analysis** module from the main dashboard.
+3. Perform your analysis, edits, and filtering as needed.
 
+---
 
+### 📝 Steps to Generate a Report:
+
+1. While on the **Manual Analysis** screen, go to the **top-right corner**.
+2. Click on the **“Export”** or **“Generate Report”** button.
+3. Choose your **report format**:
+   - PDF
+   - Excel (XLSX)
+   - CSV
+4. Choose the **scope** of the report:
+   - Entire pipeline
+   - Current page only
+   - Selected features only
+5. Click **Download** to export your report.
+
+📸 _Screenshot Placeholder – Report Button Location_  
+![Screenshot – Report Export Button](./path-to-screenshot.png)
+
+---
 
