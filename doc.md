@@ -68,7 +68,11 @@
 
 ## 📌 **Chapter 6: Generating Reports**  
 - 6.1 Starting the Report Generation Process  
-## Chapter 1: Getting Started – Registering and Logging into PipeCM
+
+---
+
+
+## 📘 Chapter 1: Getting Started – Registering and Logging into PipeCM
 
 ### 📌 Overview
 
