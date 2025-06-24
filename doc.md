@@ -544,7 +544,10 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 
 You can **filter by Feature Type** using the dropdown above the table.
 
-📷 **Screenshot (Feature Selection Dropdown):**  
+### 🔘 5.3.1 Filter by Feature Type
+
+You can filter the data table to display only selected types of pipeline features.
+  
 
 ### ✅ Available Feature Types:
 
@@ -574,13 +577,6 @@ You can **filter by Feature Type** using the dropdown above the table.
 ![7](https://github.com/user-attachments/assets/a1bca99a-8ce0-4de3-8343-a9f480853433)
 
 
-
-
-
-### 🔘 Filter by Feature Type
-
-You can filter the data table to display only selected types of pipeline features.
-
 #### 📝 Steps to Filter by Feature Type:
 
 1. Click the **Select a feature** dropdown.
@@ -589,7 +585,7 @@ You can filter the data table to display only selected types of pipeline feature
  
 ---
 
-### 🔘 Filter by Individual Columns
+### 🔘 5.3.2 Filter by Individual Columns
 
 Each column allows advanced filtering to refine the displayed data:
 
@@ -609,32 +605,37 @@ Each column allows advanced filtering to refine the displayed data:
 4. click on refresh butoon
 5. The table updates automatically with matching rows.
 
-📷 *Screenshot – Column Filter Options*
+📷 **Screenshot – Column Filter Options**
+
 ![Screenshot (22)](https://github.com/user-attachments/assets/a3cdcac0-d4be-49de-9d5e-ee205622c284)
 
 
-📷 *Screenshot – Equals*
+📷 **Screenshot – Equals**
+
 ![Screenshot (146)](https://github.com/user-attachments/assets/8110549b-10d6-4e46-a1ff-d6342c59d737)
 ![Screenshot (147)](https://github.com/user-attachments/assets/9cd09227-f242-4a4f-8c91-4a16aaf82a47)
 
 
-📷 *Screenshot – Between*
+📷 **Screenshot – Between**
+
 ![Screenshot (157)](https://github.com/user-attachments/assets/8b575d02-043e-467c-a7bf-6d5141b96543)
 ![Screenshot (158)](https://github.com/user-attachments/assets/f8fdaef7-d3d7-41c7-b9b1-c16a293eeed0)
 
 
-📷 *Screenshot – Greater than or equal to*
+📷 **Screenshot – Greater than or equal to**
+
 ![Screenshot (152)](https://github.com/user-attachments/assets/8a7523d9-6eb9-49f3-b876-ee0292c30c2e)
 ![Screenshot (153)](https://github.com/user-attachments/assets/5944cb59-366c-46ed-b4fb-58adbeeb49db)
 
 
-📷 *Screenshot – Less than or equal to*
+📷 **Screenshot – Less than or equal to**
+
 ![Screenshot (154)](https://github.com/user-attachments/assets/e80a8bdc-3a03-42dd-80a5-254ca1003950)
 ![Screenshot (155)](https://github.com/user-attachments/assets/e873500d-92ae-4ad0-9057-9af1f9e06d97)
 
 ---
 
-### 🔘 Pagination and Row Control
+### 🔘 5.3.3 Pagination and Row Control
 
 The table supports pagination, making it easier to navigate through thousands of rows.
 
@@ -654,9 +655,6 @@ The table supports pagination, making it easier to navigate through thousands of
 ![image](https://github.com/user-attachments/assets/8d75d98e-432b-479b-92ee-37f2f873b8fe)
 
 
-
-
-
 ---
 
 ## 🧾 5.4 Feature Selection & Navigation
@@ -665,20 +663,19 @@ The Manual Analysis module allows users to interact with the pipeline feature ta
 
 ---
 
-### 🖱️ Double Click Navigation
+### 🖱️ 5.4.1 Double Click Navigation
 
 You can **double-click** any row in the feature table to automatically navigate to the corresponding location in the pipeline scan.
 
 📷 *Screenshot – Double Click to Navigate*
 ![Screenshot (21)](https://github.com/user-attachments/assets/ba81fc4c-9019-45ce-9f6d-523502f83810)
 
-
 ---
 
 ### 🎯 Feature Highlight and Detailed View
 
-1.when we double click on any page its navgation is shown on right side.
-2.When a row is **selected** (via single click or radio button), the corresponding feature is:
+1. When we double click on any page its navgation is shown on right side.
+2. When a row is **selected** (via single click or radio button), the corresponding feature is:
 - ✅ **Highlighted** on the pipeline scan (right pane) with a colored Yellow marker.
 - 📄 **Detailed information** is displayed below the table or scan area (depending on layout).
 
@@ -758,7 +755,7 @@ The PipeCM Manual Analysis module supports four visualization types, each suited
 
 ---
 
-## 🧾 5.6  Scan Interaction Tools
+## 🧾 5.7  Scan Interaction Tools
 
 The top-right corner of the Pipeline Scan Viewer provides essential tools to help users explore and analyze scan images interactively.
 
@@ -786,7 +783,7 @@ The top-right corner of the Pipeline Scan Viewer provides essential tools to hel
 
 ---
 
-## 🧾 5.7 Lineplot Visualization (Circumferential Profile)
+## 🧾 5.8 Lineplot Visualization (Circumferential Profile)
 
 The circumferential profile provides a bar chart view of the magnetic response captured by the sensors around the pipe. It helps analysts understand how defects spread around the pipe's circumference.
 
@@ -807,7 +804,7 @@ The circumferential profile provides a bar chart view of the magnetic response c
 5. To hide it again, right-click and select **"Hide Circumferential Profile."**  
 
 
-### 📊 Understanding the Axes and Values
+## 🧾 5.9 Understanding the Axes and Values
 
 | Axis / Value   | Represents                                                   |
 |----------------|--------------------------------------------------------------|
@@ -822,7 +819,7 @@ The circumferential profile provides a bar chart view of the magnetic response c
 
 ---
 
-## 🎨 5.8 Changing the Color Scale
+## 🧾 5.10 Changing the Color Scale
 
 To enhance contrast or tailor the view to your analysis preferences, you can change the **color scale** of the pipeline scan view.
 
@@ -849,11 +846,11 @@ Different palettes help improve visual detection based on lighting and contrast 
 ![a13](https://github.com/user-attachments/assets/0875879f-d78a-45fb-a6a8-7b0446a0e075)
 
 ---
-## 📝 5.9 PipeCM Manual Editing Feature 
+## 📝 5.11 PipeCM Manual Editing Feature 
 
 ---
 
-## 🔍 Selecting a Region
+## 🔍 5.11.1 Selecting a Region
 
 To select a region on the pipeline scan:
 
@@ -902,7 +899,7 @@ You can edit a feature using **two methods**:
 
 ---
 
-## ➕ Adding a Feature
+## ➕ 5.11.2 Adding a Feature
 
 From the **right-click menu** → `Add Feature`, you can insert:
 
@@ -916,7 +913,7 @@ Configure its parameters and **save**.
 
 ---
 
-## ❌ Deleting a Feature
+## ❌  5.11.3 Deleting a Feature
 
 From the **right-click menu** → `Delete Feature`.
 
@@ -930,7 +927,7 @@ From the **right-click menu** → `Delete Feature`.
 
 ---
 
-## 🗂️ Version Control
+## 🗂️  5.11.4 Version Control
 
 Feature edits are tracked with **versions**, e.g.:
 
@@ -960,9 +957,9 @@ Each feature may include the following fields:
 
 ---
 
-# 🟡 Manual Editing for METALLOSS Region – PipeCM Guide
+## 📝 5.12 Manual Editing for METALLOSS Region – PipeCM Guide
 
-## 🔸 Selecting a METALLOSS Region
+## 🔸 5.12.1 Selecting a METALLOSS Region
 
 - Click on the pipeline scan to select a **METALLOSS** region.
 - The selected region is highlighted in **yellow**, indicating it's active for editing.
@@ -1007,7 +1004,7 @@ You can edit a METALLOSS region using two methods:
 
 ---
 
-## ➕ Add/Delete METALLOSS Region
+## ➕  5.12.2 Add/Delete METALLOSS Region
 
 ### ✅ Add:
 
@@ -1019,7 +1016,7 @@ You can edit a METALLOSS region using two methods:
 
 
 
-### 🗑️ Delete:
+### 🗑️  5.12.3 Delete:
 
 - Right-click on selected METALLOSS → Select **Delete**.
 - The feature is removed and the **status changes to** `MANUALLY_DELETED`.
