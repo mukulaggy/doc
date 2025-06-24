@@ -1,10 +1,10 @@
-FV# 📘 PipeCM – User Manual  
+# 📘 PipeCM – User Manual  
 **Version:** 1.0  
 **Organization:** Bhabha Atomic Research Centre (BARC)  
 
 ## 📘 Chapter 1: Getting Started – Registering and Logging into PipeCM
 
-### 📌 OverviewF
+### 📌 Overview
 
 **PipeCM** (Pipeline Corrosion Monitoring) is a robust application designed to evaluate pipeline conditions and perform health assessments using tool and sensor data. This chapter guides users through the process of account creation and login, ensuring secure access to all features.
 
