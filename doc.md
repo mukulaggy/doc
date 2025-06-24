@@ -310,7 +310,7 @@ To manage or analyze an existing run:
 5. Select a run by clicking the row
 6. Choose one of the following:
    - Click **Settings icon** (top right) to edit configurations
-   - Click **NEXT** to go to Auto Analysis
+   - Click Auto Analysis
 
 📷 **Screenshots:**  
 ![Run Select 1](https://github.com/user-attachments/assets/330343d7-bbd7-4760-a174-41f7f7158830)  
