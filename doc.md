@@ -1,10 +1,10 @@
-# 📘 PipeCM – User Manual  
+FV# 📘 PipeCM – User Manual  
 **Version:** 1.0  
 **Organization:** Bhabha Atomic Research Centre (BARC)  
 
 ## 📘 Chapter 1: Getting Started – Registering and Logging into PipeCM
 
-### 📌 Overview
+### 📌 OverviewF
 
 **PipeCM** (Pipeline Corrosion Monitoring) is a robust application designed to evaluate pipeline conditions and perform health assessments using tool and sensor data. This chapter guides users through the process of account creation and login, ensuring secure access to all features.
 
@@ -531,7 +531,7 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 | **Sample No**      | Sample number of feature                              |
 | **Feature Type**   | Feature classification (e.g., METALLOSS, WELD)       |
 | **Log Distance**   | Distance on pipeline log (in m)                       |
-| **Absolute Sample**| Raw sample number                                     |
+| **Absolute Sample**| Absolute sample                                    |
 | **Wall Loss**      | % wall thickness loss                                 |
 | **Length**         | Length of defect                                      |
 | **Max Width**      | Maximum width of the defect                           |
