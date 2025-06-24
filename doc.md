@@ -766,8 +766,12 @@ The PipeCM Manual Analysis module supports four visualization types, each suited
 
 The top-right corner of the Pipeline Scan Viewer provides essential tools to help users explore and analyze scan images interactively.
 
+---
+
 📷 *Screenshot – Scan Toolbar Buttons*
 ![a3](https://github.com/user-attachments/assets/f2d23016-148b-49f1-98a7-bda10d62f684)
+
+---
 
 
 ### 🧰 Toolbar Functionality Breakdown
