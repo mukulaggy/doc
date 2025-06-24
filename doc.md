@@ -968,7 +968,7 @@ Each feature may include the following fields:
 
 ## 📝 5.12 Manual Editing for METALLOSS Region – PipeCM Guide
 
-## 🔸 5.12.1 Selecting a METALLOSS Region
+## 🔸 Selecting a METALLOSS Region
 
 - Click on the pipeline scan to select a **METALLOSS** region.
 - The selected region is highlighted in **yellow**, indicating it's active for editing.
@@ -979,7 +979,7 @@ Each feature may include the following fields:
 
 ---
 
-## ✏️ Editing METALLOSS Region
+## ✏️ 5.12.1 Editing METALLOSS Region
 
 You can edit a METALLOSS region using two methods:
 
