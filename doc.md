@@ -465,18 +465,21 @@ This chapter explains the process of conducting **Manual Feature Analysis** usin
 ---
 
 ## 🧾 5.1 Interface Overview
-![3](https://github.com/user-attachments/assets/dbb8012a-2409-4d91-942f-9929a0aee055)
+![image](https://github.com/user-attachments/assets/330343d7-bbd7-4760-a174-41f7f7158830)
 ![image](https://github.com/user-attachments/assets/ec314af3-2cf8-49c5-8df9-aa82658095e9)
 ![image](https://github.com/user-attachments/assets/d3e46462-8a1e-4e45-b5e4-43624f64f562)
-![image](https://github.com/user-attachments/assets/a471f8cf-3603-4205-84eb-7feddec84ac3)
-
-
+![image](https://github.com/user-attachments/assets/924ad21c-3e97-4c66-be88-ad03e5e25c11)
 
 
 ### ➤Steps:
 
-1. **Select** the desired file.  
-2. **Click on submit**.  
+1. Click on start App
+2. select tool
+3. Click on next
+4. Select the desired run
+5. click on next 
+6. **Select** the desired file.  
+7. **Click on submit**.  
 
 📷 **Screenshot:**  
 ![Capture](https://github.com/user-attachments/assets/154f04a2-883b-4cff-ab4f-84c6142754c4)
