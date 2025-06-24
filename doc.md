@@ -866,7 +866,7 @@ To select a region on the pipeline scan:
 - Click anywhere inside the scan image (gray area with vertical patterns).
 - A **yellow marker (bounding box)** will appear, highlighting the selected feature (e.g., **WELD**, **METALLOSS**).
 
-📸 _Screenshot Placeholder: Selecting a Region_
+📸 Screenshot Placeholder: Selecting a Region_
 ![Screenshot (132)](https://github.com/user-attachments/assets/7336aa69-a7d7-4296-80d7-edc76e8ff17e)
 
 
@@ -886,7 +886,7 @@ You can edit a feature using **two methods**:
   - **Navigation options** (Previous Page, Next Page)
   - **View tools** (Hide Shape, Show Circumferential Profile, Color Scales)
 
-📸 _Screenshot Placeholder: Right-Click Menu_
+📸 Screenshot Placeholder: Right-Click Menu_
 ![Screenshot (133)](https://github.com/user-attachments/assets/0474d241-9ac0-46b3-a6a4-fbe2d0b2f20d)
 
 
@@ -901,7 +901,7 @@ You can edit a feature using **two methods**:
   - Set the **Status** (e.g., `test1`).
   - A **new version** of the feature is created and stored in the version history.
 
-📸 _Screenshot Placeholder: Feature Edit Dialog_
+📸 Screenshot Placeholder: Feature Edit Dialog_
 ![Screenshot (135)](https://github.com/user-attachments/assets/7c089bd3-a642-4c77-a962-8dac76db9c66)
 ![Screenshot (134)](https://github.com/user-attachments/assets/fcb87674-84b7-4965-ace8-49b792c85582)
 
@@ -916,7 +916,7 @@ From the **right-click menu** → `Add Feature`, you can insert:
 
 Configure its parameters and **save**.
 
-📸 _Screenshot Placeholder: Add Feature Menu_
+📸 Screenshot Placeholder: Add Feature Menu_
 ![Screenshot (156)](https://github.com/user-attachments/assets/7c7db278-feb7-4017-b416-b1e4af38bfc8)
 
 
@@ -929,7 +929,7 @@ From the **right-click menu** → `Delete Feature`.
 - It will be marked as **deleted**.
 - The feature status is set to: `MANUALLY_DELETED`.
 
-📸 _Screenshot Placeholder: Delete Feature Confirmation_
+📸 Screenshot Placeholder: Delete Feature Confirmation_
 ![Screenshot (142)](https://github.com/user-attachments/assets/2bb12dbc-47d1-4c98-9711-90cb6fba2a0b)
 ![Screenshot (143)](https://github.com/user-attachments/assets/d78a28a4-3336-406b-b5e2-19288ea71f99)
 
@@ -945,7 +945,7 @@ Feature edits are tracked with **versions**, e.g.:
 
 You can view previous versions from the **dropdown** list in the feature detail panel.
 
-📸 _Screenshot Placeholder: Version History Dropdown_
+📸 Screenshot Placeholder: Version History Dropdown_
 ![Screenshot (145)](https://github.com/user-attachments/assets/6b801db9-ed2f-41c1-a764-08e448c4dcd3)
 
 
@@ -973,7 +973,7 @@ Each feature may include the following fields:
 - Click on the pipeline scan to select a **METALLOSS** region.
 - The selected region is highlighted in **yellow**, indicating it's active for editing.
 
-📸 _Screenshot Placeholder: Selected METALLOSS Region_
+📸 Screenshot Placeholder: Selected METALLOSS Region_
 ![Screenshot (136)](https://github.com/user-attachments/assets/9b47d1a0-af0e-4104-a55f-afaf2ce09772)
 
 
@@ -1004,7 +1004,7 @@ You can edit a METALLOSS region using two methods:
   - Clock Position
   - … and more
 
-📸 _Screenshot Placeholder: METALLOSS Edit Form_
+📸 Screenshot Placeholder: METALLOSS Edit Form_
 ![Screenshot (137)](https://github.com/user-attachments/assets/aaf6a5a1-2b07-43ed-9aa0-8551da4fbe98)
 ![Screenshot (139)](https://github.com/user-attachments/assets/f8b90bc5-2c6c-4241-8fc3-8cd0cb20d6ce)
 ![Screenshot (140)](https://github.com/user-attachments/assets/f59875ca-7f71-4f44-97af-b02831d52b2a)
@@ -1020,7 +1020,7 @@ You can edit a METALLOSS region using two methods:
 - Right-click on any region → Select **Add METALLOSS**.
 - Enter required parameters and **Save**.
 
-📸 _Screenshot:
+📸 Screenshot:
 ![Screenshot (141)](https://github.com/user-attachments/assets/b0851a5c-f013-4040-b88f-d00a171fc8ef)
 
 
@@ -1040,14 +1040,6 @@ This chapter explains how to generate and export inspection reports using the Pi
 ## 🧾 6.1 Starting the Report Generation Process
 
 Before generating a report, ensure you have completed all necessary manual analysis and saved any changes.
-
-### 📝 Steps to Start the App:
-
-1. Open the **PipeCM application**.
-2. Navigate to the **Manual Analysis** module from the main dashboard.
-3. Perform your analysis, edits, and filtering as needed.
-
----
 
 ### 📝 Steps to Generate a Report:
 
@@ -1069,8 +1061,6 @@ Before generating a report, ensure you have completed all necessary manual analy
 5.otherwise click on download pdf report for pdf file
 
 
-📸 _Screenshot Placeholder – Report Button Location_  
-![Screenshot – Report Export Button](./path-to-screenshot.png)
 
 ---
 
