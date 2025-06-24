@@ -496,11 +496,10 @@ The table on the left is auto-populated from PipeCM’s database and shows featu
 
 ### 🔹 Key Features of the Table:
 
-- Displays **n** entries by default  
 - Organized by **Page Number** (ascending) also we can control them 
 - Supports **filtering** and **sorting** on all columns  
-- Select the feature and click the **Reload** button (🔄)
-- Any new feature added will be also get reflected
+- Apply the filter and click the **Reload** button (🔄)
+- New filter applied  will be also get reflected
 
 
 📷 **Screenshot:**
@@ -647,10 +646,6 @@ The Manual Analysis module allows users to interact with the pipeline feature ta
 
 You can **double-click** any row in the feature table to automatically navigate to the corresponding location in the pipeline scan.
 
-#### 📌 Functionality:
-
-- Helps quickly correlate feature data with its visual representation in the scan.
-
 📷 *Screenshot – Double Click to Navigate*
 ![Screenshot (21)](https://github.com/user-attachments/assets/ba81fc4c-9019-45ce-9f6d-523502f83810)
 
@@ -658,10 +653,9 @@ You can **double-click** any row in the feature table to automatically navigate 
 ---
 
 ### 🎯 Feature Highlight and Detailed View
-
-When a row is **selected** (via single click or radio button), the corresponding feature is:
-
-- ✅ **Highlighted** on the pipeline scan (right pane) with a colored marker.
+1.when we double click on any page
+2.When a row is **selected** (via single click or radio button), the corresponding feature is:
+- ✅ **Highlighted** on the pipeline scan (right pane) with a colored Yellow marker.
 - 📄 **Detailed information** is displayed below the table or scan area (depending on layout).
 
 #### 📋 Details Typically Include:
@@ -722,12 +716,20 @@ The PipeCM Manual Analysis module supports four visualization types, each suited
 2. Select the desired modes.  
 
 📷 *Screenshot – PIPELINE-SCAN*  
+![b](https://github.com/user-attachments/assets/d3642591-01f9-41c1-809f-8a00fa689c53)
+
 
 📷 *Screenshot – LINE PLOT*  
+![c](https://github.com/user-attachments/assets/d88995ea-ce80-437d-a045-5fe04e86ac31)
 
-📷 *Screenshot – DENOISED PIPELINE-SCAN* 
+
+📷 *Screenshot – DENOISED PIPELINE-SCAN*
+![a](https://github.com/user-attachments/assets/5361f10d-2f4e-41d5-bb80-1c7bd23098c3)
+
 
 📷 *Screenshot – DENOISED LINE PLOT*
+![d](https://github.com/user-attachments/assets/d6466620-2857-4b7b-be56-4899c6e35f1c)
+
 
 
 ---
