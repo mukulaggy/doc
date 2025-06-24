@@ -381,6 +381,10 @@ This chapter explains how to perform Auto Analysis in PipeCM after a run has bee
 2. **Distance Calculation**  
 3. **Metalloss Analysis**
 
+![Run Select 1](https://github.com/user-attachments/assets/330343d7-bbd7-4760-a174-41f7f7158830)  
+![image](https://github.com/user-attachments/assets/cf351362-0510-4701-a7a6-578e8c343912)
+![Run Select 2](https://github.com/user-attachments/assets/de49338d-2201-43ef-bafb-89affb60f060)
+
 ---
 
 ## 🧪 4.1 Overview
@@ -480,7 +484,7 @@ The Manual Analysis screen includes:
 - **Right Pane:** Pipeline scan visualization with defect markers
 
 📷 Screenshots:  
-![image1](https://github.com/user-attachments/assets/330343d7-bbd7-4760-a174-41f7f7158830)  
+![image1](https://github.com/user-attachments/assets/330343d7-bbd7-4760-a174-41f7f7158830) 
 ![image2](https://github.com/user-attachments/assets/ec314af3-2cf8-49c5-8df9-aa82658095e9)  
 ![image3](https://github.com/user-attachments/assets/d3e46462-8a1e-4e45-b5e4-43624f64f562)  
 ![image4](https://github.com/user-attachments/assets/924ad21c-3e97-4c66-be88-ad03e5e25c11)
