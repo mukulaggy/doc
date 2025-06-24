@@ -592,22 +592,42 @@ Each column allows advanced filtering to refine the displayed data:
 
 | Filter Type              | Description                              |
 |--------------------------|------------------------------------------|
-| Equals / Not Equals      | Match specific values                    |
-| Contains / Starts With   | Match string patterns                    |
-| Greater / Less Than      | Compare numerical values                 |
-| Between / Inclusive      | Filter within a range                    |
-| Empty / Not Empty        | Check for missing or present values      |
+| Equals                   | Match specific values                    |
+| Between                  | Filter within a range                    |
+| Greater Than or Equal to | Filter within a range of >=              |
+| Less Than or Equal to    | Filter within a range of <=              |
+
 
 #### 📝 Steps to Use Column Filters:
 
 1. Click the **filter icon** (🔽) next to the column header.
 2. Select the desired condition from the dropdown.
 3. Enter filter values.
-4. The table updates automatically with matching rows.
+4. click on refresh butoon
+5. The table updates automatically with matching rows.
 
 📷 *Screenshot – Column Filter Options*
 ![Screenshot (22)](https://github.com/user-attachments/assets/a3cdcac0-d4be-49de-9d5e-ee205622c284)
 
+
+📷 *Screenshot – Equals*
+![Screenshot (146)](https://github.com/user-attachments/assets/8110549b-10d6-4e46-a1ff-d6342c59d737)
+![Screenshot (147)](https://github.com/user-attachments/assets/9cd09227-f242-4a4f-8c91-4a16aaf82a47)
+
+
+📷 *Screenshot – Between*
+![Screenshot (157)](https://github.com/user-attachments/assets/8b575d02-043e-467c-a7bf-6d5141b96543)
+![Screenshot (158)](https://github.com/user-attachments/assets/f8fdaef7-d3d7-41c7-b9b1-c16a293eeed0)
+
+
+📷 *Screenshot – Greater than or equal to*
+![Screenshot (152)](https://github.com/user-attachments/assets/8a7523d9-6eb9-49f3-b876-ee0292c30c2e)
+![Screenshot (153)](https://github.com/user-attachments/assets/5944cb59-366c-46ed-b4fb-58adbeeb49db)
+
+
+📷 *Screenshot – Less than or equal to*
+![Screenshot (154)](https://github.com/user-attachments/assets/e80a8bdc-3a03-42dd-80a5-254ca1003950)
+![Screenshot (155)](https://github.com/user-attachments/assets/e873500d-92ae-4ad0-9057-9af1f9e06d97)
 
 ---
 
@@ -824,11 +844,173 @@ Different palettes help improve visual detection based on lighting and contrast 
 📷 *Screenshot – Choosing Color Scale*
 ![a13](https://github.com/user-attachments/assets/0875879f-d78a-45fb-a6a8-7b0446a0e075)
 
+---
+## 📝 5.9 PipeCM Manual Editing Feature 
 
+---
 
+## 🔍 Selecting a Region
+
+To select a region on the pipeline scan:
+
+- Click anywhere inside the scan image (gray area with vertical patterns).
+- A **yellow marker (bounding box)** will appear, highlighting the selected feature (e.g., **WELD**, **METALLOSS**).
+
+📸 _Screenshot Placeholder: Selecting a Region_
+![Screenshot (132)](https://github.com/user-attachments/assets/7336aa69-a7d7-4296-80d7-edc76e8ff17e)
 
 
 ---
+
+## ✏️ Editing a Feature
+
+You can edit a feature using **two methods**:
+
+### 1️⃣ Method 1: Right-Click Editing
+
+- **Right-click** on the yellow-highlighted region in the scan view.
+- A **context menu** appears with the following options:
+  - **Edit Feature**: Opens the feature’s editable form.
+  - **Delete Feature**
+  - **Add Feature**
+  - **Navigation options** (Previous Page, Next Page)
+  - **View tools** (Hide Shape, Show Circumferential Profile, Color Scales)
+
+📸 _Screenshot Placeholder: Right-Click Menu_
+![Screenshot (133)](https://github.com/user-attachments/assets/0474d241-9ac0-46b3-a6a4-fbe2d0b2f20d)
+
+
+---
+
+### 2️⃣ Method 2: Dialog Box Edit Button
+
+- Click the pencil icon ✎ in the **feature detail panel** at the bottom right corner of the screen.
+- This opens an **editing dialog**, where you can:
+  - Modify fields like `Sample`, `Log Distance`, `Feature Type`, etc.
+  - Add or update a **Remark**.
+  - Set the **Status** (e.g., `test1`).
+  - A **new version** of the feature is created and stored in the version history.
+
+📸 _Screenshot Placeholder: Feature Edit Dialog_
+![Screenshot (135)](https://github.com/user-attachments/assets/7c089bd3-a642-4c77-a962-8dac76db9c66)
+![Screenshot (134)](https://github.com/user-attachments/assets/fcb87674-84b7-4965-ace8-49b792c85582)
+
+
+---
+
+## ➕ Adding a Feature
+
+From the **right-click menu** → `Add Feature`, you can insert:
+
+- `WELD`, `METALLOSS`, `FLANGE`, `VALVE`, `MARKER`, etc.
+
+Configure its parameters and **save**.
+
+📸 _Screenshot Placeholder: Add Feature Menu_
+![Screenshot (156)](https://github.com/user-attachments/assets/7c7db278-feb7-4017-b416-b1e4af38bfc8)
+
+
+---
+
+## ❌ Deleting a Feature
+
+From the **right-click menu** → `Delete Feature`.
+
+- It will be marked as **deleted**.
+- The feature status is set to: `MANUALLY_DELETED`.
+
+📸 _Screenshot Placeholder: Delete Feature Confirmation_
+![Screenshot (142)](https://github.com/user-attachments/assets/2bb12dbc-47d1-4c98-9711-90cb6fba2a0b)
+![Screenshot (143)](https://github.com/user-attachments/assets/d78a28a4-3336-406b-b5e2-19288ea71f99)
+
+
+---
+
+## 🗂️ Version Control
+
+Feature edits are tracked with **versions**, e.g.:
+
+- `WELD | Current`
+- `WELD | v1`, `WELD | v2`, etc.
+
+You can view previous versions from the **dropdown** list in the feature detail panel.
+
+📸 _Screenshot Placeholder: Version History Dropdown_
+![Screenshot (145)](https://github.com/user-attachments/assets/6b801db9-ed2f-41c1-a764-08e448c4dcd3)
+
+
+---
+
+## 🗃️ Data Fields Available
+
+Each feature may include the following fields:
+
+- **Feature Type** (e.g., WELD, METALLOSS)
+- **Sample Number**
+- **Log Distance**
+- **Absolute Sample**
+- **Date**
+- **Status**
+- **Remarks**
+- **Page No.**
+
+---
+
+# 🟡 Manual Editing for METALLOSS Region – PipeCM Guide
+
+## 🔸 Selecting a METALLOSS Region
+
+- Click on the pipeline scan to select a **METALLOSS** region.
+- The selected region is highlighted in **yellow**, indicating it's active for editing.
+
+📸 _Screenshot Placeholder: Selected METALLOSS Region_
+
+---
+
+## ✏️ Editing METALLOSS Region
+
+You can edit a METALLOSS region using two methods:
+
+### 🔹 Right-Click Method
+
+- Right-click on the **yellow-highlighted METALLOSS** region.
+- Select **“Edit Feature”** from the context menu.
+
+### 🔹 Bottom Dialog Method
+
+- Select the METALLOSS region (yellow box).
+- In the **bottom dialog**, click the **“Edit”** button.
+- A form opens with **all parameters pre-calculated and prefilled**, including:
+  - Log Distance
+  - Depth
+  - Length
+  - Width
+  - Orientation
+  - Clock Position
+  - … and more
+
+📸 _Screenshot Placeholder: METALLOSS Edit Form_
+
+---
+
+## ➕ Add/Delete METALLOSS Region
+
+### ✅ Add:
+
+- Right-click on any region → Select **Add METALLOSS**.
+- Enter required parameters and **Save**.
+
+📸 _Screenshot Placeholder: Add METALLOSS Dialog_
+
+### 🗑️ Delete:
+
+- Right-click on selected METALLOSS → Select **Delete**.
+- The feature is removed and the **status changes to** `MANUALLY_DELETED`.
+
+📸 _Screenshot Placeholder: Deleted METALLOSS Status_
+
+---
+
 
 
 
