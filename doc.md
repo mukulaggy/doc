@@ -476,7 +476,8 @@ This chapter explains the process of conducting **Manual Feature Analysis** usin
 2. **Click on submit**.  
 
 📷 **Screenshot:**  
-![Screenshot (84)](https://github.com/user-attachments/assets/098258cc-6c75-4e85-94bf-6c2920f01a1a)
+![Capture](https://github.com/user-attachments/assets/154f04a2-883b-4cff-ab4f-84c6142754c4)
+
 
 The Manual Analysis screen is split into two main sections:
 
