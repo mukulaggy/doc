@@ -612,7 +612,8 @@ Each column allows advanced filtering to refine the displayed data:
 
 📷 **Screenshot – Equals**
 
-![Screenshot (146)](https://github.com/user-attachments/assets/8110549b-10d6-4e46-a1ff-d6342c59d737)
+![image](https://github.com/user-attachments/assets/58c2df65-c598-48c0-906b-7a70883d8d5c)
+
 ![Screenshot (147)](https://github.com/user-attachments/assets/9cd09227-f242-4a4f-8c91-4a16aaf82a47)
 
 
