@@ -819,7 +819,9 @@ Shows how defects spread around the pipe’s circumference using bar charts.
 
 ### 🔍 Selecting a Region
 
-Click inside the scan to highlight a feature with a **yellow marker**.
+To select a region on the pipeline scan:
+- Click anywhere inside the scan image (gray area with vertical patterns).
+- A **yellow marker (bounding box)** will appear, highlighting the selected feature (e.g., **WELD**, **METALLOSS**).
 
 📸  
 ![Screenshot (132)](https://github.com/user-attachments/assets/7336aa69-a7d7-4296-80d7-edc76e8ff17e)
@@ -830,14 +832,13 @@ Click inside the scan to highlight a feature with a **yellow marker**.
 
 #### Method 1: Right-Click
 
-- Right-click the yellow box  
-- Options:
-  - Edit Feature  
-  - Delete Feature  
-  - Add Feature  
-  - Show Circumferential Profile  
-  - Navigation  
-  - Color Scales  
+- **Right-click** on the yellow-highlighted region in the scan view.
+- A **context menu** appears with the following options:
+  - **Edit Feature**: Opens the feature’s editable form.
+  - **Delete Feature**
+  - **Add Feature**
+  - **Navigation options** (Previous Page, Next Page)
+  - **View tools** (Hide Shape, Show Circumferential Profile, Color Scales)
 
 📸  
 ![Screenshot (133)](https://github.com/user-attachments/assets/0474d241-9ac0-46b3-a6a4-fbe2d0b2f20d)
@@ -846,12 +847,12 @@ Click inside the scan to highlight a feature with a **yellow marker**.
 
 #### Method 2: Pencil Icon in Detail Panel
 
-- Click ✎ to edit
-- Modify:
-  - Log Distance
-  - Feature Type
-  - Status
-  - Remarks
+- Click the pencil icon ✎ in the **feature detail panel** at the bottom right corner of the screen.
+- This opens an **editing dialog**, where you can:
+  - Modify fields like `Sample`, `Log Distance`, `Feature Type`, etc.
+  - Add or update a **Remark**.
+  - Set the **Status** (e.g., `test1`).
+  - A **new version** of the feature is created and stored in the version history.
 
 📸  
 ![Screenshot (135)](https://github.com/user-attachments/assets/7c089bd3-a642-4c77-a962-8dac76db9c66)  
@@ -861,8 +862,9 @@ Click inside the scan to highlight a feature with a **yellow marker**.
 
 ### ➕ 5.11.2 Adding a Feature
 
-- Right-click → **Add Feature**
-- Choose type, enter values, Save
+From the **right-click menu** → `Add Feature`, you can insert:
+- `WELD`, `METALLOSS`, `FLANGE`, `VALVE`, `MARKER`, etc.
+Configure its parameters and **save**.
 
 📸  
 ![Screenshot (156)](https://github.com/user-attachments/assets/7c7db278-feb7-4017-b416-b1e4af38bfc8)
@@ -882,6 +884,7 @@ Click inside the scan to highlight a feature with a **yellow marker**.
 
 ### 🗂️ 5.11.4 Version Control
 
+- Feature edits are tracked with **versions**
 - Feature versioning tracked: e.g., `WELD | v1`, `v2`  
 - Accessible from the version dropdown
 
@@ -892,14 +895,16 @@ Click inside the scan to highlight a feature with a **yellow marker**.
 
 ## 🗃️ Data Fields Available
 
-- Feature Type  
-- Sample Number  
-- Log Distance  
-- Absolute Sample  
-- Date  
-- Status  
-- Remarks  
-- Page No.
+Each feature may include the following fields:
+
+- **Feature Type** (e.g., WELD, METALLOSS)
+- **Sample Number**
+- **Log Distance**
+- **Absolute Sample**
+- **Date**
+- **Status**
+- **Remarks**
+- **Page No.**
 
 ---
 
@@ -907,7 +912,8 @@ Click inside the scan to highlight a feature with a **yellow marker**.
 
 ### 🔸 Selecting a METALLOSS Region
 
-Click on scan to highlight a **METALLOSS** feature (yellow).
+- Click on the pipeline scan to select a **METALLOSS** region.
+- The selected region is highlighted in **yellow**, indicating it's active for editing.
 
 📸  
 ![Screenshot (136)](https://github.com/user-attachments/assets/9b47d1a0-af0e-4104-a55f-afaf2ce09772)
@@ -927,7 +933,16 @@ Right-click → **Edit Feature**
 
 #### 🔹 Bottom Dialog Method
 
-Click Edit in bottom panel. All fields prefilled.
+- Select the METALLOSS region (yellow box).
+- In the **bottom dialog**, click the **“Edit”** button.
+- A form opens with **all parameters pre-calculated and prefilled**, including:
+  - Log Distance
+  - Depth
+  - Length
+  - Width
+  - Orientation
+  - Clock Position
+  - … and more
 
 📸  
 ![Screenshot (137)](https://github.com/user-attachments/assets/aaf6a5a1-2b07-43ed-9aa0-8551da4fbe98)  
