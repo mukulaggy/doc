@@ -245,14 +245,17 @@ This section will cover the steps for initiating and reviewing auto-analysis of 
 
 To manage or analyze an existing run, follow these steps:
 
-1. Navigate to the **Select Run** screen.
-2. Click **NEXT** on the **Select Tool** screen to proceed.
-3. From the list of existing runs, choose your desired run by clicking on the row.
-4. After selecting a run, you have two options:
+1. Click on start app
+2. Select the desired tool
+3. Navigate to the **Select Run** screen.
+4. Click **NEXT** on the **Select Tool** screen to proceed.
+5. From the list of existing runs, choose your desired run by clicking on the row.
+6. After selecting a run, you have two options:
   - Click the **Settings icon** (top right) to edit configuration settings.
   - Click **NEXT** again to proceed directly to **Auto Analysis** (if configurations are already set).
 
 **Screenshot:** 
+![image](https://github.com/user-attachments/assets/330343d7-bbd7-4760-a174-41f7f7158830)
 ![7](https://github.com/user-attachments/assets/de49338d-2201-43ef-bafb-89affb60f060)
 
 
