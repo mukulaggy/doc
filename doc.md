@@ -965,6 +965,8 @@ Each feature may include the following fields:
 - The selected region is highlighted in **yellow**, indicating it's active for editing.
 
 📸 _Screenshot Placeholder: Selected METALLOSS Region_
+![Screenshot (136)](https://github.com/user-attachments/assets/9b47d1a0-af0e-4104-a55f-afaf2ce09772)
+
 
 ---
 
@@ -976,6 +978,9 @@ You can edit a METALLOSS region using two methods:
 
 - Right-click on the **yellow-highlighted METALLOSS** region.
 - Select **“Edit Feature”** from the context menu.
+
+![Screenshot (137)](https://github.com/user-attachments/assets/621e1228-a628-4a9b-bb71-d6c093c2c887)
+
 
 ### 🔹 Bottom Dialog Method
 
@@ -991,6 +996,11 @@ You can edit a METALLOSS region using two methods:
   - … and more
 
 📸 _Screenshot Placeholder: METALLOSS Edit Form_
+![Screenshot (137)](https://github.com/user-attachments/assets/aaf6a5a1-2b07-43ed-9aa0-8551da4fbe98)
+![Screenshot (139)](https://github.com/user-attachments/assets/f8b90bc5-2c6c-4241-8fc3-8cd0cb20d6ce)
+![Screenshot (140)](https://github.com/user-attachments/assets/f59875ca-7f71-4f44-97af-b02831d52b2a)
+
+
 
 ---
 
@@ -1001,15 +1011,15 @@ You can edit a METALLOSS region using two methods:
 - Right-click on any region → Select **Add METALLOSS**.
 - Enter required parameters and **Save**.
 
-📸 _Screenshot Placeholder: Add METALLOSS Dialog_
+📸 _Screenshot:
+![Screenshot (141)](https://github.com/user-attachments/assets/b0851a5c-f013-4040-b88f-d00a171fc8ef)
+
+
 
 ### 🗑️ Delete:
 
 - Right-click on selected METALLOSS → Select **Delete**.
 - The feature is removed and the **status changes to** `MANUALLY_DELETED`.
-
-📸 _Screenshot Placeholder: Deleted METALLOSS Status_
-
 ---
 
 
