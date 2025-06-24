@@ -612,9 +612,9 @@ Each column allows advanced filtering to refine the displayed data:
 
 📷 **Screenshot – Equals**
 
-![image](https://github.com/user-attachments/assets/58c2df65-c598-48c0-906b-7a70883d8d5c)
+![image](https://github.com/user-attachments/assets/446dd465-cb55-4813-bc29-9a1c13020a49)
+![image](https://github.com/user-attachments/assets/33e90ae9-3e52-4d66-8923-0ea99475f7bb)
 
-![Screenshot (147)](https://github.com/user-attachments/assets/9cd09227-f242-4a4f-8c91-4a16aaf82a47)
 
 
 📷 **Screenshot – Between**
@@ -625,14 +625,17 @@ Each column allows advanced filtering to refine the displayed data:
 
 📷 **Screenshot – Greater than or equal to**
 
-![Screenshot (152)](https://github.com/user-attachments/assets/8a7523d9-6eb9-49f3-b876-ee0292c30c2e)
-![Screenshot (153)](https://github.com/user-attachments/assets/5944cb59-366c-46ed-b4fb-58adbeeb49db)
+![image](https://github.com/user-attachments/assets/19026f4b-bc41-446a-ad19-877733665b1e)
+![image](https://github.com/user-attachments/assets/1c4e09f5-69ba-4816-befa-d527fcd6de48)
+
+
 
 
 📷 **Screenshot – Less than or equal to**
+![image](https://github.com/user-attachments/assets/28e2d867-d943-4407-98ee-5a04ef3b912a)
+![image](https://github.com/user-attachments/assets/87c27f38-c91c-47f9-a1ff-bec7f878cf60)
 
-![Screenshot (154)](https://github.com/user-attachments/assets/e80a8bdc-3a03-42dd-80a5-254ca1003950)
-![Screenshot (155)](https://github.com/user-attachments/assets/e873500d-92ae-4ad0-9057-9af1f9e06d97)
+
 
 ---
 
@@ -651,9 +654,9 @@ The table supports pagination, making it easier to navigate through thousands of
   - Options typically include: **10**, **30**, **50**, **100**
 
 📷 *Screenshot – Rows Per Page and Pagination Controls*
-![image](https://github.com/user-attachments/assets/13257f0d-1cfb-4e33-b5d0-59dcfd8ad556)
+![image](https://github.com/user-attachments/assets/4d8be492-bd10-4449-a41b-53c62c59c4b3)
+![image](https://github.com/user-attachments/assets/ea92c84e-b346-44ad-96df-99997c56ea63)
 
-![image](https://github.com/user-attachments/assets/8d75d98e-432b-479b-92ee-37f2f873b8fe)
 
 
 ---
