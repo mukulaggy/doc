@@ -2,6 +2,69 @@
 **Version:** 1.0  
 **Organization:** Bhabha Atomic Research Centre (BARC)  
 
+# 📚 PipeCM User Manual – Table of Contents
+
+## 📘 Chapter 1: Getting Started – Registering and Logging into PipeCM
+- [1.1 Create an Account](#-11-create-an-account)
+- [1.2 Log in to the System](#-12-log-in-to-the-system)
+- [1.3 PipeCM Analysis Dashboard](#-13-pipecm-analysis-dashboard)
+
+## 📘 Chapter 2: Creating and Managing Runs
+- [2.1 Create a Run](#-21-create-a-run)
+  - [2.1.1 Select Tool](#-211-select-tool)
+  - [2.1.2 Create Run Details](#-212-create-run-details)
+  - [2.1.3 Uploading Binary Files](#-213-uploading-binary-files)
+  - [2.1.4 Run Status & Processing](#-214-run-status--processing)
+  - [2.1.5 Review Uploaded Files](#-215-review-uploaded-files)
+  - [2.1.6 Status Change on Navigation](#-216-status-change-on-navigation)
+  - [2.1.7 Edit Configurations](#-217-edit-configurations)
+  - [2.1.8 Auto Analysis](#-218-auto-analysis)
+- [2.2 Select Run and Manage Runs](#-22-select-run-and-manage-runs)
+  - [2.2.1 Select Existing Run](#-221-select-existing-run)
+  - [2.2.2 Edit Configurations](#-222-edit-configurations)
+  - [2.2.3 Auto Analysis](#-223-auto-analysis)
+
+## 📘 Chapter 3: Modifying Configurations
+- [3.1 Accessing the Configuration Interface](#-31-accessing-the-configuration-interface)
+- [3.2 Overview of Editable Configurations](#-32-overview-of-editable-configurations)
+- [3.3 Classifying Total Channels (`NoOfChannels`)](#-33-classifying-total-channels-noofchannels)
+- [3.4 Determining and Specifying Faulty Channels](#-34-determining-and-specifying-faulty-channels)
+- [3.5 Saving Configuration Changes](#-35-saving-configuration-changes)
+
+## 📘 Chapter 4: Auto Analysis
+- [4.1 Overview](#-41-overview)
+- [4.2 Auto Analysis Stages](#-42-auto-analysis-stages)
+  - [4.2.1 Feature Extraction](#-421-feature-extraction)
+  - [4.2.2 Distance Calculation](#-422-distance-calculation)
+  - [4.2.3 Metalloss Analysis](#-423-metalloss-analysis)
+- [4.3 Auto Analysis Dashboard](#-43-auto-analysis-dashboard)
+- [4.4 After Auto Analysis](#-44-after-auto-analysis)
+
+## 📘 Chapter 5: Manual Analysis
+- [5.1 Interface Overview](#-51-interface-overview)
+- [5.2 Pipetally Table (Left Pane)](#-52-pipetally-table-left-pane)
+- [5.3 Filter Features](#-53-filter-features)
+  - [5.3.1 Filter by Feature Type](#-531-filter-by-feature-type)
+  - [5.3.2 Filter by Individual Columns](#-532-filter-by-individual-columns)
+  - [5.3.3 Pagination and Row Control](#-533-pagination-and-row-control)
+- [5.4 Feature Selection & Navigation](#-54-feature-selection--navigation)
+- [5.5 Visual Feature Navigation & Tools](#-55-visual-feature-navigation--tools)
+- [5.6 Visualization Modes](#-56-visualization-modes)
+- [5.7 Scan Interaction Tools](#-57-scan-interaction-tools)
+- [5.8 Lineplot Visualization (Circumferential Profile)](#-58-lineplot-visualization-circumferential-profile)
+- [5.9 Understanding the Axes and Values](#-59-understanding-the-axes-and-values)
+- [5.10 Changing the Color Scale](#-510-changing-the-color-scale)
+- [5.11 PipeCM Manual Editing Feature](#-511-pipecm-manual-editing-feature)
+  - [5.11.1 Editing a Feature](#-5111-editing-a-feature)
+  - [5.11.2 Adding a Feature](#-5112-adding-a-feature)
+  - [5.11.3 Deleting a Feature](#-5113-deleting-a-feature)
+  - [5.11.4 Version Control](#-5114-version-control)
+- [5.12 Manual Editing for METALLOSS Region](#-512-manual-editing-for-metalloss-region)
+
+## 📘 Chapter 6: Generating Reports
+- [6.1 Starting the Report Generation Process](#-61-starting-the-report-generation-process)
+
+
 ## 📘 Chapter 1: Getting Started – Registering and Logging into PipeCM
 
 ### 📌 Overview
