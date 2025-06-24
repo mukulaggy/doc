@@ -655,8 +655,7 @@ The table supports pagination, making it easier to navigate through thousands of
 
 📷 *Screenshot – Rows Per Page and Pagination Controls*
 ![image](https://github.com/user-attachments/assets/4d8be492-bd10-4449-a41b-53c62c59c4b3)
-![image](https://github.com/user-attachments/assets/ea92c84e-b346-44ad-96df-99997c56ea63)
-
+![image](https://github.com/user-attachments/assets/75974860-0f19-46e4-a7ac-bd5335db72d9)
 
 
 ---
