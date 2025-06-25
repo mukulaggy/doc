@@ -853,6 +853,8 @@ Shows how defects spread around the pipe’s circumference using bar charts.
 5. To close: right-click → **Hide Circumferential Profile**
 
 📷 **Screenshots**  
+
+>select the box select option
 ![a7](https://github.com/user-attachments/assets/d9da373b-98e9-4cb1-a9e9-21938d8cc8fb)  
 ![a8](https://github.com/user-attachments/assets/d60242f0-98da-48f2-a3cd-2e0888cd392b)  
 ![a9](https://github.com/user-attachments/assets/aaa82c81-ca20-4cff-89e2-9ca03eb01d44)
@@ -905,7 +907,7 @@ To select a region on the pipeline scan:
 - Click anywhere inside the scan image (gray area with vertical patterns).
 - A **yellow marker (bounding box)** will appear, highlighting the selected feature (e.g., **WELD**, **METALLOSS**).
 
-📸  
+📷 *Screenshot* - selecting a region  
 ![Screenshot (132)](https://github.com/user-attachments/assets/7336aa69-a7d7-4296-80d7-edc76e8ff17e)
 
 ---
@@ -922,7 +924,7 @@ To select a region on the pipeline scan:
   - **Navigation options** (Previous Page, Next Page)
   - **View tools** (Hide Shape, Show Circumferential Profile, Color Scales)
 
-📸  
+📷 *Screenshot* -Right click for selecting edit feature 
 ![Screenshot (133)](https://github.com/user-attachments/assets/0474d241-9ac0-46b3-a6a4-fbe2d0b2f20d)
 
 ---
@@ -936,7 +938,7 @@ To select a region on the pipeline scan:
   - Set the **Status** (e.g., `test1`).
   - A **new version** of the feature is created and stored in the version history.
 
-📸  
+📷 *Screenshot* -Pencil icon in bottom right panel 
 ![Screenshot (135)](https://github.com/user-attachments/assets/7c089bd3-a642-4c77-a962-8dac76db9c66)  
 ![Screenshot (134)](https://github.com/user-attachments/assets/fcb87674-84b7-4965-ace8-49b792c85582)
 
@@ -948,7 +950,7 @@ From the **right-click menu** → `Add Feature`, you can insert:
 - `WELD`, `METALLOSS`, `FLANGE`, `VALVE`, `MARKER`, etc.
 Configure its parameters and **save**.
 
-📸  
+📷 *Screenshot* -Adding a feature
 ![Screenshot (156)](https://github.com/user-attachments/assets/7c7db278-feb7-4017-b416-b1e4af38bfc8)
 
 ---
@@ -958,7 +960,7 @@ Configure its parameters and **save**.
 - Right-click → **Delete Feature**
 - Status is set to `MANUALLY_DELETED`
 
-📸  
+📷 *Screenshot* -deleting a feature  
 ![Screenshot (142)](https://github.com/user-attachments/assets/2bb12dbc-47d1-4c98-9711-90cb6fba2a0b)  
 ![Screenshot (143)](https://github.com/user-attachments/assets/d78a28a4-3336-406b-b5e2-19288ea71f99)
 
@@ -970,7 +972,7 @@ Configure its parameters and **save**.
 - Feature versioning tracked: e.g., `WELD | v1`, `v2`  
 - Accessible from the version dropdown
 
-📸  
+📷 *Screenshot* -Version control
 ![Screenshot (145)](https://github.com/user-attachments/assets/6b801db9-ed2f-41c1-a764-08e448c4dcd3)
 
 ---
@@ -997,7 +999,7 @@ Each feature may include the following fields:
 - Click on the pipeline scan to select a **METALLOSS** region.
 - The selected region is highlighted in **yellow**, indicating it's active for editing.
 
-📸  
+📷 *Screenshot* -Selecting metalloss region 
 ![Screenshot (136)](https://github.com/user-attachments/assets/9b47d1a0-af0e-4104-a55f-afaf2ce09772)
 
 ---
@@ -1008,7 +1010,7 @@ Each feature may include the following fields:
 
 Right-click → **Edit Feature**
 
-📸  
+📷 *Screenshot* -Right click to select edit feature  
 ![Screenshot (137)](https://github.com/user-attachments/assets/621e1228-a628-4a9b-bb71-d6c093c2c887)
 
 ---
@@ -1026,7 +1028,7 @@ Right-click → **Edit Feature**
   - Clock Position
   - … and more
 
-📸  
+📷 *Screenshot* -Click edit button on bottom right Dialog box
 ![Screenshot (137)](https://github.com/user-attachments/assets/aaf6a5a1-2b07-43ed-9aa0-8551da4fbe98)  
 ![Screenshot (139)](https://github.com/user-attachments/assets/f8b90bc5-2c6c-4241-8fc3-8cd0cb20d6ce)  
 ![Screenshot (140)](https://github.com/user-attachments/assets/f59875ca-7f71-4f44-97af-b02831d52b2a)
@@ -1039,7 +1041,7 @@ Right-click → **Edit Feature**
 
 Right-click → **Add METALLOSS**, enter values, Save
 
-📸  
+📷 *Screenshot* -Add feature 
 ![Screenshot (141)](https://github.com/user-attachments/assets/b0851a5c-f013-4040-b88f-d00a171fc8ef)
 
 #### 🗑️ Delete:
