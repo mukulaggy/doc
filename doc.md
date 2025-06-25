@@ -19,10 +19,12 @@
   - [2.1.6 Status Change on Navigation](#-216-status-change-on-navigation)
   - [2.1.7 Edit Configurations](#-217-edit-configurations)
   - [2.1.8 Auto Analysis](#-218-auto-analysis)
+  - [2.1.9 Manual Analysis](#-219-manual-analysis)
 - [2.2 Select Run and Manage Runs](#-22-select-run-and-manage-runs)
   - [2.2.1 Select Existing Run](#-221-select-existing-run)
   - [2.2.2 Edit Configurations](#-222-edit-configurations)
   - [2.2.3 Auto Analysis](#-223-auto-analysis)
+  - [2.2.4 Manual Analysis](#-224-manual-analysis)
 
 ## 📘 Chapter 3: Modifying Configurations
 - [3.1 Accessing the Configuration Interface](#-31-accessing-the-configuration-interface)
@@ -128,7 +130,7 @@ After registration, return to the login screen to access the application.
 
 After successful login, users land on the main dashboard, which contains the following modules:
 
-- **MFL + EC** – Gas pipeline inspection  
+- **MFL + EC** – Oil/Gas pipeline inspection  
 - **MFL + UT** – Oil pipeline inspection using ultrasonic and magnetic flux leakage data  
 - **Health Assessment** – Analyzes tool and pipeline data  
 - **Settings** – Customize software configurations
@@ -233,8 +235,8 @@ After saving, you're redirected to the **Select Run** screen.
 
 **Check the Status column:**
 
-- Initially: `FILES_TO_BE_UPLOADED`, `INTERMEDIATE_TO_BE_GENERATED`
-- Afterwards: `TO_BE_PROCESSED`
+- Initially: `FILES_TO_BE_UPLOADED`
+- Afterwards: `TO_BE_PROCESSED`,`INTERMEDIATE_TO_BE_GENERATED`
 
 Click **NEXT** to continue.
 
@@ -249,9 +251,9 @@ On the **Select File** screen, view the uploaded `.bin` files.
 
 Each file displays:
 
-- **File Name**
-- **Sequence Number**
-- **Status:** `TO_BE_PROCESSED`
+- **File Name** `Name of file`
+- **Sequence Number** `Represents order in which file is processed`
+- **Status:** `TO_BE_PROCESSED`,`INTERMEDIATE_TO_BE_GENERATED`
 
 ---
 
@@ -259,12 +261,12 @@ Each file displays:
 
 If you return to the **Select Run** screen by clicking **BACK**, the status of the run changes:
 
-- `FILES_TO_BE_UPLOADED` / `INTERMEDIATE_TO_BE_GENERATED` → `TO_BE_PROCESSED`
+- `FILES_TO_BE_UPLOADED`  → `TO_BE_PROCESSED` / `INTERMEDIATE_TO_BE_GENERATED`
 
 📷 **Screenshot:**  
 ![Status Change](https://github.com/user-attachments/assets/db4efece-89f6-4bf0-a072-e835a9e9f0be)
 
-This means the system has queued your files for processing.
+Files are uploaded successfully and run is ready for processing.
 
 ---
 
@@ -287,6 +289,14 @@ You will be redirected to the **Configure** screen for that run.
 This section introduces auto-analysis steps after file upload.
 
 🔗 [Link to Chapter 4: Auto Analysis](#-chapter-4-auto-analysis)
+
+---
+
+### 🧾 2.1.9 Manual Analysis
+
+This section introduces Manual-analysis steps after file upload.
+
+🔗 [Link to Chapter 5: Manual Analysis](#-chapter-5-manual-analysis)
 
 ---
 
@@ -332,6 +342,14 @@ Once a run is selected and configured:
 2. Review file and analysis summaries.
 
 🔗 [Link to Chapter 4: Auto Analysis](#-chapter-4-auto-analysis)
+
+---
+
+### 🧾 2.2.4 Manual Analysis
+
+This section introduces Manual-analysis steps after file upload.
+
+🔗 [Link to Chapter 5: Manual Analysis](#-chapter-5-manual-analysis)
 
 ---
 
