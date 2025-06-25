@@ -1051,9 +1051,15 @@ Before generating a report, ensure you have completed all necessary manual analy
 ![image](https://github.com/user-attachments/assets/4db7096d-0e47-45dd-a65e-b284252ca61b)
 ![Screenshot (162)](https://github.com/user-attachments/assets/cb0251bf-511f-4847-884f-795d1059109e)
 ![Screenshot (165)](https://github.com/user-attachments/assets/8519aa93-3f4e-4f65-b60f-e9aa60d96c76)
+![Screenshot (183)](https://github.com/user-attachments/assets/7a5ab5fa-4e3a-45e5-b258-43c3707b20ad)
+
 ![Screenshot (166)](https://github.com/user-attachments/assets/d8fa4cb0-dbeb-438c-89ca-347ef463741c)
 ![Screenshot (167)](https://github.com/user-attachments/assets/6aa3f080-bbb9-45c0-a106-6a62007f3aef)
-![Screenshot (168)](https://github.com/user-attachments/assets/8560f6cd-ab8f-45d1-bbc6-ab6a4dde3f7c)
+
+![Screenshot (184)](https://github.com/user-attachments/assets/e3f9a231-b0cf-49b5-831e-bf8fa75edcd8)
+![Screenshot (185)](https://github.com/user-attachments/assets/31723ba6-9892-4127-9a0e-7a6f844c87f2)
+![Screenshot (186)](https://github.com/user-attachments/assets/a99487b5-f5de-4d51-9b00-b5a5f0565c1a)
+
 
 
 
