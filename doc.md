@@ -1016,7 +1016,7 @@ Each feature may include the following fields:
 
 ### 🔸 Selecting a METALLOSS Region
 
-- Click on the pipeline scan to select a **METALLOSS** region.
+1. Click on the pipeline scan to select a **METALLOSS** region.
 - The selected region is highlighted in **yellow**, indicating it's active for editing.
 
 📷 *Screenshot* -Selecting metalloss region 
@@ -1037,16 +1037,27 @@ Right-click → **Edit Feature**
 
 #### 🔹 Bottom Dialog Method
 
-- Select the METALLOSS region (yellow box).
-- In the **bottom dialog**, click the **“Edit”** button.
-- A form opens with **all parameters pre-calculated and prefilled**, including:
+1. Select the METALLOSS region (yellow box).
+2. In the **bottom dialog**, click the **“Edit”** button.
+3. A form opens with **all parameters pre-calculated and prefilled**, including:
   - Log Distance
   - Depth
   - Length
   - Width
   - Orientation
   - Clock Position
-  - … and more
+  - Absolute Sample
+  - Date
+  - Status
+  - Max Length
+  - Page Number
+  - Gauss Value
+  - Center Sensor
+  - Max Span
+  - span
+  - Feature Type
+  - Number of Sensors
+  - Sample
 
 📷 *Screenshot* -Click edit button on bottom right Dialog box
 ![Screenshot (137)](https://github.com/user-attachments/assets/aaf6a5a1-2b07-43ed-9aa0-8551da4fbe98)  
@@ -1076,7 +1087,7 @@ Status: `MANUALLY_DELETED`
 
 # 📘 Chapter 6: Generating Reports
 
-This chapter explains how to generate and export inspection reports using the PipeCM application after completing manual feature analysis.
+This chapter explains how to generate and export inspection reports using the PipeCM application after completing Auto  analysis.
 
 ---
 
