@@ -1012,7 +1012,7 @@ Each feature may include the following fields:
 
 ---
 
-## 📝 5.12 Manual Editing for METALLOSS Region – PipeCM Guide
+## 📝 5.12 Manual Editing for METALLOSS Region 
 
 ### 🔸 Selecting a METALLOSS Region
 
