@@ -781,7 +781,7 @@ The right-hand pane offers a visual interface to examine pipeline scans.
 | 4   | Goto Page Input          | Type page number and press Enter                                            |
 | 5   | Next Page Button         | Go to the next scan page                                                    |
 | 6   | Previous Page Button     | Return to previous page                                                     |
-| 7   | View Mode Selector       | Choose: PIPELINE-SCAN, LINE PLOT, DENOISED variants                         |
+| 7   | View Mode Selector       | Choose: PIPELINE-SCAN, LINE PLOT, DENOISED                        |
 
 ---
 
@@ -789,12 +789,12 @@ The right-hand pane offers a visual interface to examine pipeline scans.
 
 ### 🎯 Available Modes:
 
-| Mode Name               | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| PIPELINE-SCAN          | Raw scan of pipeline — good for pattern recognition                         |
-| LINE PLOT              | Sensor signal graphs — useful for signal anomaly analysis                   |
-| DENOISED PIPELINE-SCAN | Filtered scan — noise removed for clarity                                   |
-| DENOISED LINE PLOT     | Noise-reduced signal graphs for better insights                             |
+| Mode Name               | Description                                   |
+|------------------------|------------------------------------------------|
+| PIPELINE-SCAN          | Raw scan of pipeline                           |
+| LINE PLOT              | Sensor signal graphs                           |
+| DENOISED PIPELINE-SCAN | Filtered scan                                  |
+| DENOISED LINE PLOT     | Noise-reduced signal graphs for better insights|
 
 ### 📝 Steps:
 
