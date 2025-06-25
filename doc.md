@@ -5,8 +5,8 @@
 # 📚 PipeCM User Manual – Table of Contents
 
 ## 📘 Chapter 1: Getting Started – Registering and Logging into PipeCM
-- [1.1 Create an Account](#-11-create-an-account)
-- [1.2 Log in to the System](#-12-log-in-to-the-system)
+- [1.1 Log in to the System](#-11-log-in-to-the-system)
+- [1.2 Create an Account](#-12-create-an-account)
 - [1.3 PipeCM Analysis Dashboard](#-13-pipecm-analysis-dashboard)
 
 ## 📘 Chapter 2: Creating and Managing Runs
@@ -66,8 +66,10 @@
 ## 📘 Chapter 6: Generating Reports
 - [6.1 Starting the Report Generation Process](#-61-starting-the-report-generation-process)
 
+---
 
-## 📘 Chapter 1: Getting Started – Logging into and Registering on PipeCM
+
+## 📘 Chapter 1: Getting Started – Logging and Registering on PipeCM
 
 ### 📌 Overview
 
@@ -79,7 +81,7 @@
 
 Upon launching the application, the **Login Page** appears first.
 
-📷 **Screenshot:**  
+📷 **Screenshot:** - Login page
 ![2](https://github.com/user-attachments/assets/716bb085-c46c-42da-b52c-38a477f21859)
 
 ### ➤ Login Steps:
@@ -96,7 +98,7 @@ Upon launching the application, the **Login Page** appears first.
 
 If you're a new user, click **"Register Now!"** on the login screen to access the registration form.
 
-📷 **Screenshot:**  
+📷 **Screenshot:**  - Register Page
 ![1.1](https://github.com/user-attachments/assets/97d0ea1a-f61c-4107-85f2-925660d1dd04)
 
 ### ➤ Step-by-Step Registration Process:
