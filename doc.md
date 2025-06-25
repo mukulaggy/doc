@@ -1050,10 +1050,11 @@ Before generating a report, ensure you have completed all necessary manual analy
 ![image](https://github.com/user-attachments/assets/fa5caf95-6af4-436c-9c6e-fc2a63b9746e)
 ![image](https://github.com/user-attachments/assets/4db7096d-0e47-45dd-a65e-b284252ca61b)
 ![Screenshot (162)](https://github.com/user-attachments/assets/cb0251bf-511f-4847-884f-795d1059109e)
-![Screenshot (162)](https://github.com/user-attachments/assets/cde26749-884b-42e1-8db9-9dc7a6a76ec0)
+![Screenshot (165)](https://github.com/user-attachments/assets/8519aa93-3f4e-4f65-b60f-e9aa60d96c76)
+![Screenshot (166)](https://github.com/user-attachments/assets/d8fa4cb0-dbeb-438c-89ca-347ef463741c)
+![Screenshot (167)](https://github.com/user-attachments/assets/6aa3f080-bbb9-45c0-a106-6a62007f3aef)
+![Screenshot (168)](https://github.com/user-attachments/assets/8560f6cd-ab8f-45d1-bbc6-ab6a4dde3f7c)
 
-![Screenshot (166)](https://github.com/user-attachments/assets/37f5af68-9437-4dbc-984f-8018932a9977)
-![Screenshot (167)](https://github.com/user-attachments/assets/e1b35657-7830-42b3-9d45-0f1ab8eab13d)
 
 
 1.Click on home
