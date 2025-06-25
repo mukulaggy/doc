@@ -1057,11 +1057,12 @@ Before generating a report, ensure you have completed all necessary manual analy
 
 
 
-1.Click on home
-2.Click on start app
-3.select the desired tool and click on next
-4.select the desired run and click on downlaod report for csv file
-5.otherwise click on download pdf report for pdf file
+1. Click on **Home**
+2. Click on **Start App**
+3. Select the desired tool and click on **Next**
+4. Select the desired run and click on **Download Report** for the CSV file  
+5. Otherwise, click on **Download PDF Report** for the PDF file
+
 
 
 
