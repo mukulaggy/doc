@@ -67,41 +67,17 @@
 - [6.1 Starting the Report Generation Process](#-61-starting-the-report-generation-process)
 
 
-## 📘 Chapter 1: Getting Started – Registering and Logging into PipeCM
+## 📘 Chapter 1: Getting Started – Logging into and Registering on PipeCM
 
 ### 📌 Overview
 
-**PipeCM** (Pipeline Corrosion Monitoring) is a robust application designed to evaluate pipeline conditions and perform health assessments using tool and sensor data. This chapter guides users through the process of account creation and login, ensuring secure access to all features.
+**PipeCM** (Pipeline Corrosion Monitoring) is a powerful application designed to assess pipeline conditions and perform health diagnostics using tool and sensor data. This chapter walks you through the login process and registering a new account.
 
 ---
 
-## 🧾 1.1 Create an Account
+## 🔐 1.1 Log in to the System
 
-To access the features of PipeCM, you must first create a user account.
-
-### ➤ Step-by-Step Registration Process:
-
-📷 **Screenshot:**  
-![1.1](https://github.com/user-attachments/assets/97d0ea1a-f61c-4107-85f2-925660d1dd04)
-
-1. **Username**: Enter a unique username (e.g., `roshansahu`).
-2. **Email**: Provide a valid email address for notifications and recovery.
-3. **Password Requirements**:
-   - At least 1 uppercase letter  
-   - At least 1 lowercase letter  
-   - At least 1 number  
-   - At least 1 special character (e.g., `@`, `#`, `!`)
-4. **Re-enter Password**: Confirm your password by retyping it.
-
-🛑 If any password requirement is not met, an error message will appear in red below the input field.
-
-✅ Once all fields are correctly filled, click the **"CREATE USER"** button.
-
----
-
-## 🔐 1.2 Log in to the System
-
-After registration, return to the login screen to access the application.
+Upon launching the application, the **Login Page** appears first.
 
 📷 **Screenshot:**  
 ![2](https://github.com/user-attachments/assets/716bb085-c46c-42da-b52c-38a477f21859)
@@ -112,16 +88,39 @@ After registration, return to the login screen to access the application.
 2. **Enter Password**.  
 3. Click the **"LOGIN"** button.
 
-✅ If your credentials are valid, you will be redirected to the main dashboard.
+✅ If your credentials are correct, you will be redirected to the main dashboard.
 
 ---
 
-## 💡 Additional Options
+## 🧾 1.2 Create an Account
 
-- **Already Registered? Login Now!** – Click this if you already have an account.  
-- **New Here? Register Now!** – Click here to access the registration form if you're a new user.
+If you're a new user, click **"Register Now!"** on the login screen to access the registration form.
+
+📷 **Screenshot:**  
+![1.1](https://github.com/user-attachments/assets/97d0ea1a-f61c-4107-85f2-925660d1dd04)
+
+### ➤ Step-by-Step Registration Process:
+
+1. **Username**: Enter a unique username (e.g., `roshansahu`).  
+2. **Email**: Provide a valid email address for notifications and password recovery.  
+3. **Password Requirements**:
+   - At least 1 uppercase letter  
+   - At least 1 lowercase letter  
+   - At least 1 number  
+   - At least 1 special character (e.g., `@`, `#`, `!`)
+4. **Re-enter Password**: Confirm your password by retyping it.
+
+🛑 If any password rule is not met, an error message will appear below the field in red.
+
+✅ Once all fields are valid, click the **"CREATE USER"** button.
 
 ---
+
+## 💡 Tips & Navigation
+
+- **New Here? Register Now!** – Click this on the login screen to create a new account.  
+- **Already Registered? Login Now!** – Use this to return to the login page.
+
 
 ## 🧭 1.3 PipeCM Analysis Dashboard
 
