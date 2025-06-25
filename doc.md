@@ -688,19 +688,19 @@ You can **filter by Feature Type** using the dropdown above the table.
 📷 **Column Filter UI:**  
 ![Screenshot (22)](https://github.com/user-attachments/assets/a3cdcac0-d4be-49de-9d5e-ee205622c284)
 
-📷 **Equals Filter:**  
+📷 **Equals Filter:** - Select Equal and type a desired value and click on reload button
 ![image](https://github.com/user-attachments/assets/446dd465-cb55-4813-bc29-9a1c13020a49)  
 ![image](https://github.com/user-attachments/assets/33e90ae9-3e52-4d66-8923-0ea99475f7bb)
 
-📷 **Between Filter:**  
+📷 **Between Filter:** - Select Between and type a desired value start from and end ,after that click on reload button
 ![Screenshot (157)](https://github.com/user-attachments/assets/8b575d02-043e-467c-a7bf-6d5141b96543)  
 ![Screenshot (158)](https://github.com/user-attachments/assets/f8fdaef7-d3d7-41c7-b9b1-c16a293eeed0)
 
-📷 **Greater Than or Equal Filter:**  
+📷 **Greater Than or Equal Filter:** - Select Greater Than or Equal and type a desired value and click on reload button 
 ![image](https://github.com/user-attachments/assets/19026f4b-bc41-446a-ad19-877733665b1e)  
 ![image](https://github.com/user-attachments/assets/1c4e09f5-69ba-4816-befa-d527fcd6de48)
 
-📷 **Less Than or Equal Filter:**  
+📷 **Less Than or Equal Filter:** - Select Less Than or Equal and type a desired value and click on reload button 
 ![image](https://github.com/user-attachments/assets/28e2d867-d943-4407-98ee-5a04ef3b912a)  
 ![image](https://github.com/user-attachments/assets/87c27f38-c91c-47f9-a1ff-bec7f878cf60)
 
