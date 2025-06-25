@@ -439,7 +439,8 @@ In the **Faulty Channels** section:
    - **Hyphenated ranges** (e.g., `1-24`)
    - **Combination of both** (e.g., `1-24,34-45`)
 
-📌 This informs the system to use neighboring healthy channels during data processing.
+📌 *"This setting informs the system to utilize neighboring healthy channels during data processing, using interpolated values for automatic analysis."*
+
 
 ---
 
@@ -580,7 +581,7 @@ This chapter explains the process of conducting **Manual Feature Analysis** usin
 
 > The Manual Analysis screen is split into two main sections:
 - **Left Pane:** Pipetally table (fetched from database)  
-- **Right Pane:** Visualization of pipeline scan with defect markers
+- **Right Pane:** Visualization of pipeline scan with defects/pipe features
 
 ---
 
